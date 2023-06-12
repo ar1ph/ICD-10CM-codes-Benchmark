@@ -4,6 +4,7 @@ from langchain.document_loaders import TextLoader
 import json
 import os
 import importlib
+import shutil
 import chardet
 
 
@@ -50,11 +51,20 @@ def import_db_module(db_module_name):
     
 # Gets the embeddings and location of the vectorstore
 # Retrieves it if possible
-def get_vectorstore(embeddings, persist_directory):
-    try:
-        db = DBModule(embeddings=embeddings, persist_directory=persist_directory)
-        return db
-    except:
+def get_vectorstore(embedding, persist_directory):
+    try: 
+        if (not os.path.exists(persist_directory)): 
+            raise Exception("Directory doesn't exist.")
+
+        if not (os.path.exists(os.path.join(persist_directory, 'index'))) :
+            raise Exception("Index directory doesn't exist") 
+        # db = DBModule(embedding_function=embedding, persist_directory=persist_directory)
+        # if (len(db.get()['metadatas']) == 0):
+        #     db = None
+        #     raise Exception("Metadata is empty")
+        return True 
+    except Exception as e: 
+        print(e)
         return None
     
 # Gets a list of paths to .txt files
@@ -95,16 +105,26 @@ def build_db(config):
     if import_db_module(db_module_name=db_module_name) == False:
         return False
     
-    db = get_vectorstore(embeddings=embeddings, persist_directory=persist_directory)
-    if (db == None): #
-        splitted_docs = process_documents()
-        print(embeddings)
+    found_vector_store = get_vectorstore(embedding=embeddings, persist_directory=persist_directory)
+    if not found_vector_store: #
+        print("Vectorstore DOENS'T EXIST")
+        print("Creating new vectorestore: " + db_dir_name)
+        splitted_docs = process_documents(chunk_size=config["CHUNK_SIZE"], chunk_overlap=config["CHUNK_OVERLAP"]) 
+        
+        # if not (os.path.exists(persist_directory)) : 
         db = DBModule.from_documents(splitted_docs, embedding=embeddings, persist_directory=persist_directory)
-        print(db.get())
+        db.persist()
+        # else:
+        #     db = DBModule(embedding_function=embeddings, persist_directory=persist_directory)
+        #     db.add_documents(splitted_docs)
+        #     db.persist()
+        # print("Final metadata: ", len(db.get()['metadatas']))
     else:
+        print("Vectorstore exist")
+        db = DBModule(embedding_function=embeddings, persist_directory=persist_directory)
+        print("Final metadatas: ", len(db.get()['metadatas']))
         pass
     
-
 
 def main():
     
@@ -118,17 +138,17 @@ def main():
         return None
     
     for db_key in all_config:
-        if build_db(all_config[db_key]) == False:
-            print("Failed to build the vectorstore: " + db_key)
-            db_failed.append(db_key)
-        else:
+        try:
+            build_db(all_config[db_key])
             db_success.append(db_key)
+        except:
+            db_failed.append(db_key)
 
     print("Successful vectorstores:")
     for db in db_success:
         print(db)
 
-    print("Failed vectorstores")
+    print("Failed vectorstores:")
     for db in db_failed:
         print(db)
  

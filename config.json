@@ -1,4 +1,8 @@
 {
-    "EMBEDDINGS_MODEL_NAME": "all-MiniLM-L6-v2",
-    "DB_MODULE_NAME": "Chroma"
+    "DATABASE_01": {
+        "EMBEDDINGS_MODEL_NAME": "all-MiniLM-L6-v2",
+        "DB_MODULE_NAME": "Chroma",
+        "CHUNK_SIZE": 750,
+        "CHUNK_OVERLAP": 100
+    }
 }
