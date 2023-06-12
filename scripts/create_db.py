@@ -10,8 +10,8 @@ CONFIG_FILE_NAME = 'config.json'
 # Gets the name of the json file 
 # Return the contents in dictionary format
 def get_dict_from_json(config_file):
-    try:
-        file_name = os.path.abspath(os.pardir) + '\\' + config_file 
+    try: 
+        file_name = os.path.join(os.path.abspath(os.pardir), config_file)
         print(file_name)
         with open(file=file_name, mode='r') as contents: 
             return json.load(contents)
@@ -30,7 +30,7 @@ def get_embeddings_from_model_name(model_name):
         return None
     
 
-# Gets the name of the module (Available in langchain)
+# Gets the name of the module (Available in langchain.vectorstores)
 # Imports the module Globally
 def import_db_module(db_module_name):
     try:
@@ -57,7 +57,7 @@ def main():
     if import_db_module(config['DB_MODULE_NAME']) == False:
         return None
     
-    print(DBModule)
+    # TODO: create_db()
     
 
 
