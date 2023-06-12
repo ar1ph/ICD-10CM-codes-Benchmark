@@ -1,4 +1,5 @@
 from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 import json
 import os
 import importlib
@@ -54,6 +55,20 @@ def get_vectorstore(embeddings, persist_directory):
         return db
     except:
         return None
+    
+# Gets the list of files that need to be ignored
+# Returns a splitted chunks of the documents in DATA_DIRECTORY
+def process_documents(ignored_files = [], chunk_size=750, chunk_overlap=100):
+    
+    file_paths = []
+    for root, _, files in os.walk(os.path.join(os.pardir), DATA_DIRECTORY):
+        for fl in files:
+            file_paths.append(os.path.join(root, fl))
+
+    # TODO: Remove the ignored files
+
+    splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    # TODO: return splitter.split_documents(load_documents(file_paths))
 
 # Gets the configuration of a database
 # Builds the database based on the configuration
@@ -62,7 +77,7 @@ def build_db(config):
     embedding_model_name = config['EMBEDDINGS_MODEL_NAME']
     db_module_name = config['DB_MODULE_NAME']
     db_dir_name = f"{embedding_model_name}__{db_module_name}"
-    database_directory = os.paht.join(os.path.abspath(os.pardir), DATABASE_DIRECTORY)
+    database_directory = os.path.join(os.path.abspath(os.pardir), DATABASE_DIRECTORY)
     persist_directory = os.path.join(database_directory, db_dir_name)
 
     embeddings = get_embeddings_from_model_name(model_name=embedding_model_name) 
@@ -74,8 +89,8 @@ def build_db(config):
     
     db = get_vectorstore(embeddings=embeddings, persist_directory=persist_directory)
     if (db == None): #
-        splitted_docs = "" # process_documents()
-        db = DBModule(splitted_docs, embeddings=embeddings, persist_directory=persist_directory)
+        splitted_docs = process_documents()
+        db = DBModule.from_documents(splitted_docs, embeddings=embeddings, persist_directory=persist_directory)
     else:
         pass
     
