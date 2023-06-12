@@ -51,7 +51,7 @@ def get_vectorstore(embeddings, persist_directory):
     try:
         db = DBModule(embeddings=embeddings, persist_directory=persist_directory)
         return db
-    except Exception as e:
+    except:
         return None
 
 # Gets the configuration of a database
