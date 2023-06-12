@@ -46,7 +46,8 @@ def import_db_module(db_module_name):
         print('Error occured while loading db module: ' + str(e))
         return False
     
-
+# Gets the embeddings and location of the vectorstore
+# Retrieves it if possible
 def get_vectorstore(embeddings, persist_directory):
     try:
         db = DBModule(embeddings=embeddings, persist_directory=persist_directory)
@@ -72,8 +73,9 @@ def build_db(config):
         return False
     
     db = get_vectorstore(embeddings=embeddings, persist_directory=persist_directory)
-    if (db == None):
-        pass
+    if (db == None): #
+        splitted_docs = "" # process_documents()
+        db = DBModule(splitted_docs, embeddings=embeddings, persist_directory=persist_directory)
     else:
         pass
     
