@@ -4,7 +4,7 @@ from langchain.document_loaders import TextLoader
 import json
 import os
 import importlib
-import functools
+import chardet
 
 
 CONFIG_FILE_NAME = 'config.json'
@@ -19,7 +19,7 @@ DATABASE_DIRECTORY = 'database'
 def get_dict_from_json(config_file):
     try: 
         file_name = os.path.join(os.path.abspath(os.pardir), config_file)
-        print(file_name)
+        # print(file_name)
         with open(file=file_name, mode='r') as contents: 
             return json.load(contents)
     except Exception as e:
@@ -70,12 +70,11 @@ def load_documents(file_paths):
 def process_documents(ignored_files = [], chunk_size=750, chunk_overlap=100):
     
     file_paths = []
-    for root, _, files in os.walk(os.path.join(os.pardir), DATA_DIRECTORY):
+    for root, _, files in os.walk(os.path.join(os.pardir, DATA_DIRECTORY)):
         for fl in files:
             file_paths.append(os.path.join(root, fl))
 
-    # TODO: Remove the ignored files
-
+    # TODO: Remove the ignored files 
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     return splitter.split_documents(load_documents(file_paths=file_paths))
 
