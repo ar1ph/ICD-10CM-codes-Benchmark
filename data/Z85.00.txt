@@ -1,0 +1,27 @@
+
+
+2023 ICD-10-CM Diagnosis Code Z85.00
+
+Personal history of malignant neoplasm of unspecified digestive organ
+
+Approximate Synonyms
+
+ History of digestive organ cancer 
+ History of malignant neoplasm of digestive organ 
+ History of of digestive organ cancer 
+
+Present On AdmissionPOA Help "Present On Admission" is defined as present at the time the order for inpatient admission occurs — conditions that develop during an outpatient encounter, including emergency department, observation, or outpatient surgery, are considered POA.
+
+ Z85.00  is considered exempt from POA reporting. 
+
+ICD-10-CM  Z85.00  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 826  Myeloproliferative disorders or poorly differentiated neoplasms with major o.r. Procedures with mcc 
+ 827  Myeloproliferative disorders or poorly differentiated neoplasms with major o.r. Procedures with cc 
+ 828  Myeloproliferative disorders or poorly differentiated neoplasms with major o.r. Procedures without cc/mcc 
+ 829  Myeloproliferative disorders or poorly differentiated neoplasms with other procedures with cc/mcc 
+ 830  Myeloproliferative disorders or poorly differentiated neoplasms with other procedures without cc/mcc 
+ 843  Other myeloproliferative disorders or poorly differentiated neoplastic diagnoses with mcc 
+ 844  Other myeloproliferative disorders or poorly differentiated neoplastic diagnoses with cc 
+ 845  Other myeloproliferative disorders or poorly differentiated neoplastic diagnoses without cc/mcc 
+

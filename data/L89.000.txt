@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code L89.000
+
+Pressure ulcer of unspecified elbow, unstageable
+
+Approximate Synonyms
+
+ Pressure ulcer of elbow, unstageable 
+ Unstageable pressure ulcer of elbow 
+
+ICD-10-CM  L89.000  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 573  Skin graft for skin ulcer or cellulitis with mcc 
+ 574  Skin graft for skin ulcer or cellulitis with cc 
+ 575  Skin graft for skin ulcer or cellulitis without cc/mcc 
+ 592  Skin ulcers with mcc 
+ 593  Skin ulcers with cc 
+ 594  Skin ulcers without cc/mcc 
+

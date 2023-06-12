@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code M02.00
+
+Arthropathy following intestinal bypass, unspecified site
+
+Approximate Synonyms
+
+ Arthritis following intestinal bypass 
+ Arthropathy, following intestinal bypass 
+
+ICD-10-CM  M02.00  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 553  Bone diseases and arthropathies with mcc 
+ 554  Bone diseases and arthropathies without mcc 
+

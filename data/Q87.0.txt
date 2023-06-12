@@ -1,0 +1,60 @@
+
+
+2023 ICD-10-CM Diagnosis Code Q87.0
+
+Congenital malformation syndromes predominantly affecting facial appearance
+
+Applicable To Acrocephalopolysyndactyly Acrocephalosyndactyly [Apert] Cryptophthalmos syndrome Cyclopia Goldenhar syndrome Moebius syndrome Oro-facial-digital syndrome Robin syndrome Whistling face
+
+Approximate Synonyms
+
+ Acrocephalosyndactyly type i 
+ Acrocephalosyndactyly type iii 
+ Acrocephalosyndactyly type v 
+ Aperts syndrome 
+ Branchio oto renal syndrome 
+ Carpenter's syndrome 
+ Carpenters syndrome 
+ Cryptophthalmos syndrome 
+ Cryptophthalmos syndrome (eye condition) 
+ Freeman sheldon syndrome 
+ Goldenhar syndrome 
+ Gorlin-chaudhry-moss syndrome 
+ Melnick-fraser syndrome 
+ Mobius syndrome 
+ Oromandibular-limb hypogenesis spectrum 
+ Oto palato digital syndrome, type 1 
+ Oto palato digital syndrome, type 2 
+ Oto-palato-digital syndrome, type i 
+ Oto-palato-digital syndrome, type ii 
+ Pfeiffer syndrome 
+ Pierre robin syndrome 
+ Robin sequence 
+ Robin syndrome 
+ Saethre chotzen syndrome 
+
+Clinical Information
+
+ A complex syndrome characterized mainly by aural, oral, and mandibular developmental anomalies which may vary from mild to severe and frequently involve one side of the body. Vertebral anomalies, epibulbar epidermoids, mental retardation, and numerous other anomalies are frequently associated. Orofacial anomalies differ from those in mandibulofacial dysostosis which are usually symmetrical. The presence of hypertelorism may indicate aneuploidy. 
+ A congenital birth defect characterized by incomplete development or absence of face structures, usually affecting one side of the face. The defects include partially formed or absent ear, nose, lip, mandible, and/or soft palate. 
+ A rare congenital malformation characterized by micrognathia, posterior retraction of the tongue, and cleft palate. 
+ A rare syndrome that is inherited in an autosomal dominant or recessive pattern and caused by mutations in the myh3 gene. It is a severe form of arthrogryposis. It is characterized by the presence of distinctive facial features (small mouth, midface hypoplasia, short nose, drooping of the eyelids, deep folds in the area between the nose and the lips, and strabismus), joint deformities that lead to permanently bent fingers and toes, club foot, scoliosis, and walking difficulties. 
+ A rare, genetically heterogenous syndrome, characterized by cryptophthalmos, craniofacial abnormalities, urogenital abnormalities, and syndactyly. 
+ A syndrome of congenital facial paralysis, frequently associated with abducens palsy and other congenital abnormalities including lingual palsy, clubfeet, brachial disorders, cognitive deficits, and pectoral muscle defects. Pathologic findings are variable and include brain stem nuclear aplasia, facial nerve aplasia, and facial muscle aplasia, consistent with a multifactorial etiology. (Adams et al., Principles of Neurology, 6th ed, p1020) 
+ A very rare congenital syndrome affecting the sixth and seventh cranial nerves. It is characterized by facial paralysis leading to lack of facial expression and the inability to move the eyes laterally. 
+ Abnormalities of the orodental, facial, renal, and digital structures occurring in various combinations and frequently associated with retarded mental development. Patients in the original report were all females, except for the case with klinefelter syndrome 
+ An association of cryptophthalmos with a wide range of abnormalities, consisting mostly of orofacial defects, laryngeal stenosis, syndactyly, decreased number of digits, renal dysplasia, and hypogenitalism. A small number of cases consist of only acrofacial and urogenital malformations without cryptophthalmos. 
+ An autosomal dominant inherited type of acrocephalosyndactyly caused by mutations in the fgfr2 gene. It is characterized by early closure of the sutures between the skull bones, bulging eyes, low-set ears, fusion of the second, third, and forth fingers, and fusion of the toes. 
+ Congenital malformation characterized by micrognathia, glossoptosis and cleft palate. The mandibular abnormalities often result in difficulties in sucking and swallowing. The syndrome may be isolated or associated with other syndromes (e.g., andersen syndrome; campomelic dysplasia). Developmental mis-expression of sox9 transcription factor gene on chromosome 17q and its surrounding region is associated with the syndrome. 
+ Rare autosomal recessive congenital malformation syndrome characterized by cryptophthalmos, syndactyly and urogenital abnormalities. Other anomalies of bone, ear, lung, and nose are common. Mutations on fras1 and frem2 are associated with the syndrome. 
+
+Present On AdmissionPOA Help "Present On Admission" is defined as present at the time the order for inpatient admission occurs — conditions that develop during an outpatient encounter, including emergency department, observation, or outpatient surgery, are considered POA.
+
+ Q87.0  is considered exempt from POA reporting. 
+
+ICD-10-CM  Q87.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 564  Other musculoskeletal system and connective tissue diagnoses with mcc 
+ 565  Other musculoskeletal system and connective tissue diagnoses with cc 
+ 566  Other musculoskeletal system and connective tissue diagnoses without cc/mcc 
+

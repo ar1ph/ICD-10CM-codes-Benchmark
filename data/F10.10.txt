@@ -1,0 +1,27 @@
+
+
+2023 ICD-10-CM Diagnosis Code F10.10
+
+Alcohol abuse, uncomplicated
+
+Applicable To Alcohol use disorder, mild
+
+Approximate Synonyms
+
+ Alcohol abuse 
+ Alcohol abuse (mild use disorder) 
+ Alcohol abuse, continuous drinking behavior 
+ Alcohol abuse, episodic 
+ Alcohol abuse, mild use 
+ Alcohol intake above recommended sensible limits 
+ Excessive alcohol use 
+ Nondependent alcohol abuse, continuous 
+ Nondependent alcohol abuse, episodic 
+
+ICD-10-CM  F10.10  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 894  Alcohol, drug abuse or dependence, left ama 
+ 895  Alcohol, drug abuse or dependence with rehabilitation therapy 
+ 896  Alcohol, drug abuse or dependence without rehabilitation therapy with mcc 
+ 897  Alcohol, drug abuse or dependence without rehabilitation therapy without mcc 
+

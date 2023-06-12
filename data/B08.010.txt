@@ -1,0 +1,15 @@
+
+
+2023 ICD-10-CM Diagnosis Code B08.010
+
+Cowpox
+
+Clinical Information
+
+ A mild, eruptive skin disease of milk cows caused by cowpox virus, with lesions occurring principally on the udder and teats. Human infection may occur while milking an infected animal. 
+
+ICD-10-CM  B08.010  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 865  Viral illness with mcc 
+ 866  Viral illness without mcc 
+
