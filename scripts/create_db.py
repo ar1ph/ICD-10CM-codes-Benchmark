@@ -1,5 +1,6 @@
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.document_loaders import TextLoader
 import json
 import os
 import importlib
@@ -56,6 +57,14 @@ def get_vectorstore(embeddings, persist_directory):
     except:
         return None
     
+# Gets a list of paths to .txt files
+# Loads all the provided files
+def load_documents(file_paths):
+    loaded_docs = []
+    for path in file_paths:
+        loaded_docs.extend(TextLoader(file_path=path, autodetect_encoding=True).load())
+    return loaded_docs
+    
 # Gets the list of files that need to be ignored
 # Returns a splitted chunks of the documents in DATA_DIRECTORY
 def process_documents(ignored_files = [], chunk_size=750, chunk_overlap=100):
@@ -68,7 +77,7 @@ def process_documents(ignored_files = [], chunk_size=750, chunk_overlap=100):
     # TODO: Remove the ignored files
 
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
-    # TODO: return splitter.split_documents(load_documents(file_paths))
+    return splitter.split_documents(load_documents(file_paths=file_paths))
 
 # Gets the configuration of a database
 # Builds the database based on the configuration
