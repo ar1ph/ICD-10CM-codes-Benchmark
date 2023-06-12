@@ -2,6 +2,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 import json
 import os
 import importlib
+import functools
 
 
 CONFIG_FILE_NAME = 'config.json'
@@ -44,17 +45,39 @@ def import_db_module(db_module_name):
     except Exception as e:
         print('Error occured while loading db module: ' + str(e))
         return False
+    
+
+def get_vectorstore(embeddings, persist_directory):
+    try:
+        db = DBModule(embeddings=embeddings, persist_directory=persist_directory)
+        return db
+    except Exception as e:
+        return None
 
 # Gets the configuration of a database
 # Builds the database based on the configuration
 def build_db(config):
 
-    embeddings = get_embeddings_from_model_name(config['EMBEDDINGS_MODEL_NAME']) 
+    embedding_model_name = config['EMBEDDINGS_MODEL_NAME']
+    db_module_name = config['DB_MODULE_NAME']
+    db_dir_name = f"{embedding_model_name}__{db_module_name}"
+    database_directory = os.paht.join(os.path.abspath(os.pardir), DATABASE_DIRECTORY)
+    persist_directory = os.path.join(database_directory, db_dir_name)
+
+    embeddings = get_embeddings_from_model_name(model_name=embedding_model_name) 
     if (embeddings == None):
         return False
     
-    if import_db_module(config['DB_MODULE_NAME']) == False:
+    if import_db_module(db_module_name=db_module_name) == False:
         return False
+    
+    db = get_vectorstore(embeddings=embeddings, persist_directory=persist_directory)
+    if (db == None):
+        pass
+    else:
+        pass
+    
+
 
 def main():
     
