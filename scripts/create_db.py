@@ -58,6 +58,9 @@ def build_db(config):
 
 def main():
     
+    db_success = []
+    db_failed = []
+
     all_config = get_dict_from_json(CONFIG_FILE_NAME)
     
     # TODO: Roubust checking of config dictionary
@@ -67,7 +70,17 @@ def main():
     for db_key in all_config:
         if build_db(all_config[db_key]) == False:
             print("Failed to build the vectorstore: " + db_key)
-            
+            db_failed.append(db_key)
+        else:
+            db_success.append(db_key)
+
+    print("Successful vectorstores:")
+    for db in db_success:
+        print(db)
+
+    print("Failed vectorstores")
+    for db in db_key:
+        print(db)
  
     
 
