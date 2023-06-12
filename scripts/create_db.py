@@ -88,7 +88,7 @@ def build_db(config):
     database_directory = os.path.join(os.path.abspath(os.pardir), DATABASE_DIRECTORY)
     persist_directory = os.path.join(database_directory, db_dir_name)
 
-    embeddings = get_embeddings_from_model_name(model_name=embedding_model_name) 
+    embeddings = get_embeddings_from_model_name(model_name=embedding_model_name)  
     if (embeddings == None):
         return False
     
@@ -98,7 +98,8 @@ def build_db(config):
     db = get_vectorstore(embeddings=embeddings, persist_directory=persist_directory)
     if (db == None): #
         splitted_docs = process_documents()
-        db = DBModule.from_documents(splitted_docs, embeddings=embeddings, persist_directory=persist_directory)
+        print(embeddings)
+        db = DBModule.from_documents(splitted_docs, embedding=embeddings, persist_directory=persist_directory)
     else:
         pass
     
