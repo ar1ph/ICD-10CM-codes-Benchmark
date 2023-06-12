@@ -100,6 +100,7 @@ def build_db(config):
         splitted_docs = process_documents()
         print(embeddings)
         db = DBModule.from_documents(splitted_docs, embedding=embeddings, persist_directory=persist_directory)
+        print(db.get())
     else:
         pass
     
@@ -128,7 +129,7 @@ def main():
         print(db)
 
     print("Failed vectorstores")
-    for db in db_key:
+    for db in db_failed:
         print(db)
  
     
