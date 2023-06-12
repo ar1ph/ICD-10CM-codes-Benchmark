@@ -4,7 +4,11 @@ import os
 import importlib
 
 
-CONFIG_FILE_NAME = 'config.json' 
+CONFIG_FILE_NAME = 'config.json'
+DATA_DIRECTORY = 'data'
+DATABASE_DIRECTORY = 'database'
+
+
 
 
 # Gets the name of the json file 
@@ -41,23 +45,30 @@ def import_db_module(db_module_name):
         print('Error occured while loading db module: ' + str(e))
         return False
 
-def main():
-    
-    config = get_dict_from_json(CONFIG_FILE_NAME)
-    
-    # TODO: Roubust checking of config dictionary
-    if (config == None):
-        return None
-    
-    embeddings = get_embeddings_from_model_name(config['EMBEDDINGS_MODEL_NAME'])
+# Gets the configuration of a database
+# Builds the database based on the configuration
+def build_db(config):
 
+    embeddings = get_embeddings_from_model_name(config['EMBEDDINGS_MODEL_NAME']) 
     if (embeddings == None):
-        return None
+        return False
     
     if import_db_module(config['DB_MODULE_NAME']) == False:
+        return False
+
+def main():
+    
+    all_config = get_dict_from_json(CONFIG_FILE_NAME)
+    
+    # TODO: Roubust checking of config dictionary
+    if (all_config == None):
         return None
     
-    # TODO: create_db()
+    for db_key in all_config:
+        if build_db(all_config[db_key]) == False:
+            print("Failed to build the vectorstore: " + db_key)
+            
+ 
     
 
 
