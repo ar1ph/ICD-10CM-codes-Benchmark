@@ -1,7 +1,7 @@
 from langchain.embeddings import HuggingFaceEmbeddings
 import json
 import os
-
+import importlib
 
 
 CONFIG_FILE_NAME = 'config.json' 
@@ -30,6 +30,17 @@ def get_embeddings_from_model_name(model_name):
         return None
     
 
+# Gets the name of the module (Available in langchain)
+# Imports the module Globally
+def import_db_module(db_module_name):
+    try:
+        package = importlib.import_module(name='langchain.vectorstores')
+        globals()['DBModule'] = getattr(package, db_module_name)
+        return True
+    except Exception as e:
+        print('Error occured while loading db module: ' + str(e))
+        return False
+
 def main():
     
     config = get_dict_from_json(CONFIG_FILE_NAME)
@@ -42,6 +53,11 @@ def main():
 
     if (embeddings == None):
         return None
+    
+    if import_db_module(config['DB_MODULE_NAME']) == False:
+        return None
+    
+    print(DBModule)
     
 
 
