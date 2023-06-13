@@ -36,21 +36,21 @@ def get_medical_condition_from_row(row):
 
 
 # Returns list of all the codes related to a disease (IF available)
-def get_all_codes(disease=""):
+def get_all_codes(disease="", file=CODE_FILE):
     try:
         all_codes = []
         disease = disease.lower()
-        with open(file=CODE_FILE, mode='r') as csvfile:
+        with open(file=file, mode='r') as csvfile:
             all_rows = csv.reader(csvfile, delimiter=',')  
             for idx, row in enumerate(all_rows):
                 row_code = get_full_code_from_row(row=row)
                 if row_code == None:
-                    print(f"Invalid row {idx + 1} in {CODE_FILE}")
+                    print(f"Invalid row {idx + 1} in {file}")
                     return None
                 if disease != "":
                     row_disease = get_disease_from_row(row=row)
                     if row_disease == None:
-                        print(f"Invalid row {idx + 1} in {CODE_FILE}")
+                        print(f"Invalid row {idx + 1} in {file}")
                         return None
                     row_disease = row_disease.lower()
                     if row_disease == disease: all_codes.append(row_code)
@@ -63,21 +63,21 @@ def get_all_codes(disease=""):
     
 
 # Returns a dictionary mapping full codes to disease and description
-def get_dict_of_codes(disease=""):
+def get_dict_of_codes(disease="", file=CODE_FILE):
     try:
         dict_of_codes = dict()
         disease = disease.lower() 
-        with open(file=CODE_FILE, mode='r') as csvfile:
+        with open(file=file, mode='r') as csvfile:
             all_rows = csv.reader(csvfile, delimiter=',')  
             for idx, row in enumerate(all_rows):
                 row_code = get_full_code_from_row(row=row)
                 if row_code == None:
-                    print(f"Invalid row {idx + 1} in {CODE_FILE}")
+                    print(f"Invalid row {idx + 1} in {file}")
                     return None
                 if disease != "":
                     row_disease = get_disease_from_row(row=row)
                     if row_disease == None:
-                        print(f"Invalid row {idx + 1} in {CODE_FILE}")
+                        print(f"Invalid row {idx + 1} in {file}")
                         return None
                     row_disease = row_disease.lower()
                     if row_disease == disease: 
@@ -91,15 +91,15 @@ def get_dict_of_codes(disease=""):
     
 # Gets a full ICD-10 code
 # Returns the whole row in codes.csv file containing the code
-def get_row_from_code(code=""):
+def get_row_from_code(code="", file=CODE_FILE):
     try:
         code = code.upper()
-        with open(file=CODE_FILE, mode='r') as csvfile:
+        with open(file=file, mode='r') as csvfile:
             all_rows = csv.reader(csvfile, delimiter=',')  
             for idx, row in enumerate(all_rows):
                 row_code = get_full_code_from_row(row=row)
                 if row_code == None:
-                    print(f"Invalid row {idx + 1} in {CODE_FILE}")
+                    print(f"Invalid row {idx + 1} in {file}")
                     return None
                 row_code = row_code.upper()
                 if row_code == code:
@@ -110,12 +110,12 @@ def get_row_from_code(code=""):
     
 # Gets a list of full codes
 # Returns a dictionary tha maps code to medical condition and disease
-def get_rows_from_codes(codes=[], full_row=False):
+def get_rows_from_codes(codes=[], full_row=False, file=CODE_FILE):
     try:
         code_map = dict()
         for code in codes:
             if not full_row:
-                code_map[code] = get_medical_condition_from_code(code)
+                code_map[code] = get_medical_condition_from_code(code, file)
             else:
                 code_map[code] = get_row_from_code(code)
         return code_map
@@ -125,9 +125,9 @@ def get_rows_from_codes(codes=[], full_row=False):
     
 # Gets a full ICD-10 code. 
 # Returns the medical codition and disease as a list
-def get_medical_condition_from_code(code=""):
+def get_medical_condition_from_code(code="", file=CODE_FILE):
     try:
-        row =  get_row_from_code(code=code)
+        row =  get_row_from_code(code=code, file=file)
         return get_medical_condition_from_row(row)
     except Exception as e:
         print("Error occured while accessing codes: " + str(e))
