@@ -2,7 +2,7 @@ import os
 import process_codes
 
 
-# Function for getting the subset of codes.csv
+
 # Function for retrieving the old subset of codes.csv
 # Function for getting the codes
 # Function for getting associated medical condition
@@ -10,7 +10,11 @@ import process_codes
 
 
 DATA_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'data')
+ASSETS_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'assets')
 
+
+def get_codes_subset():
+    pass
 
 # Returns a list of all the file names 
 # Assumes that files are txt files
@@ -32,6 +36,9 @@ def get_all_file_names(with_format=False):
 def get_all_codes():
     all_codes = []
     all_file_names = get_all_file_names()
+    if all_file_names == None:
+        print("Error occured while getting all codes: " + str(e))
+        return None
     for name in all_file_names:
         code = "".join(name.split("."))
         all_codes.append(code)
@@ -45,9 +52,21 @@ def file_name_to_code(file_name, with_format=False):
         return "".join(file_name.strip().split("."))
 
 # Gets a subset of codes.csv with codes from DATA_DIRECTORY
-def get_new_subset_of_codes(store=False):
-    all_codes = get_all_file_names(with_format=False)
-
+def get_new_subset_of_codes(store=False, full_row=False):
+    all_codes = get_all_codes() # List of full codes in codes.csv
+    if all_codes == None:
+        print("Error occured while getting new subset: " + str(e))
+        return None
+    code_map = process_codes.get_rows_from_codes(all_codes, full_row)
+    if code_map == None:
+        print("Error occured while getting new subset: " + str(e))
+        return None
+    if store:
+        # TODO: Create a function to store code map in store.csv in assets
+        pass
+    return code_map
+    
+    
 
 
 def main():

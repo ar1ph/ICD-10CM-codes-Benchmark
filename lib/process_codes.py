@@ -110,11 +110,14 @@ def get_row_from_code(code=""):
     
 # Gets a list of full codes
 # Returns a dictionary tha maps code to medical condition and disease
-def get_rows_from_codes(codes=[]):
+def get_rows_from_codes(codes=[], full_row=False):
     try:
         code_map = dict()
         for code in codes:
-            code_map[code] = get_medical_condition_from_code(code)
+            if not full_row:
+                code_map[code] = get_medical_condition_from_code(code)
+            else:
+                code_map[code] = get_row_from_code(code)
         return code_map
     except Exception as e:
         print("Error occured while accessing rows: " + str(e))
