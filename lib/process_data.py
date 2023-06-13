@@ -13,6 +13,15 @@ DATA_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'data')
 ASSETS_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'assets')
 SUBSET_FILE = os.path.join(ASSETS_DIRECTORY, 'subset.csv')
 
+# Returns list of all codes in subset.csv
+def retrieve_all_codes():
+    try:
+        return process_codes.get_all_codes(file=SUBSET_FILE)
+    except Exception as e:
+        print("Error occured while retrieving full codes of code.csv: " + str(e))
+        return None
+
+# Returns dict of all codes with their info in subset.csv
 def retrieve_codes_subset():
     try:
         return process_codes.get_dict_of_codes(file=SUBSET_FILE)
