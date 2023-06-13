@@ -1,0 +1,2 @@
+Embedding Model,DB Type,Strategy,Average k,Sigma
+all-MiniLM-L6-v2,Chroma,Cosine distance,20.86,11.88
