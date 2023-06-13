@@ -67,6 +67,16 @@ def get_vectorstore(embedding, persist_directory):
         print(e)
         return None
     
+# Given the path to persist directory
+# Returns if the vectorstore exist or not
+# Applicable only for persisted vectorstore
+def vectorstore_exist(persist_directory):
+    if not os.path.exists(persist_directory):
+        return False
+    elif not os.path.exists(os.path.join(persist_directory, 'index')):
+        return False
+    return True
+    
 # Gets a list of paths to .txt files
 # Loads all the provided files
 def load_documents(file_paths):
@@ -104,25 +114,21 @@ def build_db(config):
     
     if import_db_module(db_module_name=db_module_name) == False:
         return False
-    
-    found_vector_store = get_vectorstore(embedding=embeddings, persist_directory=persist_directory)
-    if not found_vector_store: #
-        print("Vectorstore DOENS'T EXIST")
-        print("Creating new vectorestore: " + db_dir_name)
-        splitted_docs = process_documents(chunk_size=config["CHUNK_SIZE"], chunk_overlap=config["CHUNK_OVERLAP"]) 
-        
-        # if not (os.path.exists(persist_directory)) : 
-        db = DBModule.from_documents(splitted_docs, embedding=embeddings, persist_directory=persist_directory)
-        db.persist()
-        # else:
-        #     db = DBModule(embedding_function=embeddings, persist_directory=persist_directory)
-        #     db.add_documents(splitted_docs)
-        #     db.persist()
-        # print("Final metadata: ", len(db.get()['metadatas']))
+
+    if not vectorstore_exist(persist_directory=persist_directory):
+        print("Vectorstore doesn't exist")
+        splitted_docs = process_documents(chunk_size=config["CHUNK_SIZE"],
+                                          chunk_overlap=config["CHUNK_OVERLAP"])
+        db = DBModule.from_documents(splitted_docs, embedding=embeddings,
+                                     persist_directory=persist_directory)
+        db.persist() # Only for chroma
     else:
-        print("Vectorstore exist")
-        db = DBModule(embedding_function=embeddings, persist_directory=persist_directory)
-        print("Final metadatas: ", len(db.get()['metadatas']))
+        # print("Vectorstor do exist")
+        # db = DBModule(embedding_function=embeddings,
+        #               persist_directory=persist_directory)
+        # collection = db.get()
+        # ignored_files = []
+        # db.add_documents(process_documents())
         pass
     
 
