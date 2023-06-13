@@ -2,9 +2,6 @@ import os
 import process_codes
 
 
-
-# Function for retrieving the old subset of codes.csv
-# Function for getting the codes
 # Function for getting associated medical condition
 # Function for getting just the disease
 
@@ -14,7 +11,7 @@ ASSETS_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'assets')
 SUBSET_FILE = os.path.join(ASSETS_DIRECTORY, 'subset.csv')
 
 # Returns list of all codes in subset.csv
-def retrieve_all_codes():
+def retrieve_all_codes_from_subset():
     try:
         return process_codes.get_all_codes(file=SUBSET_FILE)
     except Exception as e:
@@ -22,11 +19,24 @@ def retrieve_all_codes():
         return None
 
 # Returns dict of all codes with their info in subset.csv
-def retrieve_codes_subset():
+def retrieve_code_map_form_subset():
     try:
         return process_codes.get_dict_of_codes(file=SUBSET_FILE)
     except Exception as e:
         print("Error occured while retrieving old subset of code.csv: " + str(e))
+        return None
+    
+# Returns a unique list of all diseases in subset.csv
+def retrieve_diseases(code_map = None):
+    try:
+        diseases = set()
+        if code_map == None: code_map = retrieve_code_map_form_subset()
+        for code in code_map:
+            disease = process_codes.get_disease_from_row(code_map[code])
+            if disease not in diseases: diseases.add(disease)
+        return list(diseases)
+    except Exception as e:
+        print("Error occured while retrieving the disease list: " + str(e))
         return None
 
 # Returns a list of all the file names 
