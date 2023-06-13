@@ -37,7 +37,7 @@ def file_name_to_code(file_name, with_format=False):
         return "".join(file_name.strip().split("."))
 
 def get_new_subset_of_codes():
-    
+    pass
 
 
 def main():
