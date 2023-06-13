@@ -90,7 +90,7 @@ def get_dict_of_codes(disease=""):
         return None
     
 # Gets a full ICD-10 code
-# Returns the whole row in codes.csv file containing that code
+# Returns the whole row in codes.csv file containing the code
 def get_row_from_code(code=""):
     try:
         code = code.upper()
@@ -106,6 +106,18 @@ def get_row_from_code(code=""):
                     return row
     except Exception as e:
         print("Error occured while accessing codes: " + str(e))
+        return None
+    
+# Gets a list of full codes
+# Returns a dictionary tha maps code to medical condition and disease
+def get_rows_from_codes(codes=[]):
+    try:
+        code_map = dict()
+        for code in codes:
+            code_map[code] = get_medical_condition_from_code(code)
+        return code_map
+    except Exception as e:
+        print("Error occured while accessing rows: " + str(e))
         return None
     
 # Gets a full ICD-10 code. 
@@ -128,7 +140,7 @@ def main():
     print(get_medical_condition_from_row(row))
     print(get_disease_from_row(row))
     print(get_full_code_from_row(row))
-    
+    print(get_rows_from_codes(["A043", "A051"]))
 
 if __name__ == "__main__":
     main()
