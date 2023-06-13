@@ -1,7 +1,7 @@
 import os
-from process_codes import *
+import process_codes
 
-# Function for getting all file names
+
 # Function for getting the subset of codes.csv
 # Function for retrieving the old subset of codes.csv
 # Function for getting the codes
@@ -28,6 +28,14 @@ def get_all_file_names(with_format=False):
         print("Error occured while accessing file names: " + str(e))
         return None
     
+# Returns all codes using the file names from DATA_DIRECTORY
+def get_all_codes():
+    all_codes = []
+    all_file_names = get_all_file_names()
+    for name in all_file_names:
+        code = "".join(name.split("."))
+        all_codes.append(code)
+    return all_codes
 
 # Helper function to convert file name to code
 def file_name_to_code(file_name, with_format=False):
@@ -36,8 +44,10 @@ def file_name_to_code(file_name, with_format=False):
     else:
         return "".join(file_name.strip().split("."))
 
-def get_new_subset_of_codes():
-    pass
+# Gets a subset of codes.csv with codes from DATA_DIRECTORY
+def get_new_subset_of_codes(store=False):
+    all_codes = get_all_file_names(with_format=False)
+
 
 
 def main():
