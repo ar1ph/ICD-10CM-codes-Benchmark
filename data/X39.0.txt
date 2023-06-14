@@ -8,5 +8,17 @@ ICD-10-CM Coding Rules
 
  X39.0  describes the circumstance causing an injury, not the nature of the injury. 
 
-Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  X39.0 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. contact with and (suspected) exposure to radon and other naturally occurring radiation ( ICD-10-CM Diagnosis Code  Z77.123 Contact with and (suspected) exposure to radon and other naturally occurring radiation 2016   2017   2018   2019 - Revised Code   2020   2021   2022   2023   Billable/Specific Code   POA Exempt   Type 2 Excludes radiation exposure as the cause of a confirmed condition ( W88 - W90 ,  X39.0- ) radiation sickness NOS ( T66 ) Z77.123 ) exposure to man-made radiation ( ICD-10-CM Diagnosis Code  W88 Exposure to ionizing radiation 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Type 1 Excludes exposure to sunlight ( X32 ) W88 - ICD-10-CM Diagnosis Code  W90 Exposure to other nonionizing radiation 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Type 2 Excludes exposure to sunlight ( X32 ) W90 ) exposure to sunlight ( ICD-10-CM Diagnosis Code  X32 Exposure to sunlight 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Type 1 Excludes man-made radiation (tanning bed) ( W89 ) Type 2 Excludes radiation-related disorders of the skin and subcutaneous tissue ( L55-L59 ) X32 )
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". 
+A type 1 excludes note indicates that the code excluded should never be used at the same time as  X39.0 . 
+A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. 
+contact with and (suspected) exposure to radon and other naturally occurring radiation 
+( ICD-10-CM Diagnosis Code  Z77.123 Contact with and (suspected) exposure to radon and other naturally occurring radiation 
+2016   2017   2018   2019 - Revised Code   2020   2021   2022   2023   Billable/Specific Code   POA Exempt   
+
+Type 2 Excludes radiation exposure as the cause of a confirmed condition 
+( W88 - W90 ,  X39.0- ) radiation sickness NOS ( T66 ) Z77.123 ) exposure to man-made radiation 
+( ICD-10-CM Diagnosis Code  W88 Exposure to ionizing radiation 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   
+Type 1 Excludes exposure to sunlight ( X32 ) W88 - ICD-10-CM Diagnosis Code  W90 Exposure to other nonionizing radiation 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   
+Type 2 Excludes exposure to sunlight ( X32 ) W90 ) exposure to sunlight ( ICD-10-CM Diagnosis Code  X32 Exposure to sunlight 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   
+Type 1 Excludes man-made radiation (tanning bed) ( W89 ) Type 2 Excludes radiation-related disorders of the skin and subcutaneous tissue ( L55-L59 ) X32 )
 

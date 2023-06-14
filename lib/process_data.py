@@ -11,9 +11,13 @@ ASSETS_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'assets')
 SUBSET_FILE = os.path.join(ASSETS_DIRECTORY, 'subset.csv')
 
 # Returns list of all codes in subset.csv
-def retrieve_all_codes_from_subset():
+def retrieve_all_codes(code_map = None):
     try:
-        return process_codes.get_all_codes(file=SUBSET_FILE)
+        if code_map != None: return process_codes.get_all_codes(file=SUBSET_FILE)
+        all_codes = []
+        for code in code_map:
+            row = code_map[code]
+            all_codes.append(process_codes.get_full_code_from_row(row))
     except Exception as e:
         print("Error occured while retrieving full codes of code.csv: " + str(e))
         return None
@@ -27,7 +31,7 @@ def retrieve_code_map_form_subset():
         return None
     
 # Returns a unique list of all diseases in subset.csv
-def retrieve_diseases(code_map = None):
+def retrieve_all_diseases(code_map = None):
     try:
         diseases = set()
         if code_map == None: code_map = retrieve_code_map_form_subset()
@@ -60,7 +64,7 @@ def get_all_codes():
     all_codes = []
     all_file_names = get_all_file_names()
     if all_file_names == None:
-        print("Error occured while getting all codes: " + str(e))
+        print("Error occured while getting all codes: ")
         return None
     for name in all_file_names:
         code = "".join(name.split("."))
@@ -78,18 +82,18 @@ def file_name_to_code(file_name, with_format=False):
 def get_new_subset_of_codes(store=False, full_row=False):
     all_codes = get_all_codes() # List of full codes in codes.csv
     if all_codes == None:
-        print("Error occured while getting new subset: " + str(e))
+        print("Error occured while getting new subset")
         return None
     code_map = process_codes.get_rows_from_codes(all_codes, full_row)
     if code_map == None:
-        print("Error occured while getting new subset: " + str(e))
+        print("Error occured while getting new subset" )
         return None
     if store:
         # TODO: Create a function to store code map in store.csv in assets
         pass
     return code_map
-    
-    
+
+# def store_code_map    
 
 
 def main():
