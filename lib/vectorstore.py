@@ -50,7 +50,8 @@ def process_documents(ignored_files = set(), chunk_size=750, chunk_overlap=100):
     file_paths = []
     for root, _, files in os.walk(os.path.join(os.pardir, DATA_DIRECTORY)):
         for fl in files:
-            file_paths.append(os.path.join(root, fl))
+            if fl not in ignored_files:
+                file_paths.append(os.path.join(root, fl))
 
     # TODO: Remove the ignored files 
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
