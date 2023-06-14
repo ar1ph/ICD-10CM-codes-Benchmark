@@ -2,7 +2,6 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os, sys
 sys.path.append('..')
-import importlib 
 from lib.process_data import *
 from lib.process_codes import *
 from lib.process_json import *
@@ -14,27 +13,6 @@ DATABASE_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'database')
 
     
 
-# Gets the name of the embedding model 
-# Returns the embedding function
-def get_embeddings_from_model_name(model_name):
-    try:
-        return HuggingFaceEmbeddings(model_name=model_name)
-    except Exception as e:
-        print('Error occured while loading embedding model: ' + str(e))
-        return None
-    
-
-# Gets the name of the module (Available in langchain.vectorstores)
-# Imports the module Globally
-def import_db_module(db_module_name):
-    try:
-        package = importlib.import_module(name='langchain.vectorstores')
-        globals()['DBModule'] = getattr(package, db_module_name)
-        return True
-    except Exception as e:
-        print('Error occured while loading db module: ' + str(e))
-        return False
-    
     
 
 # Gets the configuration of a database
@@ -52,7 +30,8 @@ def build_db(config):
     if (embeddings == None):
         return False
     
-    if import_db_module(db_module_name=db_module_name) == False:
+    DBModule = import_db_module(db_module_name=db_module_name)
+    if DBModule == None:
         return False
 
     if not vectorstore_exist(persist_directory=persist_directory):

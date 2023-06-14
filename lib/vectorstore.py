@@ -1,4 +1,5 @@
 import os
+import importlib 
 from langchain.document_loaders import TextLoader
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -67,3 +68,27 @@ def get_source_files(db):
         if file_name not in source_files:
             source_files.add(file_name)
     return source_files
+
+
+# Gets the name of the embedding model 
+# Returns the embedding function
+def get_embeddings_from_model_name(model_name):
+    try:
+        return HuggingFaceEmbeddings(model_name=model_name)
+    except Exception as e:
+        print('Error occured while loading embedding model: ' + str(e))
+        return None
+    
+
+# Gets the name of the module (Available in langchain.vectorstores)
+# Imports the module Globally
+def import_db_module(db_module_name):
+    try:
+        package = importlib.import_module(name='langchain.vectorstores')
+        DBModule = getattr(package, db_module_name)
+        globals()['DBModule'] = DBModule
+        return DBModule
+    except Exception as e:
+        print('Error occured while loading db module: ' + str(e))
+        return None
+    

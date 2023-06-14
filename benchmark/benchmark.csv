@@ -1,2 +1,20 @@
 Embedding Model,DB Type,Strategy,Average k,Sigma
 E1,DB1,S1,a1,s1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1
+all_mini Chroma "Cosine similarity" 5 0.1

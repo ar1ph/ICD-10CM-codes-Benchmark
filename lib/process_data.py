@@ -25,7 +25,10 @@ def retrieve_all_codes(code_map = None):
 # Returns dict of all codes with their info in subset.csv
 def retrieve_code_map_form_subset():
     try:
-        return process_codes.get_dict_of_codes(file=SUBSET_FILE)
+        if os.path.exists(SUBSET_FILE):
+            return process_codes.get_dict_of_codes(file=SUBSET_FILE)
+        else:
+            return get_new_subset_of_codes(store=False, full_row=True)
     except Exception as e:
         print("Error occured while retrieving old subset of code.csv: " + str(e))
         return None
@@ -33,11 +36,13 @@ def retrieve_code_map_form_subset():
 # Returns a unique list of all diseases in subset.csv
 def retrieve_all_diseases(code_map = None):
     try:
-        diseases = set()
-        if code_map == None: code_map = retrieve_code_map_form_subset()
+        diseases = set() 
         for code in code_map:
-            disease = process_codes.get_disease_from_row(code_map[code])
+            row = code_map[code]
+            # print("Row: ",row)
+            disease = process_codes.get_disease_from_row(row=row)
             if disease not in diseases: diseases.add(disease)
+            
         return list(diseases)
     except Exception as e:
         print("Error occured while retrieving the disease list: " + str(e))
@@ -60,9 +65,9 @@ def get_all_file_names(with_format=False, file=DATA_DIRECTORY):
         return None
     
 # Returns all codes using the file names from DATA_DIRECTORY
-def get_all_codes():
+def get_all_codes(file=DATA_DIRECTORY):
     all_codes = []
-    all_file_names = get_all_file_names()
+    all_file_names = get_all_file_names(file=file)
     if all_file_names == None:
         print("Error occured while getting all codes: ")
         return None
@@ -80,7 +85,7 @@ def file_name_to_code(file_name, with_format=False):
 
 # Gets a subset of codes.csv with codes from DATA_DIRECTORY
 def get_new_subset_of_codes(store=False, full_row=False):
-    all_codes = get_all_codes() # List of full codes in codes.csv
+    all_codes = get_all_codes() # List of full codes in DATA_DIRECTORY
     if all_codes == None:
         print("Error occured while getting new subset")
         return None
@@ -93,7 +98,7 @@ def get_new_subset_of_codes(store=False, full_row=False):
         pass
     return code_map
 
-# def store_code_map    
+# def get_all_diseases(file=)  
 
 
 def main():

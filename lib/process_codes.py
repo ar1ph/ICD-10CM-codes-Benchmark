@@ -89,6 +89,15 @@ def get_dict_of_codes(disease="", file=CODE_FILE):
         print("Error occured while accessing codes: " + str(e))
         return None
     
+# Gets a row
+# Returns the partial code in that row
+def get_partial_code_from_row(row):
+    try:
+        return row[0]
+    except Exception as e:
+        print("Error occured while retrieving the partial code: " + str(e))
+        return None
+    
 # Gets a full ICD-10 code
 # Returns the whole row in codes.csv file containing the code
 def get_row_from_code(code="", file=CODE_FILE):
@@ -96,13 +105,21 @@ def get_row_from_code(code="", file=CODE_FILE):
         code = code.upper()
         with open(file=file, mode='r') as csvfile:
             all_rows = csv.reader(csvfile, delimiter=',')  
+            # similar_rows = []
             for idx, row in enumerate(all_rows):
                 row_code = get_full_code_from_row(row=row)
+                partial_code = get_partial_code_from_row(row=row)
                 if row_code == None:
                     print(f"Invalid row {idx + 1} in {file}")
                     return None
+                if partial_code == None:
+                    print(f"Invalid row {idx + 1} in {file}")
+                    return None
                 row_code = row_code.upper()
-                if row_code == code:
+                partial_code = partial_code.upper()
+                if row_code == code or row_code in code:
+                    return row
+                elif partial_code == code or partial_code in code or code in partial_code: # Second priority
                     return row
     except Exception as e:
         print("Error occured while accessing codes: " + str(e))
