@@ -59,7 +59,7 @@ def get_db(config):
         return False
     
     db = DBModule(embedding_function=embeddings, persist_directory=persist_directory)
-    if len(db.get()["metadatas"] == 0):
+    if len(db.get()["metadatas"]) == 0:
         return False
     
     return db
@@ -105,7 +105,7 @@ def generate_query_types():
 
 # gets query, database, strategy
 # Returns k
-def get_k(query, db, strg, ans):
+def get_k(query, db, ans, strg="Cosine similarity"):
     max_k = len(db.get()['metadatas'])
 
     # Needs to consider the startegy
@@ -130,15 +130,15 @@ def generate_report(db_config, all_qa, strg='Cosine similarity'):
         code = ques[0]
         condition = ques[1]
         query = query_1.format(code=code)
-        # k1 = get_k(query=query, db=db, answer=ans)
+        k1 = get_k(query=query, db=db, ans=ans)
         query = query_2.format(condition=condition)
-        # k2 = get_k(query=query, db=db)
+        k2 = get_k(query=query, db=db, ans=ans)
         if k1 == -1 or k2 == -1 : return None
-        # k = max(k1, k2)
-        # all_k.append(k)
+        k = max(k1, k2)
+        all_k.append(k)
 
     avg = round(sum(all_k) / len(all_k))
-    sigma = statistics.stdev(all_k)
+    sigma = round(statistics.stdev(all_k), 2)
     report = {'Embedding Model': db_config["EMBEDDINGS_MODEL_NAME"],
               'DB Type': db_config["DB_MODULE_NAME"],
               'Strategy': strg,
@@ -154,19 +154,13 @@ def main():
     # all_queries = generate_queries(all_codes, all_disease)
     all_db_configs = get_dict_from_json(src_file=CONFIG_FILE)
     all_qa = generate_qa()
-
     report = dict()
     # add_report(report=report)
     failed_configs = []
-    for db_config in all_db_configs:
-        db = get_db(db_config)
-        if db == None:
-            failed_configs.append(db_config)
-            # TODO: generate_report function
-            # report = generate_report(all_queries) 
-        if report == None:
-            failed_configs.append(db_config)
-
+    for db_key in all_db_configs:
+        db_config = all_db_configs[db_key]
+        report = generate_report(db_config=db_config, all_qa=all_qa)
+        print(report)
     
 
 
