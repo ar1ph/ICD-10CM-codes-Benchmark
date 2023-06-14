@@ -33,7 +33,13 @@ def get_medical_condition_from_row(row):
     except Exception as e:
         print("Error occured while retrieving the medical condition: " + str(e))
         return None
-
+    
+def get_medical_desc_from_row(row):
+    try:
+        return row[-2]
+    except Exception as e:
+        print("Error occured while retrieving the medical description: " + str(e))
+        return None
 
 # Returns list of all the codes related to a disease (IF available)
 def get_all_codes(disease="", file=CODE_FILE):
@@ -132,9 +138,13 @@ def get_rows_from_codes(codes=[], full_row=False, file=CODE_FILE):
         code_map = dict()
         for code in codes:
             if not full_row:
-                code_map[code] = get_medical_condition_from_code(code, file)
+                med_con = get_medical_condition_from_code(code, file)
+                if med_con == None: raise Exception
+                code_map[code] = med_con
             else:
-                code_map[code] = get_row_from_code(code)
+                row = get_row_from_code(code)
+                if row == None: raise Exception
+                code_map[code] = row
         return code_map
     except Exception as e:
         print("Error occured while accessing rows: " + str(e))

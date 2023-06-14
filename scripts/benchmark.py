@@ -1,6 +1,7 @@
 import os
 import csv
 import sys
+import statistics
 
 BENCHMARK_DIRECTORY = os.path.join(os.path.abspath(os.pardir), "benchmark")
 BENCHMARK_FILE = os.path.join(BENCHMARK_DIRECTORY, "benchmark.csv")  
@@ -63,25 +64,35 @@ def get_db(config):
     
     return db
 
+# TODO: Function that takes db and query returns k value
+# def get_k(query, db)
+
+# Based on DATA_DIRECTORY generates a dictionary of following format
+# qa = {file_name: [med_code, med_desc]}
 def generate_qa():
+    
     file_names = get_all_file_names(with_format=True) 
-    if file_names == None:
-        return None
+    if file_names == None: return None
+
     code_map = get_new_subset_of_codes(full_row=True)
-    if code_map == None:
-        return None
+    if code_map == None: return None
+    
     if len(code_map) != len(file_names):
         print("Number of codes and files are not same")
         return None
+    
     qa = dict()
     for idx, code in enumerate(code_map):
         row = code_map[code]
-        med_condition = get_medical_condition_from_row(row=row)
-        qa[file_names[idx]] = med_condition
+        med_code = get_full_code_from_row(row=row)
+        if med_code == None: return None
+        med_desc = get_medical_desc_from_row(row=row)
+        if med_desc == None: return None
+        qa[file_names[idx]] = [med_code] + [med_desc]
     return qa
 
 
-
+# Returns the list of query formats
 def generate_query_types(): 
     try:
         with open(file=QUERY_FILE,mode='r') as q:
@@ -89,7 +100,34 @@ def generate_query_types():
         return query_types
     except Exception as e:
         print('Error occured while retrieving the queries: ' + str(e))
+        return None
 
+def generate_report(db_config, all_qa, strg='Cosine similarity'):
+    db = get_db(db_config)
+    if not db: return None
+    query_types = generate_query_types()
+    query_1 = query_types[0]
+    query_2 = query_types[1]
+    all_k = []
+    for ans in all_qa:
+        ques = all_qa[ans]
+        code = ques[0]
+        condition = ques[1]
+        query = query_1.format(code=code)
+        # k1 = get_k(query=query, db=db)
+        query = query_2.format(condition=condition)
+        # k2 = get_k(query=query, db=db)
+        # k = max(k1, k2)
+        # all_k.append(k)
+
+    avg = round(sum(all_k) / len(all_k))
+    sigma = statistics.stdev(all_k)
+    report = {'Embedding Model': db_config["EMBEDDINGS_MODEL_NAME"],
+              'DB Type': db_config["DB_MODULE_NAME"],
+              'Strategy': strg,
+              'Average k': avg,
+              'Sigma': sigma}
+    return report
 
 
 def main():
@@ -98,12 +136,8 @@ def main():
     # TODO: generate_queries function
     # all_queries = generate_queries(all_codes, all_disease)
     all_db_configs = get_dict_from_json(src_file=CONFIG_FILE)
-    # print(all_db)
-    # report = {'Embedding Model': 'all_mini',
-    #           'DB Type': 'Chroma',
-    #           'Strategy': 'Cosine similarity',
-    #           'Average k': 5,
-    #           'Sigma': 0.1}
+    all_qa = generate_qa()
+
     report = dict()
     # add_report(report=report)
     failed_configs = []
@@ -112,7 +146,7 @@ def main():
         if db == None:
             failed_configs.append(db_config)
             # TODO: generate_report function
-        # report = generate_report(all_queries)
+            # report = generate_report(all_queries) 
         if report == None:
             failed_configs.append(db_config)
 
