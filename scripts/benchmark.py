@@ -102,6 +102,22 @@ def generate_query_types():
         print('Error occured while retrieving the queries: ' + str(e))
         return None
 
+
+# gets query, database, strategy
+# Returns k
+def get_k(query, db, strg, ans):
+    max_k = len(db.get()['metadatas'])
+
+    # Needs to consider the startegy
+    search_res = db.similarity_search(query, k=max_k)
+    for idx, doc in enumerate(search_res):
+        source = doc.metadata['source']
+        if ans in source: return idx + 1
+    return -1
+
+
+# Gets database configuration, qa dictionary, strategy
+# Return a report dictionary
 def generate_report(db_config, all_qa, strg='Cosine similarity'):
     db = get_db(db_config)
     if not db: return None
@@ -114,9 +130,10 @@ def generate_report(db_config, all_qa, strg='Cosine similarity'):
         code = ques[0]
         condition = ques[1]
         query = query_1.format(code=code)
-        # k1 = get_k(query=query, db=db)
+        # k1 = get_k(query=query, db=db, answer=ans)
         query = query_2.format(condition=condition)
         # k2 = get_k(query=query, db=db)
+        if k1 == -1 or k2 == -1 : return None
         # k = max(k1, k2)
         # all_k.append(k)
 
