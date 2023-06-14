@@ -82,30 +82,18 @@ def generate_qa():
 
 
 
-# def generate_queries(all_codes, all_diseases):
-#     all_queries = []
-#     try:
-#         with open(file=QUERY_FILE,mode='r') as q:
-#             query_types = q.read().strip().split('\n')
-#         # TODO: create actual queries using format
-#         queries_type__1 = []
-#         for code in all_codes:
-#             query = query_types[0].format(code=code)
-#             queries_type__1.append(query)
-#         for disease
-#         return all_queries
-#     except Exception as e:
-#         print('Error occured while retrieving the queries: ' + str(e))
+def generate_query_types(): 
+    try:
+        with open(file=QUERY_FILE,mode='r') as q:
+            query_types = q.read().strip().split('\n') 
+        return query_types
+    except Exception as e:
+        print('Error occured while retrieving the queries: ' + str(e))
 
 
 
 def main():
     initialize_benchmark()
-    all_codes = get_all_codes()
-    # print(all_codes)
-    code_map = get_new_subset_of_codes(full_row=True)
-    # print(code_map)
-    all_disease = retrieve_all_diseases(code_map=code_map)
     # print(all_disease)
     # TODO: generate_queries function
     # all_queries = generate_queries(all_codes, all_disease)
