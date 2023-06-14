@@ -1,12 +1,10 @@
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import TextLoader
 import json
-import os 
-
 # Gets the path of the src_file (.json) 
 # Return the contents in dictionary format
 def get_dict_from_json(src_file):
+    return get_contents_from_json(src_file)
+
+def get_contents_from_json(src_file):
     try:  
         with open(file=src_file, mode='r') as contents: 
             return json.load(contents)

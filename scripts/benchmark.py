@@ -5,11 +5,9 @@ import statistics
 
 BENCHMARK_DIRECTORY = os.path.join(os.path.abspath(os.pardir), "benchmark")
 BENCHMARK_FILE = os.path.join(BENCHMARK_DIRECTORY, "benchmark.csv")  
-DATA_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'data')
-DATABASE_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'database')
 ASSETS_DIRECTORY = os.path.join(os.path.abspath(os.pardir), "assets")
 QUERY_FILE = os.path.join(ASSETS_DIRECTORY, "Queries.txt")
-CONFIG_FILE = os.path.join(os.path.abspath(os.pardir), 'config.json')
+CONFIG_FILE_NAME = os.path.join(ASSETS_DIRECTORY, 'config.json')
 
 sys.path.append('..')
 from lib.process_json import *

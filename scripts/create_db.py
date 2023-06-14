@@ -4,10 +4,11 @@ import os, sys
 sys.path.append('..')
 from lib.process_data import *
 from lib.process_codes import *
-from lib.process_json import *
+from lib.util import *
 from lib.vectorstore import *
 
-CONFIG_FILE_NAME = os.path.join(os.path.abspath(os.pardir), 'config.json')
+ASSETS_DIRECTORY = os.path.join(os.path.abspath(os.pardir),  'assets')
+CONFIG_FILE_NAME = os.path.join(ASSETS_DIRECTORY, 'config.json')
 DATA_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'data')
 DATABASE_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'database')
 
