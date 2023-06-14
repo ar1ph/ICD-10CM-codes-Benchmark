@@ -1,7 +1,7 @@
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from lib.process_json import get_dict_from_json, store_dict_in_json
-from lib.vectorstore import vectorstore_exist, process_documents
+from lib.vectorstore import vectorstore_exist, process_documents, get_source_files
 import os
 import importlib 
 
@@ -61,10 +61,11 @@ def build_db(config):
                                      persist_directory=persist_directory)
         db.persist() # Only for chroma
     else:
+
+        print("Vectorstore does exist")
         db = DBModule(embedding_function=embeddings, persist_directory=persist_directory)
-        # Function to 
-        collection = db.get()
-        splitted_docs = process_documents([metadata['source'] for metadata in collection["metadatas"]],
+        ignored_files = get_source_files(db=db)
+        splitted_docs = process_documents(ignored_files=ignored_files,
                                           chunk_size=config["CHUNK_SIZE"],
                                           chunk_overlap=config["CHUNK_OVERLAP"])
         db.add_documents(splitted_docs)
