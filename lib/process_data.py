@@ -1,5 +1,5 @@
 import os
-import process_codes
+from . import process_codes
 
 
 # Function for getting associated medical condition

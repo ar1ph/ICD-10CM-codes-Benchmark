@@ -1,10 +1,12 @@
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from lib.process_json import get_dict_from_json, store_dict_in_json
-from lib.vectorstore import vectorstore_exist, process_documents, get_source_files
-import os
+import os, sys
+sys.path.append('..')
 import importlib 
-
+from lib.process_data import *
+from lib.process_codes import *
+from lib.process_json import *
+from lib.vectorstore import *
 
 CONFIG_FILE_NAME = os.path.join(os.path.abspath(os.pardir), 'config.json')
 DATA_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'data')
@@ -59,7 +61,6 @@ def build_db(config):
                                           chunk_overlap=config["CHUNK_OVERLAP"])
         db = DBModule.from_documents(splitted_docs, embedding=embeddings,
                                      persist_directory=persist_directory)
-        db.persist() # Only for chroma
     else:
 
         print("Vectorstore does exist")
@@ -68,7 +69,10 @@ def build_db(config):
         splitted_docs = process_documents(ignored_files=ignored_files,
                                           chunk_size=config["CHUNK_SIZE"],
                                           chunk_overlap=config["CHUNK_OVERLAP"])
-        db.add_documents(splitted_docs)
+        if len(splitted_docs) > 0:
+            db.add_documents(splitted_docs)
+    db.persist() # Only for chroma
+    return True
 
     
 
