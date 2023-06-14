@@ -12,6 +12,7 @@ CONFIG_FILE = os.path.join(os.path.abspath(os.pardir), 'config.json')
 
 sys.path.append('..')
 from lib.process_json import *
+from lib.process_codes import *
 from lib.process_data import *
 from lib.vectorstore import *
 
@@ -62,6 +63,39 @@ def get_db(config):
     
     return db
 
+def generate_qa():
+    file_names = get_all_file_names(with_format=True) 
+    if file_names == None:
+        return None
+    code_map = get_new_subset_of_codes(full_row=True)
+    if code_map == None:
+        return None
+    if len(code_map) != len(file_names):
+        print("Number of codes and files are not same")
+        return None
+    qa = dict()
+    for idx, code in enumerate(code_map):
+        row = code_map[code]
+        med_condition = get_medical_condition_from_row(row=row)
+        qa[file_names[idx]] = med_condition
+    return qa
+
+
+
+# def generate_queries(all_codes, all_diseases):
+#     all_queries = []
+#     try:
+#         with open(file=QUERY_FILE,mode='r') as q:
+#             query_types = q.read().strip().split('\n')
+#         # TODO: create actual queries using format
+#         queries_type__1 = []
+#         for code in all_codes:
+#             query = query_types[0].format(code=code)
+#             queries_type__1.append(query)
+#         for disease
+#         return all_queries
+#     except Exception as e:
+#         print('Error occured while retrieving the queries: ' + str(e))
 
 
 
@@ -73,6 +107,8 @@ def main():
     # print(code_map)
     all_disease = retrieve_all_diseases(code_map=code_map)
     # print(all_disease)
+    # TODO: generate_queries function
+    # all_queries = generate_queries(all_codes, all_disease)
     all_db_configs = get_dict_from_json(src_file=CONFIG_FILE)
     # print(all_db)
     # report = {'Embedding Model': 'all_mini',
@@ -81,7 +117,17 @@ def main():
     #           'Average k': 5,
     #           'Sigma': 0.1}
     report = dict()
-    add_report(report=report)
+    # add_report(report=report)
+    failed_configs = []
+    for db_config in all_db_configs:
+        db = get_db(db_config)
+        if db == None:
+            failed_configs.append(db_config)
+            # TODO: generate_report function
+        # report = generate_report(all_queries)
+        if report == None:
+            failed_configs.append(db_config)
+
     
 
 
