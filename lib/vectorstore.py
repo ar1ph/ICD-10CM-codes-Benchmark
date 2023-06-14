@@ -3,6 +3,10 @@ from langchain.document_loaders import TextLoader
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+
+DATA_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'data')
+DATABASE_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'database')
+
 # Gets the embeddings and location of the vectorstore
 # Retrieves it if possible
 def get_vectorstore(embedding, persist_directory):
@@ -41,7 +45,7 @@ def load_documents(file_paths):
 
 # Gets the list of files that need to be ignored
 # Returns a splitted chunks of the documents in DATA_DIRECTORY
-def process_documents(ignored_files = [], chunk_size=750, chunk_overlap=100):
+def process_documents(ignored_files = set(), chunk_size=750, chunk_overlap=100):
     
     file_paths = []
     for root, _, files in os.walk(os.path.join(os.pardir, DATA_DIRECTORY)):
@@ -51,3 +55,14 @@ def process_documents(ignored_files = [], chunk_size=750, chunk_overlap=100):
     # TODO: Remove the ignored files 
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     return splitter.split_documents(load_documents(file_paths=file_paths))
+
+# Gets the db
+# Returns all the source file names
+def get_source_files(db):
+    collection = db.get()
+    source_files = set()
+    for metadata in collection['metadatas']:
+        file_name = metadata['source'].split('\\')[-1]
+        if file_name not in source_files:
+            source_files.add(file_name)
+    return source_files

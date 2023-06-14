@@ -37,6 +37,7 @@ def import_db_module(db_module_name):
 
 # Gets the configuration of a database
 # Builds the database based on the configuration
+# Returns True if successful
 def build_db(config):
 
     embedding_model_name = config['EMBEDDINGS_MODEL_NAME']
@@ -60,13 +61,14 @@ def build_db(config):
                                      persist_directory=persist_directory)
         db.persist() # Only for chroma
     else:
-        # print("Vectorstor do exist")
-        # db = DBModule(embedding_function=embeddings,
-        #               persist_directory=persist_directory)
-        # collection = db.get()
-        # ignored_files = []
-        # db.add_documents(process_documents())
-        pass
+        db = DBModule(embedding_function=embeddings, persist_directory=persist_directory)
+        # Function to 
+        collection = db.get()
+        splitted_docs = process_documents([metadata['source'] for metadata in collection["metadatas"]],
+                                          chunk_size=config["CHUNK_SIZE"],
+                                          chunk_overlap=config["CHUNK_OVERLAP"])
+        db.add_documents(splitted_docs)
+
     
 
 def main():
@@ -81,10 +83,9 @@ def main():
         return None
     
     for db_key in all_config:
-        try:
-            build_db(all_config[db_key])
+        if build_db(all_config[db_key]):
             db_success.append(db_key)
-        except:
+        else:
             db_failed.append(db_key)
 
     print("Successful vectorstores:")

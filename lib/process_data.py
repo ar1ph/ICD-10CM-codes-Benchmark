@@ -45,10 +45,10 @@ def retrieve_all_diseases(code_map = None):
 
 # Returns a list of all the file names 
 # Assumes that files are txt files
-def get_all_file_names(with_format=False):
+def get_all_file_names(with_format=False, file=DATA_DIRECTORY):
     file_names = []
     try:
-        for _, _, files in os.walk(DATA_DIRECTORY):
+        for _, _, files in os.walk(file):
             for fl in files:
                 if with_format:
                     file_names.append(fl)
