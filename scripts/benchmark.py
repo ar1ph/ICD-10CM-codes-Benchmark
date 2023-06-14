@@ -2,11 +2,12 @@ import os
 import csv
 import sys
 import statistics
+from lib.util import get_dict_from_json
 
 BENCHMARK_DIRECTORY = os.path.join(os.path.abspath(os.pardir), "benchmark")
 BENCHMARK_FILE = os.path.join(BENCHMARK_DIRECTORY, "benchmark.csv")  
 ASSETS_DIRECTORY = os.path.join(os.path.abspath(os.pardir), "assets")
-QUERY_FILE = os.path.join(ASSETS_DIRECTORY, "Queries.txt")
+QUERY_FILE = os.path.join(ASSETS_DIRECTORY, "queries.json")
 CONFIG_FILE_NAME = os.path.join(ASSETS_DIRECTORY, 'config.json')
 
 sys.path.append('..')
@@ -59,7 +60,6 @@ def get_db(config):
     db = DBModule(embedding_function=embeddings, persist_directory=persist_directory)
     if len(db.get()["metadatas"]) == 0:
         return False
-    
     return db
 
 # TODO: Function that takes db and query returns k value
@@ -68,25 +68,20 @@ def get_db(config):
 # Based on DATA_DIRECTORY generates a dictionary of following format
 # qa = {file_name: [med_code, med_desc]}
 def generate_qa():
-    
-    file_names = get_all_file_names(with_format=True) 
-    if file_names == None: return None
-
-    code_map = get_new_subset_of_codes(full_row=True)
-    if code_map == None: return None
-    
-    if len(code_map) != len(file_names):
-        print("Number of codes and files are not same")
-        return None
-    
     qa = dict()
-    for idx, code in enumerate(code_map):
-        row = code_map[code]
-        med_code = get_full_code_from_row(row=row)
-        if med_code == None: return None
-        med_desc = get_medical_desc_from_row(row=row)
-        if med_desc == None: return None
-        qa[file_names[idx]] = [med_code] + [med_desc]
+    contents = get_contents_from_json(src_file=QUERY_FILE)
+    for qa_collection in contents:
+        query = qa_collection['query']
+        var_dict = qa_collection['variables']
+        variables = list(var_dict.keys())
+        answers = qa_collection['answers']
+        num_of_instances = len(var_dict[variables[0]])
+        for idx in range(num_of_instances):
+            instance = dict()
+            for var in variables:
+                instance[var] = var_dict[var][idx]
+            question = query.format(**instance)
+            qa[question] = answers[idx]
     return qa
 
 
@@ -119,20 +114,11 @@ def get_k(query, db, ans, strg="Cosine similarity"):
 def generate_report(db_config, all_qa, strg='Cosine similarity'):
     db = get_db(db_config)
     if not db: return None
-    query_types = generate_query_types()
-    query_1 = query_types[0]
-    query_2 = query_types[1]
     all_k = []
-    for ans in all_qa:
-        ques = all_qa[ans]
-        code = ques[0]
-        condition = ques[1]
-        query = query_1.format(code=code)
-        k1 = get_k(query=query, db=db, ans=ans)
-        query = query_2.format(condition=condition)
-        k2 = get_k(query=query, db=db, ans=ans)
-        if k1 == -1 or k2 == -1 : return None
-        k = max(k1, k2)
+    for ques in all_qa:
+        ans = all_qa[ques] 
+        k = get_k(query=ques, db=db, ans=ans)
+        if k == -1 : return None
         all_k.append(k)
 
     avg = round(sum(all_k) / len(all_k))
