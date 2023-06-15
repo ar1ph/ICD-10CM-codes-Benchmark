@@ -1,8 +1,9 @@
 import os
 import csv
 import sys
-sys.path.append("..")
 import statistics
+from tabulate import tabulate
+sys.path.append("..")
 from lib.util import *
 
 
@@ -11,6 +12,7 @@ BENCHMARK_FILE = os.path.join(BENCHMARK_DIRECTORY, "benchmark.csv")
 ASSETS_DIRECTORY = os.path.join(os.path.abspath(os.pardir), "assets")
 QUERY_FILE = os.path.join(ASSETS_DIRECTORY, "queries.json")
 CONFIG_FILE_NAME = os.path.join(ASSETS_DIRECTORY, 'config.json')
+BENCHMARK_FILE_TXT = os.path.join(BENCHMARK_DIRECTORY, "benchmark.txt")  
 
 sys.path.append('..')
 from lib.process_json import *
@@ -32,8 +34,7 @@ def add_report(report, file_path=BENCHMARK_FILE):
 
 #   Initializes the benchmark file if not available
 def initialize_benchmark(file_path=BENCHMARK_FILE):
-    if os.path.exists(file_path):
-        return
+    if os.path.exists(file_path): return
     row = ['Embedding Model',
            'DB Type',
            'Strategy',
@@ -42,6 +43,35 @@ def initialize_benchmark(file_path=BENCHMARK_FILE):
     with open(file=file_path, mode='w') as fn:
         csv_writter = csv.writer(fn, delimiter=',', lineterminator='\n')
         csv_writter.writerow(row)
+
+def initialize_benchmark_txt(file_path=BENCHMARK_FILE_TXT):
+    if os.path.exists(file_path): return
+    row = ['Embedding Model',
+           'DB Type',
+           'Strategy',
+           'Average k',
+           'Sigma']
+    data = [row]
+    table = tabulate(data, headers="firstrow", tablefmt="pipe")
+    with open(file_path, "w") as file: file.write(table)
+
+def add_report_txt(report, file_path=BENCHMARK_FILE_TXT):
+    row = ['Embedding Model',
+        'DB Type',
+        'Strategy',
+        'Average k',
+        'Sigma']
+    with open(file_path, "r") as file:
+        lines = file.readlines()
+        data = [row]
+        for idx, line in enumerate(lines[2:]):
+            row = [word.strip() for word in line.strip().split('|') if len(word.strip()) > 0]
+            data.append(row)
+    data.append(list(report.values()))
+    print(data)
+    table = tabulate(data, headers="firstrow", tablefmt="pipe")
+    with open(file_path, "w") as file: file.write(table)
+
 
 # Given configuration of a database 
 # Returns a report dictionary
@@ -134,7 +164,8 @@ def generate_report(db_config, all_qa, strg='Cosine similarity'):
 
 
 def main():
-    initialize_benchmark()
+    # initialize_benchmark()
+    # initialize_benchmark_txt()
     # print(all_disease)
     # TODO: generate_queries function
     # all_queries = generate_queries(all_codes, all_disease)
@@ -146,8 +177,9 @@ def main():
     for db_key in all_db_configs:
         db_config = all_db_configs[db_key]
         report = generate_report(db_config=db_config, all_qa=all_qa)
-        print(report)
-    add_report(report=report)
+        # print(report)
+    # add_report(report=report)
+        add_report_txt(report=report)
 
 
 if __name__ == "__main__":
