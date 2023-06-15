@@ -4,5 +4,23 @@
         "DB_MODULE_NAME": "Chroma",
         "CHUNK_SIZE": 750,
         "CHUNK_OVERLAP": 100
+    },
+    "DATABASE_02": {
+        "EMBEDDINGS_MODEL_NAME": "emilyalsentzer\/Bio_ClinicalBERT",
+        "DB_MODULE_NAME": "Chroma",
+        "CHUNK_SIZE": 750,
+        "CHUNK_OVERLAP": 100
+    },
+    "DATABASE_03": {
+        "EMBEDDINGS_MODEL_NAME": "google/bert_uncased_L-12",
+        "DB_MODULE_NAME": "Chroma",
+        "CHUNK_SIZE": 750,
+        "CHUNK_OVERLAP": 100
+    },
+    "DATABASE_04": {
+        "EMBEDDINGS_MODEL_NAME": "emilyalsentzer\/Bio_ClinicalBERT",
+        "DB_MODULE_NAME": "Chroma",
+        "CHUNK_SIZE": 750,
+        "CHUNK_OVERLAP": 100
     }
 }

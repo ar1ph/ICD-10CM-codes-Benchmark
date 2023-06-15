@@ -1,0 +1,6 @@
+| Embedding Model                 | DB Type   | Strategy          |   Average k |   Sigma |
+|:--------------------------------|:----------|:------------------|------------:|--------:|
+| all-MiniLM-L6-v2                | Chroma    | Cosine similarity |           8 |    9.98 |
+| emilyalsentzer/Bio_ClinicalBERT | Chroma    | Cosine similarity |          13 |   13.26 |
+| all-MiniLM-L6-v2                | Chroma    | Cosine similarity |          12 |   13.01 |
+| emilyalsentzer/Bio_ClinicalBERT | Chroma    | Cosine similarity |          16 |   14.72 |

@@ -1,17 +1,18 @@
 [
     {
-        "query": "Describe the ICD-10 CM code {code}",
+        "query": "Quesiton {variable_1} {variable_2}",
         "variables": 
             {
-                "code": []
+                "variable_1": [],
+                "variable_2": []
             },
         "answers": []
     },
     {
-        "query": "What are the ICD-10 CM code that describe the codition {condition}",
+        "query": "Question {variable_1}",
         "variables": 
             {
-                "condition": []
+                "variable_1": []
             },
         "answers": []
     }
