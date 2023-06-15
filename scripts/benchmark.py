@@ -1,8 +1,10 @@
 import os
 import csv
 import sys
+sys.path.append("..")
 import statistics
-from lib.util import get_dict_from_json
+from lib.util import *
+
 
 BENCHMARK_DIRECTORY = os.path.join(os.path.abspath(os.pardir), "benchmark")
 BENCHMARK_FILE = os.path.join(BENCHMARK_DIRECTORY, "benchmark.csv")  
@@ -22,11 +24,11 @@ def add_report(report, file_path=BENCHMARK_FILE):
     row = [report['Embedding Model'],
            report['DB Type'],
            report['Strategy'],
-           report['Average k'],
-           report['Sigma']]
-    with open(file=BENCHMARK_FILE, mode='a') as fn:
-        csv_writter = csv.writer(fn, delimiter=' ', lineterminator='\n')
-        csv_writter.writerow(row)
+           str(report['Average k']),
+           str(report['Sigma'])]
+    with open(file=file_path, mode='a') as fn:
+        fn.write("\n")
+        fn.write(", ".join(row))
 
 #   Initializes the benchmark file if not available
 def initialize_benchmark(file_path=BENCHMARK_FILE):
@@ -136,7 +138,7 @@ def main():
     # print(all_disease)
     # TODO: generate_queries function
     # all_queries = generate_queries(all_codes, all_disease)
-    all_db_configs = get_dict_from_json(src_file=CONFIG_FILE)
+    all_db_configs = get_dict_from_json(src_file=CONFIG_FILE_NAME)
     all_qa = generate_qa()
     report = dict()
     # add_report(report=report)
@@ -145,7 +147,7 @@ def main():
         db_config = all_db_configs[db_key]
         report = generate_report(db_config=db_config, all_qa=all_qa)
         print(report)
-    
+    add_report(report=report)
 
 
 if __name__ == "__main__":
