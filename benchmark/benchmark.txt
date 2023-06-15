@@ -1,6 +1,10 @@
-| Embedding Model                 | DB Type   | Strategy          |   Average k |   Sigma |
-|:--------------------------------|:----------|:------------------|------------:|--------:|
-| all-MiniLM-L6-v2                | Chroma    | Cosine similarity |           8 |    9.98 |
-| emilyalsentzer/Bio_ClinicalBERT | Chroma    | Cosine similarity |          13 |   13.26 |
-| all-MiniLM-L6-v2                | Chroma    | Cosine similarity |          12 |   13.01 |
-| emilyalsentzer/Bio_ClinicalBERT | Chroma    | Cosine similarity |          16 |   14.72 |
+| Embedding Model                     | DB Type   | Strategy          |   Average k |   Sigma |
+|:------------------------------------|:----------|:------------------|------------:|--------:|
+| all-MiniLM-L6-v2                    | Chroma    | Cosine similarity |           8 |    9.98 |
+| emilyalsentzer/Bio_ClinicalBERT     | Chroma    | Cosine similarity |          13 |   13.26 |
+| all-MiniLM-L6-v2                    | Chroma    | Cosine similarity |          12 |   13.01 |
+| emilyalsentzer/Bio_ClinicalBERT     | Chroma    | Cosine similarity |          16 |   14.72 |
+| all-MiniLM-L6-v2                    | Chroma    | Cosine similarity |           8 |    9.98 |
+| emilyalsentzer/Bio_ClinicalBERT     | Chroma    | Cosine similarity |          13 |   13.26 |
+| google/bert_uncased_L-12_H-768_A-12 | Chroma    | Cosine similarity |          14 |   13.32 |
+| allenai/scibert_scivocab_uncased    | Chroma    | Cosine similarity |          14 |   13.09 |
