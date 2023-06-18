@@ -6,6 +6,7 @@ from sentence_transformers import SentenceTransformer
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import TextLoader
 from uuid import uuid1
+from tqdm import tqdm
 
 
 class Chroma(object):
@@ -49,8 +50,10 @@ class Chroma(object):
         # Modify here for parallelism or progress ase
         if len(file_paths) > 0:
             docs = TextLoader(file_path=file_paths[0], encoding='utf-8').load()
-            for path in file_paths:
-                docs.extend(TextLoader(file_path=path, encoding='utf-8').load())
+            with tqdm(total=len(file_paths), desc='Loading documents', ncols=80) as pbar1:
+                for path in file_paths:
+                    docs.extend(TextLoader(file_path=path, encoding='utf-8').load())
+                    pbar1.update()
             splitted_docs = splitter.split_documents(docs)
             return splitted_docs
     
@@ -58,9 +61,11 @@ class Chroma(object):
                              docs):
         metadatas = []
         documents = []
-        for doc in docs:
-            documents.append(doc.page_content)
-            metadatas.append(doc.metadata)
+        with tqdm(total=len(docs), desc='Initializing page contents and metadatas', ncols=80) as pbar2:
+            for doc in docs:
+                documents.append(doc.page_content)
+                metadatas.append(doc.metadata)
+                pbar2.update()
         ids = [str(uuid1()) for _ in range(len(documents))]
         db_contents = {'ids': ids,
                        'metadatas': metadatas,
