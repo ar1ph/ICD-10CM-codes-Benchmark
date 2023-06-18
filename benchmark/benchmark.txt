@@ -23,3 +23,12 @@
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | ip                |          20 |   15.93 |
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | cosine            |          15 |   14.9  |
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | l2                |          14 |   13.99 |
+| allenai/scibert_scivocab_uncased    | Chroma    | ip                |          21 |   14.32 |
+| allenai/scibert_scivocab_uncased    | Chroma    | cosine            |          16 |   14.73 |
+| allenai/scibert_scivocab_uncased    | Chroma    | l2                |          15 |   14.14 |
+| allenai/scibert_scivocab_uncased    | Chroma    | ip                |          21 |   14.32 |
+| allenai/scibert_scivocab_uncased    | Chroma    | cosine            |          16 |   14.73 |
+| allenai/scibert_scivocab_uncased    | Chroma    | l2                |          15 |   14.14 |
+| allenai/scibert_scivocab_uncased    | Chroma    | ip                |          21 |   14.32 |
+| allenai/scibert_scivocab_uncased    | Chroma    | cosine            |          16 |   14.73 |
+| allenai/scibert_scivocab_uncased    | Chroma    | l2                |          15 |   14.14 |

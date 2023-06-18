@@ -10,7 +10,7 @@ class Variables(object):
                     instance : dict) -> None: 
             """
             Takes a list of variable names and their values
-            Initializes after checking the names and values
+            Initializes after checking the values
             """
             self.variables = variables
             self.instance = dict()
@@ -71,6 +71,17 @@ class Variables(object):
             Checks if two instances are not equal
             """
             return not self.__eq__(__value)
+        
+        def get_value(self,
+                      variable: str) -> any:
+            """
+            Returns the value of a variable in the instance
+            """
+            if variable not in self.variables:
+                raise Exception("No such variable exist")
+            return self.variables.get(variable)
+        
+
     
 
     def __init__(self,

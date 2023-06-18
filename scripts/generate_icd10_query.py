@@ -12,7 +12,9 @@ DATA_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'data')
 def main():
     # Getting code map from data directory
     code_map = get_new_subset_of_codes(full_row=True)
-    file_names = get_all_file_names(with_format=True)
+    file_names = []
+    for name in get_all_file_names(with_format=True):
+        file_names.append([name])
     code = get_all_codes()
     condition = [get_medical_desc_from_row(row) for row in list(code_map.values())]
     # print(code_map)

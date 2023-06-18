@@ -2,6 +2,7 @@ import os
 import csv
 import sys
 import statistics
+import argparse
 from tabulate import tabulate
 sys.path.append("..")
 from lib.util import *
@@ -106,14 +107,14 @@ def generate_qa():
         query = qa_collection['query']
         var_dict = qa_collection['variables']
         variables = list(var_dict.keys())
-        answers = qa_collection['answers']
+        sources = qa_collection['sources']
         num_of_instances = len(var_dict[variables[0]])
         for idx in range(num_of_instances):
             instance = dict()
             for var in variables:
                 instance[var] = var_dict[var][idx]
             question = query.format(**instance)
-            qa[question] = answers[idx]
+            qa[question] = sources[idx]
     return qa
 
 
@@ -130,26 +131,43 @@ def generate_query_types():
 
 # gets query, database, strategy
 # Returns k
-def get_k(query, db, ans, strg="Cosine similarity"):
+def get_k(query : str, 
+          db : any, 
+          sources : list[str], 
+          strg : str ="Cosine similarity", 
+          match : int =1):
     max_k = len(db.get()['metadatas'])
-
+    if match <= 0: return -1
+    if match > len(sources): raise Exception("Value of match is more than available sources")
     # Needs to consider the startegy
     search_res = db.similarity_search(query, k=max_k)
     for idx, doc in enumerate(search_res):
-        source = doc.metadata['source']
-        if ans in source: return idx + 1
+        source = doc.metadata['source'].split("\\")[-1]
+        # if ans in source: return idx + 1
+        # print(source)
+        if source in sources:
+            match -= 1
+            if match == 0:
+                return idx + 1
+
     return -1
 
 
 # Gets database configuration, qa dictionary, strategy
 # Return a report dictionary
-def generate_report(db_config, all_qa, strg='Cosine similarity'):
+def generate_report(db_config, 
+                    all_qa, 
+                    strg='Cosine similarity',
+                    match=1):
     db = get_db(db_config)
     if not db: return None
     all_k = []
     for ques in all_qa:
         ans = all_qa[ques] 
-        k = get_k(query=ques, db=db, ans=ans)
+        k = get_k(query=ques, 
+                  db=db, 
+                  sources=ans,
+                  match=match)
         if k == -1 : return None
         all_k.append(k)
 
@@ -169,6 +187,11 @@ def main():
     # print(all_disease)
     # TODO: generate_queries function
     # all_queries = generate_queries(all_codes, all_disease)
+    parser = argparse.ArgumentParser(description="Needs to get match value")
+    parser.add_argument("-m", "--match", default=1, type=int)
+    args = parser.parse_args()
+    match = args.match
+    print("Match value: ", match)
     all_db_configs = get_dict_from_json(src_file=CONFIG_FILE_NAME)
     all_qa = generate_qa()
     report = dict()
@@ -176,7 +199,12 @@ def main():
     failed_configs = []
     for db_key in all_db_configs:
         db_config = all_db_configs[db_key]
-        report = generate_report(db_config=db_config, all_qa=all_qa)
+        report = generate_report(db_config=db_config, 
+                                 all_qa=all_qa,
+                                 match=match)
+        if report == None:
+            print("No report generated for this configuration: ", db_config)
+            continue
         # print(report)
     # add_report(report=report)
         add_report_txt(report=report)

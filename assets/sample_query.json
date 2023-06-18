@@ -6,7 +6,7 @@
                 "variable_1": [],
                 "variable_2": []
             },
-        "answers": []
+        "sources": []
     },
     {
         "query": "Question {variable_1}",
@@ -14,6 +14,6 @@
             {
                 "variable_1": []
             },
-        "answers": []
+        "sources": []
     }
 ]
