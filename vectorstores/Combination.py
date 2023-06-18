@@ -44,7 +44,7 @@ class Combination(object):
         output_sources = self._get_sources(query=query,
                                            db=db)
         given_sources = set(sources)
-        print(output_sources)
+        # print(output_sources)
         for idx, src in enumerate(output_sources):
             if src in given_sources:
                 matches -= 1
@@ -107,17 +107,16 @@ class Combination(object):
             with open(file=file_path, mode='w') as fn: 
                 fn.write(' '.join(row))
                 fn.write('\n\n')
-        for report in all_reports:
-            with open(file_path, "r") as file:
-                lines = file.readlines()
-                data = [row]
-                for line in (lines[2:]):
-                    row = [word.strip() for word in line.strip().split('|') if len(word.strip()) > 0]
-                    data.append(row)
-            data.append(list(report.values()))
+        with open(file_path, "r") as file:
+            lines = file.readlines()
+            data = [row]
+            for line in (lines[2:]):
+                row = [word.strip() for word in line.strip().split('|') if len(word.strip()) > 0]
+                data.append(row)
+        for report in all_reports: data.append(list(report.values()))
             # print(data)
-            table = tabulate(data, headers="firstrow", tablefmt="pipe")
-            with open(file_path, "w") as file: file.write(table)
+        table = tabulate(data, headers="firstrow", tablefmt="pipe")
+        with open(file_path, "w") as file: file.write(table)
 
 
 
@@ -136,11 +135,11 @@ class Combination(object):
 
     def add_data(self, 
                  data_directory):
-        print((self.db_objs))
+        # print((self.db_objs))
         for db_obj in list(self.db_objs.values()):
             db_obj.add_data(data_directory)
 
-        print(db_obj.count())
+        # print(db_obj.count())
 
     def get_collection_data(self):
         frequency = self.db_objs['ip'].get_source_files()
@@ -166,27 +165,37 @@ def generate_qa():
         query = qa_collection['query']
         var_dict = qa_collection['variables']
         variables = list(var_dict.keys())
-        answers = qa_collection['answers']
+        sources = qa_collection['sources']
         num_of_instances = len(var_dict[variables[0]])
         for idx in range(num_of_instances):
             instance = dict()
             for var in variables:
                 instance[var] = var_dict[var][idx]
             question = query.format(**instance)
-            qa[question] = answers[idx]
+            qa[question] = sources[idx]
     return qa
 
 def main():
+    embedding_models = ['all-MiniLM-L6-v2',
+                        'emilyalsentzer/Bio_ClinicalBERT',
+                        'google/bert_uncased_L-12_H-768_A-12',
+                        'allenai/scibert_scivocab_uncased']
     combination = Combination(db_name='Chroma',
-                              embedding_model_name='all-MiniLM-L6-v2')
+                              embedding_model_name=embedding_models[2])
     # combination.get_collection_data()
     all_qa = generate_qa()
-    data_directory = os.path.join(os.path.abspath(os.pardir), 'data_backup')
+    data_directory = os.path.join(os.path.abspath(os.pardir), 'data')
     combination.add_data(data_directory)
     all_reports = combination.generate_benchmark(query_srcs_map=all_qa,
                                                matches=1,
                                                print_reports=True)
-    combination.get_collection_data()
+    BENCHMARK_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'benchmark')
+    BENCHMARK_FILE = os.path.join(BENCHMARK_DIRECTORY, 'benchmark.txt')
+
+
+    # combination.get_collection_data()
+    combination.save_reports(all_reports=all_reports,
+                             file_path=BENCHMARK_FILE)
 
 
 if __name__ ==  "__main__": main()
