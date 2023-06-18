@@ -180,22 +180,24 @@ def main():
                         'emilyalsentzer/Bio_ClinicalBERT',
                         'google/bert_uncased_L-12_H-768_A-12',
                         'allenai/scibert_scivocab_uncased']
-    combination = Combination(db_name='Chroma',
-                              embedding_model_name=embedding_models[2])
-    # combination.get_collection_data()
     all_qa = generate_qa()
-    data_directory = os.path.join(os.path.abspath(os.pardir), 'data')
-    combination.add_data(data_directory)
-    all_reports = combination.generate_benchmark(query_srcs_map=all_qa,
-                                               matches=1,
-                                               print_reports=True)
-    BENCHMARK_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'benchmark')
-    BENCHMARK_FILE = os.path.join(BENCHMARK_DIRECTORY, 'benchmark.txt')
+    for model in embedding_models[3:]:
+        combination = Combination(db_name='Chroma',
+                                embedding_model_name=model)
+        # combination.get_collection_data()
+        data_directory = os.path.join(os.path.abspath(os.pardir), 'data')
+        combination.add_data(data_directory)
+        all_reports = combination.generate_benchmark(query_srcs_map=all_qa,
+                                                matches=1,
+                                                print_reports=True)
+        BENCHMARK_DIRECTORY = os.path.join(os.path.abspath(os.pardir), 'benchmark')
+        BENCHMARK_FILE = os.path.join(BENCHMARK_DIRECTORY, 'benchmark.txt')
 
 
-    # combination.get_collection_data()
-    combination.save_reports(all_reports=all_reports,
-                             file_path=BENCHMARK_FILE)
+        # combination.get_collection_data()
+        combination.save_reports(all_reports=all_reports,
+                                file_path=BENCHMARK_FILE)
+        
 
 
 if __name__ ==  "__main__": main()
