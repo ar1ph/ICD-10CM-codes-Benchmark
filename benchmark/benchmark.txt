@@ -2,9 +2,24 @@
 |:------------------------------------|:----------|:------------------|------------:|--------:|
 | all-MiniLM-L6-v2                    | Chroma    | Cosine similarity |           8 |    9.98 |
 | emilyalsentzer/Bio_ClinicalBERT     | Chroma    | Cosine similarity |          13 |   13.26 |
-| all-MiniLM-L6-v2                    | Chroma    | Cosine similarity |          12 |   13.01 |
-| emilyalsentzer/Bio_ClinicalBERT     | Chroma    | Cosine similarity |          16 |   14.72 |
+| google/bert_uncased_L-12_H-768_A-12 | Chroma    | Cosine similarity |          14 |   13.32 |
+| allenai/scibert_scivocab_uncased    | Chroma    | Cosine similarity |          14 |   13.09 |
 | all-MiniLM-L6-v2                    | Chroma    | Cosine similarity |           8 |    9.98 |
 | emilyalsentzer/Bio_ClinicalBERT     | Chroma    | Cosine similarity |          13 |   13.26 |
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | Cosine similarity |          14 |   13.32 |
 | allenai/scibert_scivocab_uncased    | Chroma    | Cosine similarity |          14 |   13.09 |
+| emilyalsentzer/Bio_ClinicalBERT     | Chroma    | ip                |          20 |   16.64 |
+| emilyalsentzer/Bio_ClinicalBERT     | Chroma    | cosine            |          14 |   14.52 |
+| emilyalsentzer/Bio_ClinicalBERT     | Chroma    | l2                |          14 |   14.11 |
+| allenai/scibert_scivocab_uncased    | Chroma    | ip                |          21 |   14.32 |
+| allenai/scibert_scivocab_uncased    | Chroma    | cosine            |          16 |   14.73 |
+| allenai/scibert_scivocab_uncased    | Chroma    | l2                |          15 |   14.14 |
+| all-MiniLM-L6-v2                    | Chroma    | ip                |           7 |    9.82 |
+| all-MiniLM-L6-v2                    | Chroma    | cosine            |           7 |    9.82 |
+| all-MiniLM-L6-v2                    | Chroma    | l2                |           7 |    9.82 |
+| google/bert_uncased_L-12_H-768_A-12 | Chroma    | ip                |          20 |   15.93 |
+| google/bert_uncased_L-12_H-768_A-12 | Chroma    | cosine            |          15 |   14.9  |
+| google/bert_uncased_L-12_H-768_A-12 | Chroma    | l2                |          14 |   13.99 |
+| google/bert_uncased_L-12_H-768_A-12 | Chroma    | ip                |          20 |   15.93 |
+| google/bert_uncased_L-12_H-768_A-12 | Chroma    | cosine            |          15 |   14.9  |
+| google/bert_uncased_L-12_H-768_A-12 | Chroma    | l2                |          14 |   13.99 |
