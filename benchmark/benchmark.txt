@@ -32,3 +32,6 @@
 | allenai/scibert_scivocab_uncased    | Chroma    | ip                |          21 |   14.32 |
 | allenai/scibert_scivocab_uncased    | Chroma    | cosine            |          16 |   14.73 |
 | allenai/scibert_scivocab_uncased    | Chroma    | l2                |          15 |   14.14 |
+| allenai/scibert_scivocab_uncased    | Chroma    | ip                |          21 |   14.32 |
+| allenai/scibert_scivocab_uncased    | Chroma    | cosine            |          16 |   14.73 |
+| allenai/scibert_scivocab_uncased    | Chroma    | l2                |          15 |   14.14 |

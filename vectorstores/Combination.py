@@ -2,6 +2,7 @@ import importlib
 import statistics
 import os 
 from tabulate import tabulate
+from tqdm import tqdm
 
 class Combination(object):
 
@@ -136,8 +137,10 @@ class Combination(object):
     def add_data(self, 
                  data_directory):
         # print((self.db_objs))
-        for db_obj in list(self.db_objs.values()):
-            db_obj.add_data(data_directory)
+        with tqdm(total=len(self.db_objs), desc='Adding data to db object', ncols=80) as pbar_dbo:
+            for db_obj in list(self.db_objs.values()):
+                db_obj.add_data(data_directory)
+                pbar_dbo.update()
 
         # print(db_obj.count())
 
