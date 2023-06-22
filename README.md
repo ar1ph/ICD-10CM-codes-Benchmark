@@ -1,9 +1,9 @@
 # ICD-10CM-codes-Benchmark
 
-## Problems
+## Interface:
 
-1. No database other than Chroma
-2. No strategy other than cosine similarity
-3. Embedding models that are available via 
-   langchain.embeddings.HuggingFaceEmbeddings
-4. Proper Report
+Using the class Combination in Combination.py initialize a Combination object
+by supplying the database name and embedding model name. Then use the add_data
+method by supplying the directory path to store the datas and then generate report
+using generate_report method
+

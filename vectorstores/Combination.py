@@ -147,13 +147,6 @@ class Combination(object):
     def get_collection_data(self):
         frequency = self.db_objs['ip'].get_source_files()
         print(frequency)
-        # print(f'Frequency of ip: {frequency}')
-        # frequency = self.db_objs['l2'].count()
-        # print(f'Frequency of l2: {frequency}')
-        # frequency = self.db_objs['cosine'].count()
-        # print(f'Frequency of cosine: {frequency}')
-        # return metadatas
-        
 
     
 def generate_qa():
