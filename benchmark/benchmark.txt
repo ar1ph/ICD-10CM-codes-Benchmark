@@ -25,3 +25,4 @@
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | cosine            |      521    |  418.5  |                   905 |
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | l2                |      512    |  457.66 |                   905 |
 | text-embedding-ada-002              | Chroma    | ip                |      160.83 |  248.50 |                   905 |
+| text-embedding-ada-002              | Chroma    | cosine            |      160.84 |  248.54 |                   905 |
