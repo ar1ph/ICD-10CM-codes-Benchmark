@@ -1,0 +1,12 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.021
+
+Postthrombotic syndrome with inflammation of right lower extremity
+
+ICD-10-CM  I87.021  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

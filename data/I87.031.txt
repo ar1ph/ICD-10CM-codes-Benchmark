@@ -1,0 +1,65 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.031
+
+Postthrombotic syndrome with ulcer and inflammation of right lower extremity
+
+Approximate Synonyms
+
+ Postthrombotic ulcer of right ankle with inflammation 
+ Postthrombotic ulcer of right ankle with inflammation, bone necrosis 
+ Postthrombotic ulcer of right ankle with inflammation, fat layer exposed 
+ Postthrombotic ulcer of right ankle with inflammation, muscle necrosis 
+ Postthrombotic ulcer of right ankle with inflammation, skin layer only 
+ Postthrombotic ulcer of right calf with inflammation 
+ Postthrombotic ulcer of right calf with inflammation, bone necrosis 
+ Postthrombotic ulcer of right calf with inflammation, fat layer exposed 
+ Postthrombotic ulcer of right calf with inflammation, muscle necrosis 
+ Postthrombotic ulcer of right calf with inflammation, skin layer only 
+ Postthrombotic ulcer of right foot with inflammation 
+ Postthrombotic ulcer of right foot with inflammation, bone necrosis 
+ Postthrombotic ulcer of right foot with inflammation, fat layer exposed 
+ Postthrombotic ulcer of right foot with inflammation, muscle necrosis 
+ Postthrombotic ulcer of right foot with inflammation, skin layer only 
+ Postthrombotic ulcer of right lower leg with inflammation 
+ Postthrombotic ulcer of right lower leg with inflammation, bone necrosis 
+ Postthrombotic ulcer of right lower leg with inflammation, fat layer exposed 
+ Postthrombotic ulcer of right lower leg with inflammation, muscle necrosis 
+ Postthrombotic ulcer of right lower leg with inflammation, skin layer only 
+ Postthrombotic ulcer of right thigh with inflammation 
+ Postthrombotic ulcer of right thigh with inflammation, bone necrosis 
+ Postthrombotic ulcer of right thigh with inflammation, fat layer exposed 
+ Postthrombotic ulcer of right thigh with inflammation, muscle necrosis 
+ Postthrombotic ulcer of right thigh with inflammation, skin layer only 
+ Ulcer with inflammation of right ankle and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right ankle and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of right ankle and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right ankle due to postphlebitic syndrome 
+ Ulcer with inflammation of right ankle limited to skin layer due to postphlebitic syndrome 
+ Ulcer with inflammation of right calf and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right calf and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of right calf and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right calf due to postphlebitic syndrome 
+ Ulcer with inflammation of right calf limited to skin layer due to postphlebitic syndrome 
+ Ulcer with inflammation of right foot and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right foot and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of right foot and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right foot due to postphlebitic syndrome 
+ Ulcer with inflammation of right foot limited to skin layer due to postphlebitic syndrome 
+ Ulcer with inflammation of right lower leg and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right lower leg and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of right lower leg and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right lower leg due to postphlebitic syndrome 
+ Ulcer with inflammation of right lower leg limited to skin layer due to postphlebitic syndrome 
+ Ulcer with inflammation of right thigh and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right thigh and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of right thigh and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of right thigh due to postphlebitic syndrome 
+ Ulcer with inflammation of right thigh limited to skin layer due to postphlebitic syndrome 
+
+ICD-10-CM  I87.031  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

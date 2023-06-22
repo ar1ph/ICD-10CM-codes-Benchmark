@@ -1,0 +1,31 @@
+
+
+2023 ICD-10-CM Diagnosis Code F98.0
+
+Enuresis not due to a substance or known physiological condition
+
+Applicable To Enuresis (primary) (secondary) of nonorganic origin Functional enuresis Psychogenic enuresis Urinary incontinence of nonorganic origin
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  F98.0 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. enuresis NOS ( ICD-10-CM Diagnosis Code  R32 Unspecified urinary incontinence 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Enuresis NOS Type 1 Excludes functional urinary incontinence ( R39.81 ) nonorganic enuresis ( F98.0 ) stress incontinence and other specified urinary incontinence ( N39.3- N39.4- ) urinary incontinence associated with cognitive impairment ( R39.81 ) R32 )
+
+Approximate Synonyms
+
+ Enuresis, primary (bed-wetting) 
+ Enuresis, secondary, functional 
+ Functional enuresis 
+ Non-organic enuresis 
+ Non-organic nocturnal enuresis 
+ Non-organic primary enuresis 
+ Non-organic primary nocturnal enuresis 
+ Non-organic secondary enuresis 
+ Non-organic secondary nocturnal enuresis 
+ Primary functional enuresis 
+ Psychogenic enuresis 
+ Psychogenic enuresis, diurnal only 
+ Psychogenic enuresis, nocturnal and diurnal 
+ Psychogenic enuresis, nocturnal only 
+ Secondary functional enuresis 
+
+ICD-10-CM  F98.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 886  Behavioral and developmental disorders 
+

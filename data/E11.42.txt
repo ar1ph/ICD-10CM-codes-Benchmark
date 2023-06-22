@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code E11.42
+
+Type 2 diabetes mellitus with diabetic polyneuropathy
+
+Applicable To Type 2 diabetes mellitus with diabetic neuralgia
+
+Approximate Synonyms
+
+ Diabetes type 2 with diabetic polyneuropathy 
+ Diabetes type 2 with peripheral neuropathy 
+ Diabetic peripheral neuropathy associated with type 2 diabetes mellitus 
+ Diabetic polyneuropathy 
+ Polyneuropathy (disorder of multiple nerves) diabetic 
+ Polyneuropathy (multiple nerve disorder), diabetic 
+ Polyneuropathy associated with type 2 diabetes mellitus 
+ Polyneuropathy associated with type ii diabetes mellitus 
+ Polyneuropathy due to type 2 diabetes mellitus 
+
+ICD-10-CM  E11.42  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 008  Simultaneous pancreas and kidney transplant 
+ 010  Pancreas transplant 
+ 019  Simultaneous pancreas and kidney transplant with hemodialysis 
+ 073  Cranial and peripheral nerve disorders with mcc 
+ 074  Cranial and peripheral nerve disorders without mcc 
+

@@ -1,0 +1,21 @@
+
+
+2023 ICD-10-CM Diagnosis Code A05.0
+
+Foodborne staphylococcal intoxication
+
+Approximate Synonyms
+
+ Food poisoning due to staphylococcus 
+ Staphylococcal food poisoning 
+
+Clinical Information
+
+ Poisoning by staphylococcal toxins present in contaminated food. 
+
+ICD-10-CM  A05.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 371  Major gastrointestinal disorders and peritoneal infections with mcc 
+ 372  Major gastrointestinal disorders and peritoneal infections with cc 
+ 373  Major gastrointestinal disorders and peritoneal infections without cc/mcc 
+

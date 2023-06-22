@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code B83.0
+
+Visceral larva migrans
+
+Applicable To Toxocariasis
+
+Approximate Synonyms
+
+ Infection by toxocara canis 
+ Infection due to toxocara 
+ Toxocara canis infection 
+ Toxocariasis 
+
+Clinical Information
+
+ A condition produced in man by the prolonged migration of animal nematode larvae in extraintestinal tissues other than skin; characterized by persistent hypereosinophilia, hepatomegaly, and frequently pneumonitis, commonly caused by toxocara canis and toxocara cati. 
+ A parasitic infection caused by toxocara. Humans are infected by the larvae of toxocara canis and toxocara cati from dogs and cats respectively. Most cases remain asymptomatic. The parasites may affect the eye, causing diminished vision, or other major organs, causing hepatomegaly, eosinophilia, wheezing, and coughing. 
+ A parasitic infection caused by worms found in domestic animals. In humans nematode larvae enter the portal system from the small intestine and disseminate in visceral organs causing inflammatory reactions. Signs and symptoms include eosinophilia, hepatomegaly, splenomegaly, and lung infections. 
+ Infection by round worms of the genus toxocara, usually found in wild and domesticated cats and dogs and foxes, except for the larvae, which may produce visceral and ocular larva migrans in man. 
+
+ICD-10-CM  B83.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

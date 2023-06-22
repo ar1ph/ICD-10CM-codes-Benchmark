@@ -1,0 +1,19 @@
+
+
+2023 ICD-10-CM Diagnosis Code F98.5
+
+Adult onset fluency disorder
+
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  F98.5 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. childhood onset fluency disorder ( ICD-10-CM Diagnosis Code  F80.81 Childhood onset fluency disorder 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Cluttering NOS Stuttering NOS Type 1 Excludes adult onset fluency disorder ( F98.5 ) fluency disorder in conditions classified elsewhere ( R47.82 ) fluency disorder (stuttering) following cerebrovascular disease ( I69 . with final characters -23) F80.81 ) dysphasia ( ICD-10-CM Diagnosis Code  R47.02 Dysphasia 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Type 1 Excludes dysphasia following cerebrovascular disease ( I69 . with final characters -21) R47.02 ) fluency disorder in conditions classified elsewhere ( ICD-10-CM Diagnosis Code  R47.82 Fluency disorder in conditions classified elsewhere 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Manifestation Code   Applicable To Stuttering in conditions classified elsewhere Code First underlying disease or condition, such as: Parkinson's disease ( G20 ) Type 1 Excludes adult onset fluency disorder ( F98.5 ) childhood onset fluency disorder ( F80.81 ) fluency disorder (stuttering) following cerebrovascular disease ( I69 . with final characters -23) R47.82 ) fluency disorder (stuttering) following cerebrovascular disease ( ICD-10-CM Diagnosis Code  I69 Sequelae of cerebrovascular disease 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Note Category  I69  is to be used to indicate conditions in  I60 - I67  as the cause of sequelae. The 'sequelae' include conditions specified as such or as residuals which may occur at any time after the onset of the causal condition Type 1 Excludes personal history of cerebral infarction without residual deficit ( Z86.73 ) personal history of prolonged reversible ischemic neurologic deficit (PRIND) ( Z86.73 ) personal history of reversible ischemic neurologcial deficit (RIND) ( Z86.73 ) sequelae of traumatic intracranial injury ( S06.- ) I69 . with final characters -23) tic disorders ( ICD-10-CM Diagnosis Code  F95   F95  Tic disorder   F95.0  Transient tic disorder   F95.1  Chronic motor or vocal tic disorder   F95.2  Tourette's disorder   F95.8  Other tic disorders   F95.9  Tic disorder, unspecified F95.- )
+
+Approximate Synonyms
+
+ Adult onset stuttering 
+ Adult onset stuttering and stammering 
+ Stuttering and stammering, adult onset 
+ Stuttering, adult onset 
+
+ICD-10-CM  F98.5  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 887  Other mental disorder diagnoses 
+

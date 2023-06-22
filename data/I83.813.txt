@@ -1,0 +1,22 @@
+
+
+2023 ICD-10-CM Diagnosis Code I83.813
+
+Varicose veins of bilateral lower extremities with pain
+
+ICD-10-CM Coding Rules
+
+ I83.813  is applicable to adult patients aged 15 - 124 years inclusive. 
+
+Approximate Synonyms
+
+ Pain co-occurrent and due to varicose veins of bilateral legs 
+ Varicose veins of bilateral legs with pain 
+ Varicose veins of both legs with pain 
+
+ICD-10-CM  I83.813  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

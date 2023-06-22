@@ -1,0 +1,22 @@
+
+
+2023 ICD-10-CM Diagnosis Code B58.3
+
+Pulmonary toxoplasmosis
+
+Approximate Synonyms
+
+ Acquired toxoplasmosis pneumonitis 
+ Pneumonitis due to acquired toxoplasmosis 
+
+ICD-10-CM  B58.3  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 177  Respiratory infections and inflammations with mcc 
+ 178  Respiratory infections and inflammations with cc 
+ 179  Respiratory infections and inflammations without cc/mcc 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+ 974  Hiv with major related condition with mcc 
+ 975  Hiv with major related condition with cc 
+ 976  Hiv with major related condition without cc/mcc 
+

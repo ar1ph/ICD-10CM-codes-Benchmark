@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code J98.9
+
+Respiratory disorder, unspecified
+
+Applicable To Respiratory disease (chronic) NOS
+
+Approximate Synonyms
+
+ Arthropathy associated with respiratory disorder 
+ Disorder of lower respiratory system 
+ Disorder of respiratory system 
+ Lower respiratory system disease 
+ Respiratory complication 
+ Respiratory disease 
+
+Clinical Information
+
+ A non-neoplastic or neoplastic disorder that affects the tracheobronchial tree and/or the lung parenchyma. Representative examples include infections, carcinomas, and lymphomas. 
+ Condition in which there is a deviation from or interruption of the normal structure or function of the respiratory system. 
+ Diseases of the respiratory system in general or unspecified or for a specific respiratory disease not available. 
+
+ICD-10-CM  J98.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 205  Other respiratory system diagnoses with mcc 
+ 206  Other respiratory system diagnoses without mcc 
+

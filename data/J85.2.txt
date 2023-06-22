@@ -1,0 +1,26 @@
+
+
+2023 ICD-10-CM Diagnosis Code J85.2
+
+Abscess of lung without pneumonia
+
+Applicable To Abscess of lung NOS
+
+Approximate Synonyms
+
+ Abscess of lung 
+ Lung abscess 
+
+Clinical Information
+
+ A bacterial, fungal or parasitic abscess that develops in the lung parenchyma. Causes include aspiration pneumonia, necrotizing pneumonia, necrotizing malignant tumors, and wegener's granulomatosis. 
+ Solitary or multiple collections of pus within the lung parenchyma as a result of infection by bacteria, protozoa, or other agents. 
+
+ICD-10-CM  J85.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 177  Respiratory infections and inflammations with mcc 
+ 178  Respiratory infections and inflammations with cc 
+ 179  Respiratory infections and inflammations without cc/mcc 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+

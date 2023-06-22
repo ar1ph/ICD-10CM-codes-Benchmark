@@ -1,0 +1,23 @@
+
+
+2023 ICD-10-CM Diagnosis Code G99.8
+
+Other specified disorders of nervous system in diseases classified elsewhere
+
+ICD-10-CM Coding Rules
+
+ G99.8  describes the manifestation of an underlying disease, not the disease itself. 
+
+Code First Code First Help Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. For such conditions, ICD-10-CM has a coding convention that requires the underlying condition be sequenced first followed by the manifestation.  Wherever such a combination exists there is a "use additional code" note at the etiology code, and a  "code first"  note at the manifestation code.  These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, "in diseases classified elsewhere."  Codes with this title are a component of the etiology/manifestation convention. The code title indicates that it is a manifestation code. "In diseases classified elsewhere" codes are never permitted to be used as first listed or principle diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition. underlying disorder, such as: amyloidosis ( ICD-10-CM Diagnosis Code  E85   E85  Amyloidosis   E85.0  Non-neuropathic heredofamilial amyloidosis   E85.1  Neuropathic heredofamilial amyloidosis   E85.2  Heredofamilial amyloidosis, unspecified   E85.3  Secondary systemic amyloidosis   E85.4  Organ-limited amyloidosis   E85.8  Other amyloidosis   E85.81  Light chain (AL) amyloidosis   E85.82  Wild-type transthyretin-related (ATTR) amyloi...   E85.89  Other amyloidosis   E85.9  Amyloidosis, unspecified E85.- ) avitaminosis ( ICD-10-CM Diagnosis Code  E56.9 Vitamin deficiency, unspecified 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   E56.9 )
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  G99.8 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. nervous system involvement in: cysticercosis ( ICD-10-CM Diagnosis Code  B69.0 Cysticercosis of central nervous system 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   B69.0 ) rubella ( ICD-10-CM Diagnosis Code  B06.0 Rubella with neurological complications 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   B06.0- ) syphilis ( ICD-10-CM Diagnosis Code  A52.1 Symptomatic neurosyphilis 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   A52.1- )
+
+Approximate Synonyms
+
+ Neuropathy (nerve damage), peripheral, disease related 
+
+ICD-10-CM  G99.8  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 070  Nonspecific cerebrovascular disorders with mcc 
+ 071  Nonspecific cerebrovascular disorders with cc 
+ 072  Nonspecific cerebrovascular disorders without cc/mcc 
+

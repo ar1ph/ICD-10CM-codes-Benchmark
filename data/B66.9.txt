@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code B66.9
+
+Fluke infection, unspecified
+
+Approximate Synonyms
+
+ Trematode infection 
+
+Clinical Information
+
+ Infections caused by infestation with worms of the class trematoda. 
+
+ICD-10-CM  B66.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

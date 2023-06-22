@@ -1,0 +1,26 @@
+
+
+2023 ICD-10-CM Diagnosis Code H93.25
+
+Central auditory processing disorder
+
+Applicable To Congenital auditory imperception Word deafness
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  H93.25 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. mixed receptive-expressive language disorder ( ICD-10-CM Diagnosis Code  F80.2 Mixed receptive-expressive language disorder 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Developmental dysphasia or aphasia, receptive type Developmental Wernicke's aphasia Type 1 Excludes central auditory processing disorder ( H93.25 ) dysphasia or aphasia NOS ( R47.- ) expressive language disorder ( F80.1 ) expressive type dysphasia or aphasia ( F80.1 ) word deafness ( H93.25 ) Type 2 Excludes acquired aphasia with epilepsy [Landau-Kleffner] ( G40.80- ) pervasive developmental disorders ( F84.- ) selective mutism ( F94.0 ) intellectual disabilities ( F70-F79 ) F80.2 )
+
+Approximate Synonyms
+
+ Acquired auditory processing disorder 
+ Auditory processing disorder 
+ Bilateral acquired auditory processing disorder 
+ Both sides acquired auditory processing disorder 
+ Left acquired auditory processing disorder 
+ Right acquired auditory processing disorder 
+
+Clinical Information
+
+ A disorder characterized by impairment of the auditory processing, resulting in deficiencies in the recognition and interpretation of sounds by the brain. Causes include brain maturation delays and brain traumas or tumors. 
+
+ICD-10-CM  H93.25  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 886  Behavioral and developmental disorders 
+

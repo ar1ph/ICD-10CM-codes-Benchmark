@@ -1,0 +1,24 @@
+
+
+2023 ICD-10-CM Diagnosis Code E11.43
+
+Type 2 diabetes mellitus with diabetic autonomic (poly)neuropathy
+
+Applicable To Type 2 diabetes mellitus with diabetic gastroparesis
+
+Approximate Synonyms
+
+ Diabetes type 2 with gastroparesis 
+ Diabetes type 2 with neuropathy 
+ Diabetic autonomic neuropathy associated with type 2 diabetes mellitus 
+ Diabetic gastroparesis associated with type 2 diabetes mellitus 
+ Gastroparesis due to type 2 diabetes mellitus 
+
+ICD-10-CM  E11.43  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 008  Simultaneous pancreas and kidney transplant 
+ 010  Pancreas transplant 
+ 019  Simultaneous pancreas and kidney transplant with hemodialysis 
+ 073  Cranial and peripheral nerve disorders with mcc 
+ 074  Cranial and peripheral nerve disorders without mcc 
+

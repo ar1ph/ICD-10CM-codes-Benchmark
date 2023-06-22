@@ -1,0 +1,24 @@
+
+
+2023 ICD-10-CM Diagnosis Code B66.3
+
+Fascioliasis
+
+Applicable To Infection due to Fasciola gigantica Infection due to Fasciola hepatica Infection due to Fasciola indica Sheep liver fluke disease
+
+Approximate Synonyms
+
+ Fasciola hepatica infection 
+ Liver fluke infection 
+ Sheep liver fluke infection 
+
+Clinical Information
+
+ Liver disease caused by infections with parasitic flukes of the genus fasciola, such as fasciola hepatica. 
+
+ICD-10-CM  B66.3  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 441  Disorders of liver except malignancy, cirrhosis or alcoholic hepatitis with mcc 
+ 442  Disorders of liver except malignancy, cirrhosis or alcoholic hepatitis with cc 
+ 443  Disorders of liver except malignancy, cirrhosis or alcoholic hepatitis without cc/mcc 
+

@@ -1,0 +1,26 @@
+
+
+2023 ICD-10-CM Diagnosis Code J81.1
+
+Chronic pulmonary edema
+
+Applicable To Pulmonary congestion (chronic) (passive) Pulmonary edema NOS
+
+Approximate Synonyms
+
+ Pulmonary edema 
+ Pulmonary edema (fluid in lungs) 
+ Pulmonary hypostasis 
+
+Clinical Information
+
+ A buildup of fluid in the alveoli (air spaces) in the lungs. This keeps oxygen from getting into the blood. Pulmonary edema is usually caused by heart problems, but it can also be caused by high blood pressure, pneumonia, certain toxins and medicines, or living at a high altitude. Symptoms include coughing, shortness of breath, and trouble exercising. 
+ A disorder characterized by accumulation of fluid in the lung tissues that causes a disturbance of the gas exchange that may lead to respiratory failure. 
+ Accumulation of fluid in the lung tissues causing disturbance of the gas exchange that may lead to respiratory failure. It is caused by direct injury to the lung parenchyma or congestive heart failure. The symptoms may appear suddenly or gradually. Suddenly appearing symptoms include difficulty breathing, feeling of suffocation, and coughing associated with frothy sputum. Gradually appearing symptoms include difficulty breathing while lying in bed, shortness of breath during activity, and weight gain (in patients with congestive heart failure). 
+ Excessive accumulation of extravascular fluid in the lung, an indication of a serious underlying disease or disorder. Pulmonary edema prevents efficient pulmonary gas exchange in the pulmonary alveoli, and can be life-threatening. 
+ Extravascular accumulation of fluid in the pulmonary tissue and air spaces. 
+
+ICD-10-CM  J81.1  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 189  Pulmonary edema and respiratory failure 
+

@@ -1,0 +1,41 @@
+
+
+2023 ICD-10-CM Diagnosis Code F80.0
+
+Phonological disorder
+
+Applicable To Dyslalia Functional speech articulation disorder Lalling Lisping Phonological developmental disorder Speech articulation developmental disorder Speech-sound disorder
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  F80.0 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. speech articulation impairment due to aphasia NOS ( ICD-10-CM Diagnosis Code  R47.01 Aphasia 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Type 1 Excludes aphasia following cerebrovascular disease ( I69 . with final characters -20) progressive isolated aphasia ( G31.01 ) R47.01 ) speech articulation impairment due to apraxia ( ICD-10-CM Diagnosis Code  R48.2 Apraxia 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Type 1 Excludes apraxia following cerebrovascular disease ( I69 . with final characters -90) R48.2 )
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( F80.0 ) and the excluded code together.  speech articulation impairment due to hearing loss ( ICD-10-CM Diagnosis Code  F80.4 Speech and language development delay due to hearing loss 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Code Also type of hearing loss ( H90.- ,  H91.- ) F80.4 ) speech articulation impairment due to intellectual disabilities ( F70-F79   ICD-10-CM Range  F70-F79 Intellectual disabilities Code First any associated physical or developmental disorders Type 1 Excludes borderline intellectual functioning, IQ above 70 to 84 ( R41.83 ) F70  Mild intellectual disabilities F71  Moderate intellectual disabilities F72  Severe intellectual disabilities F73  Profound intellectual disabilities F78  Other intellectual disabilities F79  Unspecified intellectual disabilities ) speech articulation impairment with expressive language developmental disorder ( ICD-10-CM Diagnosis Code  F80.1 Expressive language disorder 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Developmental dysphasia or aphasia, expressive type Type 1 Excludes mixed receptive-expressive language disorder ( F80.2 ) dysphasia and aphasia NOS ( R47.- ) Type 2 Excludes acquired aphasia with epilepsy [Landau-Kleffner] ( G40.80- ) selective mutism ( F94.0 ) intellectual disabilities ( F70-F79 ) pervasive developmental disorders ( F84.- ) F80.1 ) speech articulation impairment with mixed receptive expressive language developmental disorder ( ICD-10-CM Diagnosis Code  F80.2 Mixed receptive-expressive language disorder 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Developmental dysphasia or aphasia, receptive type Developmental Wernicke's aphasia Type 1 Excludes central auditory processing disorder ( H93.25 ) dysphasia or aphasia NOS ( R47.- ) expressive language disorder ( F80.1 ) expressive type dysphasia or aphasia ( F80.1 ) word deafness ( H93.25 ) Type 2 Excludes acquired aphasia with epilepsy [Landau-Kleffner] ( G40.80- ) pervasive developmental disorders ( F84.- ) selective mutism ( F94.0 ) intellectual disabilities ( F70-F79 ) F80.2 )
+
+Approximate Synonyms
+
+ Articulation disorder due to hyperkinesis 
+ Articulation disorder, speech, mild 
+ Articulation disorder, speech, moderate 
+ Articulation disorder, speech, severe 
+ Developmental articulation disorder 
+ Developmental articulation disorder due to hyperkinesis 
+ Developmental dyslalia 
+ Developmental phonological disorder 
+ Developmental speech disorder 
+ Developmental speech disorder due to hyperkinesis 
+ Dyslexia, developmental 
+ Lisping 
+ Mild developmental articulation disorder 
+ Moderate developmental articulation disorder 
+ Phonological (speech) disorder 
+ Severe developmental articulation disorder 
+ Speech articulation disorder 
+ Speech sound disorder 
+
+Clinical Information
+
+ A disorder characterized by the failure to use developmentally expected speech sounds that are appropriate for the individual's age (i.e., the individual makes errors in sound production or use or omits sounds such as final consonants). 
+ Disorders of the quality of speech characterized by the substitution, omission, distortion, and addition of phonemes. 
+ Speech disorders involving the substitution, omission, distortion, or addition of phonemes. 
+
+ICD-10-CM  F80.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 886  Behavioral and developmental disorders 
+

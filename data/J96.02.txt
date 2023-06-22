@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code J96.02
+
+Acute respiratory failure with hypercapnia
+
+Applicable To Acute respiratory acidosis
+
+Approximate Synonyms
+
+ Acute hypercapnic respiratory failure 
+ Acute hypercarbic respiratory failure secondary to obstuctive sleep apnea 
+ Acute respiratory failure from obstuctive sleep apnea 
+
+ICD-10-CM  J96.02  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 189  Pulmonary edema and respiratory failure 
+ 928  Full thickness burn with skin graft or inhalation injury with cc/mcc 
+ 929  Full thickness burn with skin graft or inhalation injury without cc/mcc 
+

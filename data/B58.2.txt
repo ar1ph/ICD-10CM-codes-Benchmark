@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code B58.2
+
+Toxoplasma meningoencephalitis
+
+Approximate Synonyms
+
+ Acquired toxoplasmosis, meningoencephalitis 
+ Meningoencephalitis due to acquired toxoplasmosis 
+
+Clinical Information
+
+ Infections of the brain caused by the protozoan toxoplasma gondii that primarily arise in individuals with immunologic deficiency syndromes (see also aids-related opportunistic infections). The infection may involve the brain diffusely or form discrete abscesses. Clinical manifestations include seizures, altered mentation, headache, focal neurologic deficits, and intracranial hypertension. (from Joynt, Clinical Neurology, 1998, ch27, pp41-3) 
+
+ICD-10-CM  B58.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 023  Craniotomy with major device implant or acute complex cns principal diagnosis with mcc or chemotherapy implant or epilepsy with neurostimulator 
+ 024  Craniotomy with major device implant or acute complex cns principal diagnosis without mcc 
+ 097  Non-bacterial infection of nervous system except viral meningitis with mcc 
+ 098  Non-bacterial infection of nervous system except viral meningitis with cc 
+ 099  Non-bacterial infection of nervous system except viral meningitis without cc/mcc 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+ 974  Hiv with major related condition with mcc 
+ 975  Hiv with major related condition with cc 
+ 976  Hiv with major related condition without cc/mcc 
+

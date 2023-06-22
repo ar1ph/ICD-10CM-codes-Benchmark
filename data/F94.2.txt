@@ -1,0 +1,19 @@
+
+
+2023 ICD-10-CM Diagnosis Code F94.2
+
+Disinhibited attachment disorder of childhood
+
+Applicable To Affectionless psychopathy Institutional syndrome
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  F94.2 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. reactive attachment disorder of childhood ( ICD-10-CM Diagnosis Code  F94.1 Reactive attachment disorder of childhood 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Type 1 Excludes disinhibited attachment disorder of childhood ( F94.2 ) normal variation in pattern of selective attachment Type 2 Excludes Asperger's syndrome ( F84.5 ) maltreatment syndromes ( T74.- ) sexual or physical abuse in childhood, resulting in psychosocial problems ( Z62.81- ) Use Additional code to identify any associated failure to thrive or growth retardation F94.1 )
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( F94.2 ) and the excluded code together.  Asperger's syndrome ( ICD-10-CM Diagnosis Code  F84.5 Asperger's syndrome 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Asperger's disorder Autistic psychopathy Schizoid disorder of childhood F84.5 ) attention-deficit hyperactivity disorders ( ICD-10-CM Diagnosis Code  F90   F90  Attention-deficit hyperactivity disorders   F90.0  Attention-deficit hyperactivity disorder, pre...   F90.1  Attention-deficit hyperactivity disorder, pre...   F90.2  Attention-deficit hyperactivity disorder, com...   F90.8  Attention-deficit hyperactivity disorder, oth...   F90.9  Attention-deficit hyperactivity disorder, uns... F90.- ) hospitalism in children ( ICD-10-CM Diagnosis Code  F43.2 Adjustment disorders 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Applicable To Culture shock Grief reaction Hospitalism in children Type 2 Excludes separation anxiety disorder of childhood ( F93.0 ) F43.2- )
+
+Approximate Synonyms
+
+ Childhood disinhibited attachment disorder 
+ Disinhibited social engagement disorder 
+
+ICD-10-CM  F94.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 886  Behavioral and developmental disorders 
+

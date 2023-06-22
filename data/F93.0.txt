@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code F93.0
+
+Separation anxiety disorder of childhood
+
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( F93.0 ) and the excluded code together.  mood [affective] disorders ( F30-F39   ICD-10-CM Range  F30-F39 Mood [affective] disorders F30  Manic episode F31  Bipolar disorder F32  Depressive episode F33  Major depressive disorder, recurrent F34  Persistent mood [affective] disorders F39  Unspecified mood [affective] disorder ) nonpsychotic mental disorders ( F40-F48   ICD-10-CM Range  F40-F48 Anxiety, dissociative, stress-related, somatoform and other nonpsychotic mental disorders F40  Phobic anxiety disorders F41  Other anxiety disorders F42  Obsessive-compulsive disorder F43  Reaction to severe stress, and adjustmen... F44  Dissociative and conversion disorders F45  Somatoform disorders F48  Other nonpsychotic mental disorders ) phobic anxiety disorder of childhood ( ICD-10-CM Diagnosis Code  F40.8 Other phobic anxiety disorders 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Phobic anxiety disorder of childhood F40.8 ) social phobia ( ICD-10-CM Diagnosis Code  F40.1 Social phobias 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Applicable To Anthropophobia Social anxiety disorder Social anxiety disorder of childhood Social neurosis F40.1 )
+
+Approximate Synonyms
+
+ Separation anxiety 
+
+Clinical Information
+
+ Anxiety experienced by an individual upon separation from a person or object of particular significance to him. 
+
+ICD-10-CM  F93.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 882  Neuroses except depressive 
+

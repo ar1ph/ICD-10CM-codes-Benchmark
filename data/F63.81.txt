@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code F63.81
+
+Intermittent explosive disorder
+
+Approximate Synonyms
+
+ Explosive disorder, intermittent 
+ Explosive disorder, isolated 
+ Isolated explosive disorder 
+
+Clinical Information
+
+ A disorder characterized by recurrent episodes of serious assaultive acts or destruction of property due to a failure to resist aggressive impulses; the degree of aggression during these episodes is grossly out of proportion to any psychosocial provocation. The aggressive episodes are not etiologically linked to another mental disorder, a general medical condition, or substance use. 
+
+ICD-10-CM  F63.81  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 883  Disorders of personality and impulse control 
+

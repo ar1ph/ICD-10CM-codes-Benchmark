@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code B67.5
+
+Echinococcus multilocularis infection of liver
+
+Approximate Synonyms
+
+ Echinococcus multilocularis liver infection 
+
+ICD-10-CM  B67.5  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 441  Disorders of liver except malignancy, cirrhosis or alcoholic hepatitis with mcc 
+ 442  Disorders of liver except malignancy, cirrhosis or alcoholic hepatitis with cc 
+ 443  Disorders of liver except malignancy, cirrhosis or alcoholic hepatitis without cc/mcc 
+

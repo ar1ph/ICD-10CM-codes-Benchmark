@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code E11.40
+
+Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+
+Approximate Synonyms
+
+ Diabetes 2, with neurogenic erectile dysfunction 
+ Diabetes type 2 with peripheral neuropathy 
+ Diabetes type 2 with peripheral sensory neuropathy 
+ Diabetes type2 with neuropathy 
+ Diabetic peripheral neuropathy associated with type 2 diabetes mellitus 
+ Dm 2 with neuropathic ulcer foot and heel 
+ Neurogenic erectile dysfunction due to type 2 diabetes mellitus 
+ Neuropathic midfoot and/or heel ulcer due to type 2 diabetes mellitus 
+ Neuropathy due to type 2 diabetes mellitus 
+ Peripheral neuropathy due to type 2 diabetes mellitus 
+ Peripheral sensory neuropathy due to type 2 diabetes mellitus 
+
+ICD-10-CM  E11.40  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 008  Simultaneous pancreas and kidney transplant 
+ 010  Pancreas transplant 
+ 019  Simultaneous pancreas and kidney transplant with hemodialysis 
+ 073  Cranial and peripheral nerve disorders with mcc 
+ 074  Cranial and peripheral nerve disorders without mcc 
+

@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code B67.31
+
+Echinococcus granulosus infection, thyroid gland
+
+Approximate Synonyms
+
+ Echinococcus granulosus infection of thyroid 
+ Echinococcus granulosus thyroid gland infection 
+
+ICD-10-CM  B67.31  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 643  Endocrine disorders with mcc 
+ 644  Endocrine disorders with cc 
+ 645  Endocrine disorders without cc/mcc 
+

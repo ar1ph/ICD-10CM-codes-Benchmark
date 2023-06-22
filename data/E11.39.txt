@@ -1,0 +1,38 @@
+
+
+2023 ICD-10-CM Diagnosis Code E11.39
+
+Type 2 diabetes mellitus with other diabetic ophthalmic complication
+
+Use Additional Use Additional Help Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. For such conditions the ICD-10-CM has a coding convention that requires the underlying condition be sequenced first followed by the manifestation.  Wherever such a combination exists there is a  "use additional code"  note at the etiology code, and a "code first" note at the manifestation code.  These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, "in diseases classified elsewhere."  Codes with this title are a component of the etiology/manifestation convention. The code title indicates that it is a manifestation code. "In diseases classified elsewhere" codes are never permitted to be used as first listed or principle diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition. code to identify manifestation, such as: diabetic glaucoma ( H40-H42   ICD-10-CM Range  H40-H42 Glaucoma H40  Glaucoma H42  Glaucoma in diseases classified elsewher... )
+
+Approximate Synonyms
+
+ Blindness due to type 2 diabetes mellitus 
+ Diabetes mellitus type 2 w/ complications 
+ Diabetes type 2 with blindness one eye 
+ Diabetes type 2 with eye complications 
+ Diabetes type 2 with retinal detachment 
+ Diabetes type 2 with retinal ischemia 
+ Diabetes type 2 with rubeosis iridis 
+ Diabetes type 2 with suspect glaucoma 
+ Diabetes type 2 with vitreous hemorrhage 
+ Diabetic oculopathy associated with type 2 diabetes mellitus 
+ Diabetic oculopathy associated with type ii diabetes mellitus 
+ Diabetic vitreous hemorrhage associated with type 2 diabetes mellitus 
+ Glaucoma due to type 2 diabetes mellitus 
+ Glaucoma suspect due to type 2 diabetes mellitus 
+ Retinal ischemia due to type 2 diabetes mellitus 
+ Rubeosis iridis due to type 2 diabetes mellitus 
+ Traction retinal detachment due to type 2 diabetes mellitus 
+ Unilateral blindness due to type 2 diabetes mellitus 
+ Vitreous hemorrhage due to type 2 diabetes mellitus 
+
+ICD-10-CM  E11.39  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 008  Simultaneous pancreas and kidney transplant 
+ 010  Pancreas transplant 
+ 019  Simultaneous pancreas and kidney transplant with hemodialysis 
+ 124  Other disorders of the eye with mcc 
+ 125  Other disorders of the eye without mcc 
+

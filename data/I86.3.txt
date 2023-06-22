@@ -1,0 +1,23 @@
+
+
+2023 ICD-10-CM Diagnosis Code I86.3
+
+Vulval varices
+
+ICD-10-CM Coding Rules
+
+ I86.3  is applicable to female patients. 
+
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  I86.3 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. vulval varices complicating childbirth and the puerperium ( ICD-10-CM Diagnosis Code  O87.8 Other venous complications in the puerperium 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Maternity Dx (12-55 years)   Female Dx   Applicable To Genital varices in the puerperium O87.8 ) vulval varices complicating pregnancy ( ICD-10-CM Diagnosis Code  O22.1 Genital varices in pregnancy 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Applicable To Perineal varices in pregnancy Vaginal varices in pregnancy Vulval varices in pregnancy O22.1- )
+
+Approximate Synonyms
+
+ Varices of vulva 
+
+ICD-10-CM  I86.3  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 742  Uterine and adnexa procedures for non-malignancy with cc/mcc 
+ 743  Uterine and adnexa procedures for non-malignancy without cc/mcc 
+ 760  Menstrual and other female reproductive system disorders with cc/mcc 
+ 761  Menstrual and other female reproductive system disorders without cc/mcc 
+

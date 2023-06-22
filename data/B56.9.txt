@@ -1,0 +1,26 @@
+
+
+2023 ICD-10-CM Diagnosis Code B56.9
+
+African trypanosomiasis, unspecified
+
+Applicable To Sleeping sickness NOS
+
+Approximate Synonyms
+
+ African trypanosomiasis 
+ African trypanosomiasis infection 
+ Meningitis due to trypanosomiasis 
+ Trypanosomiasis with meningitis 
+
+Clinical Information
+
+ A disease endemic among people and animals in central africa. It is caused by various species of trypanosomes, particularly t. Gambiense and t. Rhodesiense. Its second host is the tsetse fly. Involvement of the central nervous system produces "african sleeping sickness." nagana is a rapidly fatal trypanosomiasis of horses and other animals. 
+ A parasitic disorder caused by protozoa of the trypanosoma brucei species. It is transmitted by flies and is endemic in various regions of sub-saharan africa. Signs and symptoms include fever, joint pain, headache, and significant swelling of the lymph nodes. If left untreated, the parasitic infection causes anemia, heart, kidney, and endocrine failure, and neurologic damage. Subsequently patients develop confusion, disruption of the sleep cycle, and mental deterioration. The infection may lead to coma and death. 
+
+ICD-10-CM  B56.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

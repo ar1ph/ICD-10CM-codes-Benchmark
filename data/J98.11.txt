@@ -1,0 +1,23 @@
+
+
+2023 ICD-10-CM Diagnosis Code J98.11
+
+Atelectasis
+
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  J98.11 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. newborn atelectasis tuberculous atelectasis (current disease) ( ICD-10-CM Diagnosis Code  A15 Respiratory tuberculosis 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   A15 )
+
+Clinical Information
+
+ A disorder characterized by the collapse of part or the entire lung. 
+ Absence of air in the entire or part of a lung, such as an incompletely inflated neonate lung or a collapsed adult lung. Pulmonary atelectasis can be caused by airway obstruction, lung compression, fibrotic contraction, or other factors. 
+ Collapse of all or part of a lung due to bronchial plugging or the chest cavity being opened to atomspheric pressure. 
+ Failure of the lung to expand (inflate) completely. This may be caused by a blocked airway, a tumor, general anesthesia, pneumonia or other lung infections, lung disease, or long-term bedrest with shallow breathing. Sometimes called a collapsed lung. 
+ The collapse of part or the entire lung due to airway obstruction, infection, tumor, or general anesthesia. 
+
+ICD-10-CM  J98.11  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 205  Other respiratory system diagnoses with mcc 
+ 206  Other respiratory system diagnoses without mcc 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+

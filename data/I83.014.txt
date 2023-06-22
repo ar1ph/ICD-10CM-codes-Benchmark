@@ -1,0 +1,37 @@
+
+
+2023 ICD-10-CM Diagnosis Code I83.014
+
+Varicose veins of right lower extremity with ulcer of heel and midfoot
+
+ICD-10-CM Coding Rules
+
+ I83.014  is applicable to adult patients aged 15 - 124 years inclusive. 
+
+Applicable To Varicose veins of right lower extremity with ulcer of plantar surface of midfoot
+
+Approximate Synonyms
+
+ Varicose ulcer of right heel 
+ Varicose ulcer of right heel limited to skin layer 
+ Varicose ulcer of right heel with bone necrosis 
+ Varicose ulcer of right heel with fat layer exposure 
+ Varicose ulcer of right heel with muscle necrosis 
+ Varicose ulcer of right heel, bone necrosis 
+ Varicose ulcer of right heel, muscle necrosis 
+ Varicose ulcer of right heel, skin breakdown 
+ Varicose ulcer of right midfoot 
+ Varicose ulcer of right midfoot limited to skin layer 
+ Varicose ulcer of right midfoot with bone necrosis 
+ Varicose ulcer of right midfoot with fat layer exposure 
+ Varicose ulcer of right midfoot with muscle necrosis 
+ Varicose ulcer of right midfoot, bone necrosis 
+ Varicose ulcer of right midfoot, muscle necrosis 
+ Varicose ulcer of right midfoot, skin breakdown 
+
+ICD-10-CM  I83.014  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

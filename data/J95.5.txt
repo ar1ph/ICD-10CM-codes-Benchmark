@@ -1,0 +1,13 @@
+
+
+2023 ICD-10-CM Diagnosis Code J95.5
+
+Postprocedural subglottic stenosis
+
+ICD-10-CM  J95.5  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 205  Other respiratory system diagnoses with mcc 
+ 206  Other respiratory system diagnoses without mcc 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+

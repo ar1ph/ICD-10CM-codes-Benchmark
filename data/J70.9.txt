@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code J70.9
+
+Respiratory conditions due to unspecified external agent
+
+Code First Code First Help Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. For such conditions, ICD-10-CM has a coding convention that requires the underlying condition be sequenced first followed by the manifestation.  Wherever such a combination exists there is a "use additional code" note at the etiology code, and a  "code first"  note at the manifestation code.  These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, "in diseases classified elsewhere."  Codes with this title are a component of the etiology/manifestation convention. The code title indicates that it is a manifestation code. "In diseases classified elsewhere" codes are never permitted to be used as first listed or principle diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition. ( T51-T65   ICD-10-CM Range  T51-T65 Toxic effects of substances chiefly nonmedicinal as to source Note When no intent is indicated code to accidental.  Undetermined intent is only for use when there is specific documentation in the record that the intent of the toxic effect cannot be determined. Type 1 Excludes contact with and (suspected) exposure to toxic substances ( Z77.- ) Use Additional code(s): for all associated manifestations of toxic effect, such as: respiratory conditions due to external agents ( J60-J70 ) personal history of foreign body fully removed ( Z87.821 ) to identify any retained foreign body, if applicable ( Z18.- ) T51  Toxic effect of alcohol T52  Toxic effect of organic solvents T53  Toxic effect of halogen derivatives of a... T54  Toxic effect of corrosive substances T55  Toxic effect of soaps and detergents T56  Toxic effect of metals T57  Toxic effect of other inorganic substanc... T58  Toxic effect of carbon monoxide T59  Toxic effect of other gases, fumes and v... T60  Toxic effect of pesticides T61  Toxic effect of noxious substances eaten... T62  Toxic effect of other noxious substances... T63  Toxic effect of contact with venomous an... T64  Toxic effect of aflatoxin and other myco... T65  Toxic effect of other and unspecified su... ) to identify the external agent
+
+Approximate Synonyms
+
+ Respiratory condition due to external agent 
+
+ICD-10-CM  J70.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 205  Other respiratory system diagnoses with mcc 
+ 206  Other respiratory system diagnoses without mcc 
+

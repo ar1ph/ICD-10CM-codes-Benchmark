@@ -1,0 +1,65 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.032
+
+Postthrombotic syndrome with ulcer and inflammation of left lower extremity
+
+Approximate Synonyms
+
+ Postthrombotic ulcer of left ankle with inflammation 
+ Postthrombotic ulcer of left ankle with inflammation, bone necrosis 
+ Postthrombotic ulcer of left ankle with inflammation, fat layer exposed 
+ Postthrombotic ulcer of left ankle with inflammation, muscle necrosis 
+ Postthrombotic ulcer of left ankle with inflammation, skin layer only 
+ Postthrombotic ulcer of left calf with inflammation 
+ Postthrombotic ulcer of left calf with inflammation, bone necrosis 
+ Postthrombotic ulcer of left calf with inflammation, fat layer exposed 
+ Postthrombotic ulcer of left calf with inflammation, muscle necrosis 
+ Postthrombotic ulcer of left calf with inflammation, skin layer only 
+ Postthrombotic ulcer of left foot with inflammation 
+ Postthrombotic ulcer of left foot with inflammation, bone necrosis 
+ Postthrombotic ulcer of left foot with inflammation, fat layer exposed 
+ Postthrombotic ulcer of left foot with inflammation, muscle necrosis 
+ Postthrombotic ulcer of left foot with inflammation, skin layer only 
+ Postthrombotic ulcer of left lower leg with inflammation 
+ Postthrombotic ulcer of left lower leg with inflammation, bone necrosis 
+ Postthrombotic ulcer of left lower leg with inflammation, fat layer exposed 
+ Postthrombotic ulcer of left lower leg with inflammation, muscle necrosis 
+ Postthrombotic ulcer of left lower leg with inflammation, skin layer only 
+ Postthrombotic ulcer of left thigh with inflammation 
+ Postthrombotic ulcer of left thigh with inflammation, bone necrosis 
+ Postthrombotic ulcer of left thigh with inflammation, fat layer exposed 
+ Postthrombotic ulcer of left thigh with inflammation, muscle necrosis 
+ Postthrombotic ulcer of left thigh with inflammation, skin layer only 
+ Ulcer with inflammation of left ankle and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left ankle and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of left ankle and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left ankle due to postphlebitic syndrome 
+ Ulcer with inflammation of left ankle limited to skin layer due to postphlebitic syndrome 
+ Ulcer with inflammation of left calf and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left calf and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of left calf and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left calf due to postphlebitic syndrome 
+ Ulcer with inflammation of left calf limited to skin layer due to postphlebitic syndrome 
+ Ulcer with inflammation of left foot and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left foot and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of left foot and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left foot due to postphlebitic syndrome 
+ Ulcer with inflammation of left foot limited to skin layer due to postphlebitic syndrome 
+ Ulcer with inflammation of left lower leg and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left lower leg and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of left lower leg and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left lower leg due to postphlebitic syndrome 
+ Ulcer with inflammation of left lower leg limited to skin layer due to postphlebitic syndrome 
+ Ulcer with inflammation of left thigh and bone necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left thigh and fat layer exposure due to postphlebitic syndrome 
+ Ulcer with inflammation of left thigh and muscle necrosis due to postphlebitic syndrome 
+ Ulcer with inflammation of left thigh due to postphlebitic syndrome 
+ Ulcer with inflammation of left thigh limited to skin layer due to postphlebitic syndrome 
+
+ICD-10-CM  I87.032  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

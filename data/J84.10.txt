@@ -1,0 +1,27 @@
+
+
+2023 ICD-10-CM Diagnosis Code J84.10
+
+Pulmonary fibrosis, unspecified
+
+Applicable To Capillary fibrosis of lung Cirrhosis of lung (chronic) NOS Fibrosis of lung (atrophic) (chronic) (confluent) (massive) (perialveolar) (peribronchial) NOS Induration of lung (chronic) NOS Postinflammatory pulmonary fibrosis
+
+Approximate Synonyms
+
+ Diffuse interstitial pulmonary fibrosis 
+ Familial idiopathic pulmonary fibrosis 
+ Fibrosis of lung 
+ Granuloma of lung 
+ Interstitial pulmonary fibrosis (ipf), familial 
+ Post-inflammatory pulmonary fibrosis 
+ Pulmonary fibrosis 
+ Pulmonary fibrosis, familial 
+ Pulmonary fibrosis, postinflammatory 
+ Pulmonary granuloma 
+
+ICD-10-CM  J84.10  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 196  Interstitial lung disease with mcc 
+ 197  Interstitial lung disease with cc 
+ 198  Interstitial lung disease without cc/mcc 
+

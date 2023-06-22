@@ -1,0 +1,21 @@
+
+
+2023 ICD-10-CM Diagnosis Code F64.9
+
+Gender identity disorder, unspecified
+
+Applicable To Gender dysphoria, unspecified Gender-role disorder NOS
+
+Approximate Synonyms
+
+ Gender dysphoria 
+ Gender identity disorder 
+
+Clinical Information
+
+ A disorder characterized by a strong and persistent cross-gender identification (such as stating a desire to be the other sex or frequently passing as the other sex) coupled with persistent discomfort with his or her sex (manifested in adults, for example, as a preoccupation with altering primary and secondary sex characteristics through hormonal manipulation or surgery). 
+
+ICD-10-CM  F64.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 887  Other mental disorder diagnoses 
+

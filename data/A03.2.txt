@@ -1,0 +1,18 @@
+
+
+2023 ICD-10-CM Diagnosis Code A03.2
+
+Shigellosis due to Shigella boydii
+
+Applicable To Group C shigellosis
+
+Approximate Synonyms
+
+ Infection due to group c shigella 
+
+ICD-10-CM  A03.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 371  Major gastrointestinal disorders and peritoneal infections with mcc 
+ 372  Major gastrointestinal disorders and peritoneal infections with cc 
+ 373  Major gastrointestinal disorders and peritoneal infections without cc/mcc 
+

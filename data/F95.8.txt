@@ -1,0 +1,12 @@
+
+
+2023 ICD-10-CM Diagnosis Code F95.8
+
+Other tic disorders
+
+ICD-10-CM  F95.8  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 091  Other disorders of nervous system with mcc 
+ 092  Other disorders of nervous system with cc 
+ 093  Other disorders of nervous system without cc/mcc 
+

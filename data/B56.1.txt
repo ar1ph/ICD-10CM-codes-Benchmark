@@ -1,0 +1,18 @@
+
+
+2023 ICD-10-CM Diagnosis Code B56.1
+
+Rhodesiense trypanosomiasis
+
+Applicable To East African sleeping sickness Infection due to Trypanosoma brucei rhodesiense
+
+Approximate Synonyms
+
+ Infection by trypanosoma rhodesiense 
+
+ICD-10-CM  B56.1  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

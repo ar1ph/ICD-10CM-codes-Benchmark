@@ -1,0 +1,33 @@
+
+
+2023 ICD-10-CM Diagnosis Code F84.2
+
+Rett's syndrome
+
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  F84.2 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. Asperger's syndrome ( ICD-10-CM Diagnosis Code  F84.5 Asperger's syndrome 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Asperger's disorder Autistic psychopathy Schizoid disorder of childhood F84.5 ) Autistic disorder ( ICD-10-CM Diagnosis Code  F84.0 Autistic disorder 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Autism spectrum disorder Infantile autism Infantile psychosis Kanner's syndrome Type 1 Excludes Asperger's syndrome ( F84.5 ) F84.0 ) Other childhood disintegrative disorder ( ICD-10-CM Diagnosis Code  F84.3 Other childhood disintegrative disorder 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Pediatric Dx (0-17 years)   Applicable To Dementia infantilis Disintegrative psychosis Heller's syndrome Symbiotic psychosis Type 1 Excludes Asperger's syndrome ( F84.5 ) Autistic disorder ( F84.0 ) Rett's syndrome ( F84.2 ) Use Additional code to identify any associated neurological condition. F84.3 )
+
+Approximate Synonyms
+
+ Dementia and behavioral disturbance due to rett's syndrome 
+ Dementia due rett's syndrome 
+ Dementia due to rett's syndrome 
+ Rett syndrome 
+ Rett syndrome w dementia 
+ Rett syndrome w dementia w behavioral disturbance 
+ Rett's disorder 
+ Retts syndrome 
+ Retts syndrome with dementia 
+
+Clinical Information
+
+ A progressive neurologic disorder caused by mutations in the mecp2 gene on chromosome x. It almost exclusively affects girls. It is characterized by language and learning difficulties, poor communication skills, and repetitive hand motions. Other signs and symptoms include microcephaly, scoliosis, breathing abnormalities, and sleep disturbances. 
+ An inherited neurological developmental disorder that is associated with x-linked inheritance and may be lethal in utero to hemizygous males. The affected female is normal until the age of 6-25 months when progressive loss of voluntary control of hand movements and communication skills; ataxia; seizures; autistic behavior; intermittent hyperventilation; and hyperammonemia appear. (from menkes, textbook of child neurology, 5th ed, p199) 
+ Progressive disorder affecting the cerebral cortex of females; present from birth; manifested by autistic behavior, ataxia, dementia, seizures, loss of purposeful usefulness of the hands, cerebral atrophy, and mild hyperammonemia. 
+ Progressive encephalopathy occurring almost exclusively in females. The affected children are generally born clinically normal in most but not all cases. Their neurological and mental development begins to stagnate between the ages of 7 and 18 months with slowing down of the growth of head circumference and a rapid deterioration of brain functions marked by autistic behavior, dementia, apraxia of gait, loss of facial expression, deterioration of purposeful use of hands, ataxia, and severe dementia. There is an intermediate period of relative stable mental status, sometimes lasting several decades, which is followed by further neurological degradation, marked mainly by spasticity of the lower limbs and epilepsy. 
+ Rett syndrome is a rare inherited disease that causes developmental and nervous system problems, mostly in girls. It's related to autism. Babies with rett syndrome seem to grow and develop normally at first. Between 3 months and 3 years of age, though, they stop developing and even lose some skills. Symptoms include  loss of speech  loss of hand movements such as grasping  compulsive movements such as hand wringing balance problems  breathing problems behavior problems  learning problems or mental retardation rett syndrome has no cure. You can treat some of the symptoms with medicines, surgery, and physical and speech therapy. Most people with rett syndrome live into middle age and beyond. They will usually need care throughout their lives. nih: national institute of child health and human development 
+
+ICD-10-CM  F84.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 056  Degenerative nervous system disorders with mcc 
+ 057  Degenerative nervous system disorders without mcc 
+

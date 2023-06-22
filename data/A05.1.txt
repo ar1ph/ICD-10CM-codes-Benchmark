@@ -1,0 +1,27 @@
+
+
+2023 ICD-10-CM Diagnosis Code A05.1
+
+Botulism food poisoning
+
+Applicable To Botulism NOS Classical foodborne intoxication due to Clostridium botulinum
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  A05.1 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. infant botulism ( ICD-10-CM Diagnosis Code  A48.51 Infant botulism 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Pediatric Dx (0-17 years)   A48.51 ) wound botulism ( ICD-10-CM Diagnosis Code  A48.52 Wound botulism 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Non-foodborne botulism NOS Use Additional code for associated wound A48.52 )
+
+Approximate Synonyms
+
+ Botulism 
+
+Clinical Information
+
+ A disease caused by potent protein neurotoxins produced by clostridium botulinum which interfere with the presynaptic release of acetylcholine at the neuromuscular junction. Clinical features include abdominal pain, vomiting, acute paralysis (including respiratory paralysis), blurred vision, and diplopia. Botulism may be classified into several subtypes (e.g., food-borne, infant, wound, and others). (from Adams et al., Principles of Neurology, 6th ed, p1208) 
+ A neurologic disease caused by the toxin of the bacteria called clostridium botulinum 
+ A serious bacterial infection caused by botulinum toxin which is produced by clostridium botulinum. Patients are infected usually by ingestion of contaminated food or wound contamination. It leads to muscle paralysis which may result in respiratory failure. 
+ Botulism is a rare but serious illness. The cause is a toxin (poison) made by a bacterium called clostridium botulinum. It occurs naturally in soil. There are several kinds of botulism. foodborne botulism comes from eating foods contaminated with the toxin. Wound botulism happens when a wound infected with the bacteria makes the toxin. It is more common in heroin users. Infant botulism happens when a baby consumes the spores of the bacteria from soil or honey. All forms can be deadly and are medical emergencies.symptoms include double or blurred vision, drooping eyelids, slurred speech, difficulty swallowing, dry mouth, and muscle weakness. Treatment may include antitoxins, intensive medical care, or surgery of infected wounds.to prevent botulism:  be very careful when canning foods at home  do not let babies eat honey get prompt medical care for infected wounds  Centers for Disease Control and Prevention. 
+ Disease caused by potent protein neurotoxins produced by clostridium botulinum, which interfere with the presynaptic release of acetylcholine at the neuromuscular junction; clinical features include abdominal pain, vomiting, acute paralysis, blurred vision and diplopia; botulism may be classified into several subtypes such as food borne, infant, wound, and others. 
+
+ICD-10-CM  A05.1  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

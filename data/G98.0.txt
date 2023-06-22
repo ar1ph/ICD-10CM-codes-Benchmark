@@ -1,0 +1,15 @@
+
+
+2023 ICD-10-CM Diagnosis Code G98.0
+
+Neurogenic arthritis, not elsewhere classified
+
+Applicable To Nonsyphilitic neurogenic arthropathy NEC Nonsyphilitic neurogenic spondylopathy NEC
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  G98.0 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. spondylopathy (in): syringomyelia and syringobulbia ( ICD-10-CM Diagnosis Code  G95.0 Syringomyelia and syringobulbia 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   G95.0 ) tabes dorsalis ( ICD-10-CM Diagnosis Code  A52.11 Tabes dorsalis 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Locomotor ataxia (progressive) Tabetic neurosyphilis A52.11 )
+
+ICD-10-CM  G98.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 070  Nonspecific cerebrovascular disorders with mcc 
+ 071  Nonspecific cerebrovascular disorders with cc 
+ 072  Nonspecific cerebrovascular disorders without cc/mcc 
+

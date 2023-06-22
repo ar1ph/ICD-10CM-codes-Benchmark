@@ -1,0 +1,19 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.309
+
+Chronic venous hypertension (idiopathic) without complications of unspecified lower extremity
+
+Applicable To Chronic venous hypertension NOS
+
+Approximate Synonyms
+
+ Chronic peripheral venous hypertension without complication of lower extremity 
+ Chronic venous hypertension without complication 
+
+ICD-10-CM  I87.309  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

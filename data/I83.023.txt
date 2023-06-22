@@ -1,0 +1,27 @@
+
+
+2023 ICD-10-CM Diagnosis Code I83.023
+
+Varicose veins of left lower extremity with ulcer of ankle
+
+ICD-10-CM Coding Rules
+
+ I83.023  is applicable to adult patients aged 15 - 124 years inclusive. 
+
+Approximate Synonyms
+
+ Varicose ulcer of left ankle 
+ Varicose ulcer of left ankle limited to skin layer 
+ Varicose ulcer of left ankle with bone necrosis 
+ Varicose ulcer of left ankle with fat layer exposure 
+ Varicose ulcer of left ankle with muscle necrosis 
+ Varicose ulcer of left ankle, bone necrosis 
+ Varicose ulcer of left ankle, muscle necrosis 
+ Varicose ulcer of left ankle, skin breakdown 
+
+ICD-10-CM  I83.023  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

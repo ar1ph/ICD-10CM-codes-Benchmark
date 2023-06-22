@@ -1,0 +1,21 @@
+
+
+2023 ICD-10-CM Diagnosis Code J95.03
+
+Malfunction of tracheostomy stoma
+
+Applicable To Mechanical complication of tracheostomy stoma Obstruction of tracheostomy airway Tracheal stenosis due to tracheostomy
+
+Approximate Synonyms
+
+ Tracheal stenosis following tracheostomy 
+ Tracheostomy obstruction 
+
+ICD-10-CM  J95.03  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 011  Tracheostomy for face, mouth and neck diagnoses or laryngectomy with mcc 
+ 012  Tracheostomy for face, mouth and neck diagnoses or laryngectomy with cc 
+ 013  Tracheostomy for face, mouth and neck diagnoses or laryngectomy without cc/mcc 
+ 205  Other respiratory system diagnoses with mcc 
+ 206  Other respiratory system diagnoses without mcc 
+

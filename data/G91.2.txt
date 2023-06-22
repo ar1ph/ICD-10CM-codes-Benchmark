@@ -1,0 +1,21 @@
+
+
+2023 ICD-10-CM Diagnosis Code G91.2
+
+(Idiopathic) normal pressure hydrocephalus
+
+Applicable To Normal pressure hydrocephalus NOS
+
+Approximate Synonyms
+
+ Normal pressure hydrocephalus 
+
+Clinical Information
+
+ A form of compensated hydrocephalus characterized clinically by a slowly progressive gait disorder (see gait disorders, neurologic), progressive intellectual decline, and urinary incontinence. Spinal fluid pressure tends to be in the high normal range. This condition may result from processes which interfere with the absorption of csf including subarachnoid hemorrhage, chronic meningitis, and other conditions. (from Adams et al., Principles of Neurology, 6th ed, pp631-3) 
+
+ICD-10-CM  G91.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 056  Degenerative nervous system disorders with mcc 
+ 057  Degenerative nervous system disorders without mcc 
+

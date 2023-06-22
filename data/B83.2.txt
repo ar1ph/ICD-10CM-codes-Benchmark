@@ -1,0 +1,15 @@
+
+
+2023 ICD-10-CM Diagnosis Code B83.2
+
+Angiostrongyliasis due to Parastrongylus cantonensis
+
+Applicable To Eosinophilic meningoencephalitis due to Parastrongylus cantonensis
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( B83.2 ) and the excluded code together.  intestinal angiostrongyliasis ( ICD-10-CM Diagnosis Code  B81.3 Intestinal angiostrongyliasis 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Angiostrongyliasis due to: Angiostrongylus costaricensis Parastrongylus costaricensis B81.3 )
+
+ICD-10-CM  B83.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

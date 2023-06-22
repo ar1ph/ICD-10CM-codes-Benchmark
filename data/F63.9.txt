@@ -1,0 +1,23 @@
+
+
+2023 ICD-10-CM Diagnosis Code F63.9
+
+Impulse disorder, unspecified
+
+Applicable To Impulse control disorder NOS
+
+Approximate Synonyms
+
+ Impulse control disorder 
+ Impulse control disorder in remission 
+
+Clinical Information
+
+ A category of psychiatric disorders whose essential features are the failure to resist an impulse to perform an act that is harmful to the individual or to others. Individuals typically experience an increased sense of tension prior to the act and then pleasure, gratification or release of tension at the time of committing the act. 
+ Disorders whose essential features are the failure to resist an impulse, drive, or temptation to perform an act that is harmful to the individual or to others. Individuals experience an increased sense of tension prior to the act and pleasure, gratification or release of tension at the time of committing the act. 
+ Mental disorders characterized by an intense need to gratify one's immediate desires and failure to resist the impulse or temptation. 
+
+ICD-10-CM  F63.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 886  Behavioral and developmental disorders 
+

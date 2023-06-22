@@ -1,0 +1,18 @@
+
+
+2023 ICD-10-CM Diagnosis Code J96.92
+
+Respiratory failure, unspecified with hypercapnia
+
+Approximate Synonyms
+
+ Alveolar hypoventilation 
+ Hypercapnic respiratory failure 
+ Posttraumatic respiratory failure 
+
+ICD-10-CM  J96.92  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 189  Pulmonary edema and respiratory failure 
+ 928  Full thickness burn with skin graft or inhalation injury with cc/mcc 
+ 929  Full thickness burn with skin graft or inhalation injury without cc/mcc 
+

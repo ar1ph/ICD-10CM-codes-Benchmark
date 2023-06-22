@@ -1,8 +1,10 @@
 import json
+
 # Gets the path of the src_file (.json) 
 # Return the contents in dictionary format
 def get_dict_from_json(src_file):
     return get_contents_from_json(src_file)
+
 
 def get_contents_from_json(src_file):
     try:  

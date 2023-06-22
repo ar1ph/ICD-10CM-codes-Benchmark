@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code B55.1
+
+Cutaneous leishmaniasis
+
+Clinical Information
+
+ An endemic disease that is characterized by the development of single or multiple localized lesions on exposed areas of skin that typically ulcerate. The disease has been divided into old and new world forms. Old world leishmaniasis is separated into three distinct types according to epidemiology and clinical manifestations and is caused by species of the l. Tropica and l. Aethiopica complexes as well as by species of the l. Major genus. New world leishmaniasis, also called american leishmaniasis, occurs in south and central america and is caused by species of the l. Mexicana or l. Braziliensis complexes. 
+ Leishmaniasis affecting the skin. It is the most common form of leishmaniasis. It presents with erythematous macules and papules, and nodules which may eventually ulcerate. The lesions appear in the bite site in the exposed skin areas. 
+
+ICD-10-CM  B55.1  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 606  Minor skin disorders with mcc 
+ 607  Minor skin disorders without mcc 
+

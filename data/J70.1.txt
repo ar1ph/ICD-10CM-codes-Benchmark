@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code J70.1
+
+Chronic and other pulmonary manifestations due to radiation
+
+Applicable To Fibrosis of lung following radiation
+Use Additional Use Additional Help Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. For such conditions the ICD-10-CM has a coding convention that requires the underlying condition be sequenced first followed by the manifestation.  Wherever such a combination exists there is a  "use additional code"  note at the etiology code, and a "code first" note at the manifestation code.  These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, "in diseases classified elsewhere."  Codes with this title are a component of the etiology/manifestation convention. The code title indicates that it is a manifestation code. "In diseases classified elsewhere" codes are never permitted to be used as first listed or principle diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition. code ( ICD-10-CM Diagnosis Code  W88 Exposure to ionizing radiation 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Type 1 Excludes exposure to sunlight ( X32 ) W88 - ICD-10-CM Diagnosis Code  W90 Exposure to other nonionizing radiation 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Type 2 Excludes exposure to sunlight ( X32 ) W90 ,  ICD-10-CM Diagnosis Code  X39.0 Exposure to natural radiation 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Type 1 Excludes contact with and (suspected) exposure to radon and other naturally occurring radiation ( Z77.123 ) exposure to man-made radiation ( W88 - W90 ) exposure to sunlight ( X32 ) X39.0- ) to identify the external cause
+
+Approximate Synonyms
+
+ Fibrosis of lung following radiation 
+ Radiation fibrosis of lung 
+
+ICD-10-CM  J70.1  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 196  Interstitial lung disease with mcc 
+ 197  Interstitial lung disease with cc 
+ 198  Interstitial lung disease without cc/mcc 
+

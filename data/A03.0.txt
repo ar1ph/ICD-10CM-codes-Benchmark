@@ -1,0 +1,19 @@
+
+
+2023 ICD-10-CM Diagnosis Code A03.0
+
+Shigellosis due to Shigella dysenteriae
+
+Applicable To Group A shigellosis [Shiga-Kruse dysentery]
+
+Approximate Synonyms
+
+ Infection due to group a shigella 
+ Shigella group a enteritis 
+
+ICD-10-CM  A03.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 371  Major gastrointestinal disorders and peritoneal infections with mcc 
+ 372  Major gastrointestinal disorders and peritoneal infections with cc 
+ 373  Major gastrointestinal disorders and peritoneal infections without cc/mcc 
+

@@ -1,0 +1,15 @@
+
+
+2023 ICD-10-CM Diagnosis Code A05.9
+
+Bacterial foodborne intoxication, unspecified
+
+Approximate Synonyms
+
+ Bacterial food poisoning 
+
+ICD-10-CM  A05.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 391  Esophagitis, gastroenteritis and miscellaneous digestive disorders with mcc 
+ 392  Esophagitis, gastroenteritis and miscellaneous digestive disorders without mcc 
+

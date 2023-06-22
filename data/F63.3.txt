@@ -1,0 +1,19 @@
+
+
+2023 ICD-10-CM Diagnosis Code F63.3
+
+Trichotillomania
+
+Applicable To Hair plucking
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( F63.3 ) and the excluded code together.  other stereotyped movement disorder ( ICD-10-CM Diagnosis Code  F98.4 Stereotyped movement disorders 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Stereotype/habit disorder Type 1 Excludes abnormal involuntary movements ( R25.- ) Type 2 Excludes compulsions in obsessive-compulsive disorder ( F42.- ) hair plucking ( F63.3 ) movement disorders of organic origin ( G20 - G25 ) nail-biting ( F98.8 ) nose-picking ( F98.8 ) stereotypies that are part of a broader psychiatric condition ( F01 - F95 ) thumb-sucking ( F98.8 ) tic disorders ( F95.- ) trichotillomania ( F63.3 ) F98.4 )
+
+Clinical Information
+
+ A disorder characterized by repetitive pulling out of one's hair resulting in noticeable hair loss; the individual experiences a rising subjective sense of tension before pulling out the hair and a sense of gratification or relief when pulling out the hair. 
+ Compulsion to pull out one's hair. 
+ Excessive pulling of one's own hair. 
+
+ICD-10-CM  F63.3  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 884  Organic disturbances and intellectual disability 
+

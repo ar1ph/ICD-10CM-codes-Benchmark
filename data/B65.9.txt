@@ -1,0 +1,23 @@
+
+
+2023 ICD-10-CM Diagnosis Code B65.9
+
+Schistosomiasis, unspecified
+
+Approximate Synonyms
+
+ Infection by schistosoma 
+ Schistosomiasis 
+
+Clinical Information
+
+ A parasitic infection caused by flukes of the genus schistosoma. Signs and symptoms include fever, abdominal pain, eosinophilia and hepatosplenomegaly. If left untreated it may eventually cause liver damage leading to cirrhosis, bladder cancer and kidney failure. 
+ Infection with flukes (trematodes) of the genus schistosoma. Three species produce the most frequent clinical diseases: schistosoma haematobium (endemic in africa and the middle east), schistosoma mansoni (in egypt, northern and southern africa, some west indies islands, northern 2/3 of south america), and schistosoma japonicum (in japan, china, the philippines, celebes, thailand, laos). S. Mansoni is often seen in puerto ricans living in the United States. 
+ Parasitic disease of tropical and subtropical countries; characterized initially by fever, chills, and abdominal and lower back pain; untreated patients may develop jaundice, liver cirrhosis, bladder tumors, and kidney failure. 
+
+ICD-10-CM  B65.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

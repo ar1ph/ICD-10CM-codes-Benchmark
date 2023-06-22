@@ -1,0 +1,18 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.002
+
+Postthrombotic syndrome without complications of left lower extremity
+
+Approximate Synonyms
+
+ Post-thrombotic syndrome of left lower extremity 
+ Postphlebitic syndrome of left leg 
+ Postthrombotic syndrome of left leg 
+
+ICD-10-CM  I87.002  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

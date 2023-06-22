@@ -33,7 +33,7 @@ def add_report(report, file_path=BENCHMARK_FILE):
         fn.write("\n")
         fn.write(", ".join(row))
 
-#   Initializes the benchmark file if not available
+# Initializes the benchmark file if not available
 def initialize_benchmark(file_path=BENCHMARK_FILE):
     if os.path.exists(file_path): return
     row = ['Embedding Model',
@@ -95,8 +95,6 @@ def get_db(config):
         return False
     return db
 
-# TODO: Function that takes db and query returns k value
-# def get_k(query, db)
 
 # Based on DATA_DIRECTORY generates a dictionary of following format
 # qa = {file_name: [med_code, med_desc]}
@@ -182,11 +180,7 @@ def generate_report(db_config,
 
 
 def main():
-    # initialize_benchmark()
-    # initialize_benchmark_txt()
-    # print(all_disease)
-    # TODO: generate_queries function
-    # all_queries = generate_queries(all_codes, all_disease)
+    
     parser = argparse.ArgumentParser(description="Needs to get match value")
     parser.add_argument("-m", "--match", default=1, type=int)
     args = parser.parse_args()

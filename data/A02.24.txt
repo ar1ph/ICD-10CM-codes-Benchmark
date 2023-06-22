@@ -1,0 +1,15 @@
+
+
+2023 ICD-10-CM Diagnosis Code A02.24
+
+Salmonella osteomyelitis
+
+ICD-10-CM  A02.24  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 539  Osteomyelitis with mcc 
+ 540  Osteomyelitis with cc 
+ 541  Osteomyelitis without cc/mcc 
+ 974  Hiv with major related condition with mcc 
+ 975  Hiv with major related condition with cc 
+ 976  Hiv with major related condition without cc/mcc 
+

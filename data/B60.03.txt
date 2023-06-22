@@ -1,0 +1,14 @@
+
+
+2023 ICD-10-CM Diagnosis Code B60.03
+
+Babesiosis due to Babesia divergens
+
+Applicable To Babesiosis due to Babesia MO-1 Infection due to B. divergens and B. divergens-like strains
+
+ICD-10-CM  B60.03  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

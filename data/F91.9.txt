@@ -1,0 +1,30 @@
+
+
+2023 ICD-10-CM Diagnosis Code F91.9
+
+Conduct disorder, unspecified
+
+Applicable To Behavioral disorder NOS Conduct disorder NOS Disruptive behavior disorder NOS Disruptive disorder NOS
+
+Approximate Synonyms
+
+ Abnormal behavior 
+ Abnormal behaviour 
+ Behavior disorder 
+ Conduct disorder 
+ Stroke, late effects, behavioral/cognitive disorder 
+
+Clinical Information
+
+ A classification of disorders in the diagnostic and statistical manual of mental disorders (dsm) that are usually diagnosed in infancy, childhood or adolescence and are characterized by an individual's inability to behave in a cooperative manner. 
+ A disorder diagnosed in childhood or adolescence age group characterized by aggressive behavior, deceitfulness, destruction of property or violation of rules that is persistent and repetitive, and within a one year period. 
+ A repetitive and persistent pattern of behavior in which the basic rights of others or major age-appropriate societal norms or rules are violated. These behaviors include aggressive conduct that causes or threatens physical harm to other people or animals, nonaggressive conduct that causes property loss or damage, deceitfulness or theft, and serious violations of rules. The onset is before age 18. (from dsm-iv, 1994) 
+ Any of various conditions characterized by impairment of an individual's normal behavioral functioning, and caused by social, psychological, biochemical, genetic, or other factors, such as infection or head trauma. 
+ Disorders characterized by persistent and repetitive patterns of behavior that violate societal norms or rules or that seriously impair a person's functioning. Compare behavior problems. 
+ Mental disorder of childhood and adolescence characterized by repetitive and persistent patterns of conduct in which rights of others and age-appropriate societal rules are violated; the conduct is more serious than ordinary mischief and pranks. 
+ Repetitive and persistent aggressive or nonaggressive behavior in which basic rights of others or social norms are violated. Self esteem is generally low, and an inability to develop social relationships and lack of concern for others may or may not be present. 
+
+ICD-10-CM  F91.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 886  Behavioral and developmental disorders 
+

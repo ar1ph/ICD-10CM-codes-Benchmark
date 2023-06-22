@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code I89.1
+
+Lymphangitis
+
+Applicable To Chronic lymphangitis Lymphangitis NOS Subacute lymphangitis
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  I89.1 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. acute lymphangitis ( ICD-10-CM Diagnosis Code  L03   L03  Cellulitis and acute lymphangitis   L03.0  Cellulitis and acute lymphangitis of finger a...   L03.01  Cellulitis of finger   L03.011  Cellulitis of right finger   L03.012  Cellulitis of left finger   L03.019  Cellulitis of unspecified finger   L03.02  Acute lymphangitis of finger   L03.021  Acute lymphangitis of right finger   L03.022  Acute lymphangitis of left finger   L03.029  Acute lymphangitis of unspecified finger   L03.03  Cellulitis of toe   L03.031  Cellulitis of right toe   L03.032  Cellulitis of left toe   L03.039  Cellulitis of unspecified toe   L03.04  Acute lymphangitis of toe   L03.041  Acute lymphangitis of right toe   L03.042  Acute lymphangitis of left toe   L03.049  Acute lymphangitis of unspecified toe   L03.1  Cellulitis and acute lymphangitis of other pa...   L03.11  Cellulitis of other parts of limb   L03.111  Cellulitis of right axilla   L03.112  Cellulitis of left axilla   L03.113  Cellulitis of right upper limb   L03.114  Cellulitis of left upper limb   L03.115  Cellulitis of right lower limb   L03.116  Cellulitis of left lower limb   L03.119  Cellulitis of unspecified part of limb   L03.12  Acute lymphangitis of other parts of limb   L03.121  Acute lymphangitis of right axilla   L03.122  Acute lymphangitis of left axilla   L03.123  Acute lymphangitis of right upper limb   L03.124  Acute lymphangitis of left upper limb   L03.125  Acute lymphangitis of right lower limb   L03.126  Acute lymphangitis of left lower limb   L03.129  Acute lymphangitis of unspecified part of lim...   L03.2  Cellulitis and acute lymphangitis of face and...   L03.21  Cellulitis and acute lymphangitis of face   L03.211  Cellulitis of face   L03.212  Acute lymphangitis of face   L03.213  Periorbital cellulitis   L03.22  Cellulitis and acute lymphangitis of neck   L03.221  Cellulitis of neck   L03.222  Acute lymphangitis of neck   L03.3  Cellulitis and acute lymphangitis of trunk   L03.31  Cellulitis of trunk   L03.311  Cellulitis of abdominal wall   L03.312  Cellulitis of back [any part except buttock]   L03.313  Cellulitis of chest wall   L03.314  Cellulitis of groin   L03.315  Cellulitis of perineum   L03.316  Cellulitis of umbilicus   L03.317  Cellulitis of buttock   L03.319  …… unspecified   L03.32  Acute lymphangitis of trunk   L03.321  Acute lymphangitis of abdominal wall   L03.322  Acute lymphangitis of back [any part except b...   L03.323  Acute lymphangitis of chest wall   L03.324  Acute lymphangitis of groin   L03.325  Acute lymphangitis of perineum   L03.326  Acute lymphangitis of umbilicus   L03.327  Acute lymphangitis of buttock   L03.329  …… unspecified   L03.8  Cellulitis and acute lymphangitis of other si...   L03.81  Cellulitis of other sites   L03.811  Cellulitis of head [any part, except face]   L03.818  Cellulitis of other sites   L03.89  Acute lymphangitis of other sites   L03.891  Acute lymphangitis of head [any part, except ...   L03.898  Acute lymphangitis of other sites   L03.9  Cellulitis and acute lymphangitis, unspecifie...   L03.90  Cellulitis, unspecified   L03.91  Acute lymphangitis, unspecified L03.- )
+
+Approximate Synonyms
+
+ Chronic lymphangitis 
+
+ICD-10-CM  I89.1  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 602  Cellulitis with mcc 
+ 603  Cellulitis without mcc 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+

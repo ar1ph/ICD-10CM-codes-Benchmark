@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.323
+
+Chronic venous hypertension (idiopathic) with inflammation of bilateral lower extremity
+
+Approximate Synonyms
+
+ Peripheral vein htn, chronic, inflamed, bilateral 
+ Stasis dermatitis of bilateral lower extremities due to chronic peripheral venous hypertension 
+
+ICD-10-CM  I87.323  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

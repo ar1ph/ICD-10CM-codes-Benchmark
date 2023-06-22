@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code G95.0
+
+Syringomyelia and syringobulbia
+
+Approximate Synonyms
+
+ Charcot arthropathy due to syringomyelia 
+ Charcot's arthropathy due to syringomyelia 
+ Charcots joint in syringomyelia 
+ Syringobulbia 
+ Syringomyelia 
+ Syringomyelia with charcots arthropathy 
+
+ICD-10-CM  G95.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 056  Degenerative nervous system disorders with mcc 
+ 057  Degenerative nervous system disorders without mcc 
+

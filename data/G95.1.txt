@@ -1,0 +1,8 @@
+
+
+2023 ICD-10-CM Diagnosis Code G95.1
+
+Vascular myelopathies
+
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( G95.1 ) and the excluded code together.  intraspinal phlebitis and thrombophlebitis, except non-pyogenic ( ICD-10-CM Diagnosis Code  G08 Intracranial and intraspinal phlebitis and thrombophlebitis 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Septic embolism of intracranial or intraspinal venous sinuses and veins Septic endophlebitis of intracranial or intraspinal venous sinuses and veins Septic phlebitis of intracranial or intraspinal venous sinuses and veins Septic thrombophlebitis of intracranial or intraspinal venous sinuses and veins Septic thrombosis of intracranial or intraspinal venous sinuses and veins Type 1 Excludes intracranial phlebitis and thrombophlebitis complicating: abortion, ectopic or molar pregnancy ( O00 - O07 ,  O08.7 ) pregnancy, childbirth and the puerperium ( O22.5 ,  O87.3 ) nonpyogenic intracranial phlebitis and thrombophlebitis ( I67.6 ) Type 2 Excludes intracranial phlebitis and thrombophlebitis complicating nonpyogenic intraspinal phlebitis and thrombophlebitis ( G95.1 ) G08 )
+

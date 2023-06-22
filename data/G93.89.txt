@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code G93.89
+
+Other specified disorders of brain
+
+Applicable To Postradiation encephalopathy
+
+Approximate Synonyms
+
+ Acquired cerebral ventriculomegaly 
+ Acquired ventriculomegaly 
+ Benedikt's syndrome 
+ Brain death documented by electrocerebral silence 
+ Brain mass 
+ Compression of brain due to focal lesion 
+ Electrocerebral silence 
+ Electrocerebral silence (brain death) 
+ Mass lesion of brain 
+ Pneumocephalus 
+ Tegmental syndrome 
+
+ICD-10-CM  G93.89  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 070  Nonspecific cerebrovascular disorders with mcc 
+ 071  Nonspecific cerebrovascular disorders with cc 
+ 072  Nonspecific cerebrovascular disorders without cc/mcc 
+

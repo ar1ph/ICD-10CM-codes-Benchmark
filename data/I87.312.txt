@@ -1,0 +1,89 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.312
+
+Chronic venous hypertension (idiopathic) with ulcer of left lower extremity
+
+Approximate Synonyms
+
+ Peripheral venous htn, chronic, w ulcer, left 
+ Venous stasis edema with ulcer of left ankle 
+ Venous stasis edema with ulcer of left ankle, bone necrosis 
+ Venous stasis edema with ulcer of left ankle, muscle necrosis 
+ Venous stasis edema with ulcer of left ankle, skin breakdown 
+ Venous stasis edema with ulcer of left calf 
+ Venous stasis edema with ulcer of left calf, bone necrosis 
+ Venous stasis edema with ulcer of left calf, muscle necrosis 
+ Venous stasis edema with ulcer of left calf, skin breakdown 
+ Venous stasis edema with ulcer of left foot 
+ Venous stasis edema with ulcer of left foot, bone necrosis 
+ Venous stasis edema with ulcer of left foot, muscle necrosis 
+ Venous stasis edema with ulcer of left foot, skin breakdown 
+ Venous stasis edema with ulcer of left heel 
+ Venous stasis edema with ulcer of left heel, bone necrosis 
+ Venous stasis edema with ulcer of left heel, muscle necrosis 
+ Venous stasis edema with ulcer of left heel, skin breakdown 
+ Venous stasis edema with ulcer of left lower leg 
+ Venous stasis edema with ulcer of left lower leg, bone necrosis 
+ Venous stasis edema with ulcer of left lower leg, muscle necrosis 
+ Venous stasis edema with ulcer of left lower leg, skin breakdown 
+ Venous stasis edema with ulcer of left midfoot 
+ Venous stasis edema with ulcer of left midfoot, bone necrosis 
+ Venous stasis edema with ulcer of left midfoot, muscle necrosis 
+ Venous stasis edema with ulcer of left midfoot, skin breakdown 
+ Venous stasis edema with ulcer of left thigh 
+ Venous stasis edema with ulcer of left thigh, bone necrosis 
+ Venous stasis edema with ulcer of left thigh, muscle necrosis 
+ Venous stasis edema with ulcer of left thigh, skin breakdown 
+ Venous stasis edema with ulcer of left toe 
+ Venous stasis edema with ulcer of left toe, bone necrosis 
+ Venous stasis edema with ulcer of left toe, muscle necrosis 
+ Venous stasis edema with ulcer of left toe, skin breakdown 
+ Venous stasis ulcer with edema of left ankle 
+ Venous stasis ulcer with edema of left ankle limited to skin layer 
+ Venous stasis ulcer with edema of left ankle with bone necrosis 
+ Venous stasis ulcer with edema of left ankle with fat layer exposure 
+ Venous stasis ulcer with edema of left ankle with muscle necrosis 
+ Venous stasis ulcer with edema of left calf 
+ Venous stasis ulcer with edema of left calf limited to skin layer 
+ Venous stasis ulcer with edema of left calf with bone necrosis 
+ Venous stasis ulcer with edema of left calf with fat layer exposure 
+ Venous stasis ulcer with edema of left calf with muscle necrosis 
+ Venous stasis ulcer with edema of left foot 
+ Venous stasis ulcer with edema of left foot limited to skin layer 
+ Venous stasis ulcer with edema of left foot with bone necrosis 
+ Venous stasis ulcer with edema of left foot with fat layer exposure 
+ Venous stasis ulcer with edema of left foot with muscle necrosis 
+ Venous stasis ulcer with edema of left heel 
+ Venous stasis ulcer with edema of left heel limited to skin layer 
+ Venous stasis ulcer with edema of left heel with bone necrosis 
+ Venous stasis ulcer with edema of left heel with fat layer exposure 
+ Venous stasis ulcer with edema of left heel with muscle necrosis 
+ Venous stasis ulcer with edema of left lower leg 
+ Venous stasis ulcer with edema of left lower leg limited to skin layer 
+ Venous stasis ulcer with edema of left lower leg with bone necrosis 
+ Venous stasis ulcer with edema of left lower leg with fat layer exposure 
+ Venous stasis ulcer with edema of left lower leg with muscle necrosis 
+ Venous stasis ulcer with edema of left midfoot 
+ Venous stasis ulcer with edema of left midfoot limited to skin layer 
+ Venous stasis ulcer with edema of left midfoot with bone necrosis 
+ Venous stasis ulcer with edema of left midfoot with fat layer exposure 
+ Venous stasis ulcer with edema of left midfoot with muscle necrosis 
+ Venous stasis ulcer with edema of left thigh 
+ Venous stasis ulcer with edema of left thigh limited to skin layer 
+ Venous stasis ulcer with edema of left thigh with bone necrosis 
+ Venous stasis ulcer with edema of left thigh with fat layer exposure 
+ Venous stasis ulcer with edema of left thigh with muscle necrosis 
+ Venous stasis ulcer with edema of left toe 
+ Venous stasis ulcer with edema of left toe limited to skin layer 
+ Venous stasis ulcer with edema of left toe with bone necrosis 
+ Venous stasis ulcer with edema of left toe with fat layer exposure 
+ Venous stasis ulcer with edema of left toe with muscle necrosis 
+ Venous ulcer of left lower extremity due to chronic peripheral venous hypertension 
+
+ICD-10-CM  I87.312  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

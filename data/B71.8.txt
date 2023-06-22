@@ -1,0 +1,22 @@
+
+
+2023 ICD-10-CM Diagnosis Code B71.8
+
+Other specified cestode infections
+
+Applicable To Coenurosis
+
+Approximate Synonyms
+
+ Coenurosis 
+
+Clinical Information
+
+ A rare infection caused by larvae of the dog tapeworm 
+
+ICD-10-CM  B71.8  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 371  Major gastrointestinal disorders and peritoneal infections with mcc 
+ 372  Major gastrointestinal disorders and peritoneal infections with cc 
+ 373  Major gastrointestinal disorders and peritoneal infections without cc/mcc 
+

@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code A05.3
+
+Foodborne Vibrio parahaemolyticus intoxication
+
+Approximate Synonyms
+
+ Food poisoning due to vibrio parahemolyticus 
+ Vibrio parahemolyticus food poisoning 
+
+ICD-10-CM  A05.3  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 371  Major gastrointestinal disorders and peritoneal infections with mcc 
+ 372  Major gastrointestinal disorders and peritoneal infections with cc 
+ 373  Major gastrointestinal disorders and peritoneal infections without cc/mcc 
+

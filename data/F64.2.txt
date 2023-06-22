@@ -1,0 +1,23 @@
+
+
+2023 ICD-10-CM Diagnosis Code F64.2
+
+Gender identity disorder of childhood
+
+ICD-10-CM Coding Rules
+
+ F64.2  is applicable to pediatric patients aged 0 - 17 years inclusive. 
+
+Applicable To Gender dysphoria in children
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  F64.2 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. gender identity disorder in adolescence and adulthood ( ICD-10-CM Diagnosis Code  F64.0 Transsexualism 2017 - New Code   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Gender identity disorder in adolescence and adulthood Gender dysphoria in adolescents and adults F64.0 )
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( F64.2 ) and the excluded code together.  sexual maturation disorder ( ICD-10-CM Diagnosis Code  F66 Other sexual disorders 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Sexual maturation disorder Sexual relationship disorder F66 )
+
+Approximate Synonyms
+
+ Gender dysphoria in children 
+ Gender identity dysphoria in childhood 
+
+ICD-10-CM  F64.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 887  Other mental disorder diagnoses 
+

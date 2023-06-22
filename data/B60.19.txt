@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code B60.19
+
+Other acanthamebic disease
+
+Approximate Synonyms
+
+ Acanthamoeba corneal ulcer 
+ Bilateral acanthamoeba corneal ulcer 
+ Corneal ulcer due to acanthamoeba 
+ Left acanthamoeba corneal ulcer 
+ Right acanthamoeba corneal ulcer 
+
+ICD-10-CM  B60.19  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

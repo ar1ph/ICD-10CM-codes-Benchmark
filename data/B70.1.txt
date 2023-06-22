@@ -1,0 +1,22 @@
+
+
+2023 ICD-10-CM Diagnosis Code B70.1
+
+Sparganosis
+
+Applicable To Infection due to Sparganum (mansoni) (proliferum) Infection due to Spirometra larva Larval diphyllobothriasis Spirometrosis
+
+Approximate Synonyms
+
+ Infection by spirometra larvae 
+
+Clinical Information
+
+ Infection of animals, including fish and man, with a developmental stage of diphyllobothrium. This stage has recently been referred to as a plerocercoid but the name sparganum has persisted. Therefore, infection of fish or other animals with the plerocercoid larvae is sparganosis. Fish-eating mammals, including man, are the final hosts. 
+
+ICD-10-CM  B70.1  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 371  Major gastrointestinal disorders and peritoneal infections with mcc 
+ 372  Major gastrointestinal disorders and peritoneal infections with cc 
+ 373  Major gastrointestinal disorders and peritoneal infections without cc/mcc 
+

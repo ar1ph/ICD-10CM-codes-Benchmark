@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code F81.2
+
+Mathematics disorder
+
+Applicable To Developmental acalculia Developmental arithmetical disorder Developmental Gerstmann's syndrome Specific learning disorder, with impairment in mathematics
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  F81.2 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. acalculia NOS ( ICD-10-CM Diagnosis Code  R48.8 Other symbolic dysfunctions 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Acalculia Agraphia R48.8 )
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( F81.2 ) and the excluded code together.  arithmetical difficulties associated with a reading disorder ( ICD-10-CM Diagnosis Code  F81.0 Specific reading disorder 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To 'Backward reading' Developmental dyslexia Specific learning disorder, with impairment in reading Specific reading retardation Type 1 Excludes alexia NOS ( R48.0 ) dyslexia NOS ( R48.0 ) F81.0 ) arithmetical difficulties associated with a spelling disorder ( ICD-10-CM Diagnosis Code  F81.81 Disorder of written expression 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Specific learning disorder, with impairment in written expression Specific spelling disorder F81.81 ) arithmetical difficulties due to inadequate teaching ( ICD-10-CM Diagnosis Code  Z55.8 Other problems related to education and literacy 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   POA Exempt   Applicable To Problems related to inadequate teaching Z55.8 )
+
+Approximate Synonyms
+
+ Developmental arithmetic disorder 
+ Developmental disorder in mathematics 
+ Specific learning disorder w impairment in mathematics 
+
+ICD-10-CM  F81.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 886  Behavioral and developmental disorders 
+

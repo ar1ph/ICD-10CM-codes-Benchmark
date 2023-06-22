@@ -1,0 +1,52 @@
+
+
+2023 ICD-10-CM Diagnosis Code I97.89
+
+Other postprocedural complications and disorders of the circulatory system, not elsewhere classified
+
+Approximate Synonyms
+
+ Acute deep vein thrombosis of bilateral lower limbs following coronary artery bypass graft 
+ Acute deep vein thrombosis of bilateral lower limbs following procedure 
+ Acute deep vein thrombosis of left arm, post coronary artery bypass graft 
+ Acute deep vein thrombosis of left lower limb following coronary artery bypass graft 
+ Acute deep vein thrombosis of left lower limb following procedure 
+ Acute deep vein thrombosis of left upper limb following coronary artery bypass graft 
+ Acute deep vein thrombosis of left upper limb following procedure 
+ Acute deep vein thrombosis of right arm, post coronary artery bypass graft 
+ Acute deep vein thrombosis of right lower limb following coronary artery bypass graft 
+ Acute deep vein thrombosis of right lower limb following procedure 
+ Acute deep vein thrombosis of right upper limb following coronary artery bypass graft 
+ Acute deep vein thrombosis of right upper limb following procedure 
+ Acute deep venous thrombosis (dvt) of both legs, post cabg 
+ Acute deep venous thrombosis (dvt) of left leg, post cabg 
+ Acute deep venous thrombosis (dvt) of right leg, post cabg 
+ Acute postprocedural deep vein thrombosis of left arm 
+ Acute postprocedural deep vein thrombosis of right arm 
+ Acute postprocedural deep venous thrombosis (dvt) of both legs 
+ Acute postprocedural deep venous thrombosis (dvt) of left leg 
+ Acute postprocedural deep venous thrombosis (dvt) of right leg 
+ Atrioventricular (av) block (heart rhythm condition) 
+ Chronic deep vein thrombosis of left upper limb following procedure 
+ Chronic deep vein thrombosis of right upper limb following procedure 
+ Chronic postprocedural deep vein thrombosis of left arm 
+ Chronic postprocedural deep vein thrombosis of right arm 
+ Congestive heart failure after surgery 
+ Congestive heart failure as early postoperative complication 
+ Ischemic steal syndrome 
+ Junctional ectopic tachycardia, postoperative 
+ Lymphedema, after surgery 
+ Postoperative atrioventricular block 
+ Postoperative his bundle tachycardia 
+ Postsurgical lymphedema 
+ Pseudoaneurysm of surgical arteriovenous fistula 
+ Surgical arteriovenous fistula pseudoaneurysm 
+
+ICD-10-CM  I97.89  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 314  Other circulatory system diagnoses with mcc 
+ 315  Other circulatory system diagnoses with cc 
+ 316  Other circulatory system diagnoses without cc/mcc 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+

@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code D38.4
+
+Neoplasm of uncertain behavior of thymus
+
+Approximate Synonyms
+
+ Neoplasm of uncertain behavior, thymus 
+
+ICD-10-CM  D38.4  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 180  Respiratory neoplasms with mcc 
+ 181  Respiratory neoplasms with cc 
+ 182  Respiratory neoplasms without cc/mcc 
+

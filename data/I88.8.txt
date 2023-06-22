@@ -1,0 +1,12 @@
+
+
+2023 ICD-10-CM Diagnosis Code I88.8
+
+Other nonspecific lymphadenitis
+
+ICD-10-CM  I88.8  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 814  Reticuloendothelial and immunity disorders with mcc 
+ 815  Reticuloendothelial and immunity disorders with cc 
+ 816  Reticuloendothelial and immunity disorders without cc/mcc 
+

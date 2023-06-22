@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code D43.4
+
+Neoplasm of uncertain behavior of spinal cord
+
+Approximate Synonyms
+
+ Subependymoma of spinal cord 
+ Subependymoma, spinal cord 
+
+ICD-10-CM  D43.4  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 054  Nervous system neoplasms with mcc 
+ 055  Nervous system neoplasms without mcc 
+

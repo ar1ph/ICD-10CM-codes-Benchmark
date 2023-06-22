@@ -1,0 +1,29 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.1
+
+Compression of vein
+
+Applicable To Stricture of vein Vena cava syndrome (inferior) (superior)
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( I87.1 ) and the excluded code together.  compression of pulmonary vein ( ICD-10-CM Diagnosis Code  I28.8 Other diseases of pulmonary vessels 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Pulmonary arteritis Pulmonary endarteritis Rupture of pulmonary vessels Stenosis of pulmonary vessels Stricture of pulmonary vessels I28.8 )
+
+Approximate Synonyms
+
+ Acquired stenosis of vena cava 
+ Acquired vena cava stenosis 
+ Bilateral subclavian vein stenosis 
+ Iliac vein compression syndrome 
+ Left subclavian vein stenosis 
+ May -thurner syndrome 
+ Right subclavian vein stenosis 
+ Stenosis (narrowing) subclavian vein 
+ Subclavian vein stenosis 
+ Superior vena cava compression syndrome 
+ Superior vena cava syndrome 
+
+ICD-10-CM  I87.1  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

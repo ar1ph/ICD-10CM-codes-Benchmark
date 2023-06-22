@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code B60.12
+
+Conjunctivitis due to Acanthamoeba
+
+Approximate Synonyms
+
+ Bilateral conjunctivitis due to acanthamoeba 
+ Left conjunctivitis due to acanthamoeba 
+ Right conjunctivitis due to acanthamoeba 
+
+ICD-10-CM  B60.12  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 124  Other disorders of the eye with mcc 
+ 125  Other disorders of the eye without mcc 
+

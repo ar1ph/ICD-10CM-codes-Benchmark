@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code G93.9
+
+Disorder of brain, unspecified
+
+Approximate Synonyms
+
+ Brain lesion 
+ Brain mass 
+ Lesion of brain 
+
+Clinical Information
+
+ A non-neoplastic or neoplastic disorder that affects the brain. 
+ Pathologic conditions affecting the brain, which is composed of the intracranial components of the central nervous system. 
+ Pathologic conditions affecting the brain, which is composed of the intracranial components of the central nervous system. This includes (but is not limited to) the cerebral cortex; intracranial white matter; basal ganglia; thalamus; hypothalamus; brain stem; and cerebellum. 
+ The brain is the control center of the body. It controls thoughts, memory, speech, and movement. It regulates the function of many organs. When the brain is healthy, it works quickly and automatically. However, when problems occur, the results can be devastating. inflammation in the brain can lead to problems such as vision loss, weakness and paralysis. Loss of brain cells, which happens if you suffer a stroke, can affect your ability to think clearly. brain tumors can also press on nerves and affect brain function. Some brain diseases are genetic. And we do not know what causes some brain diseases, such as alzheimer's disease.the symptoms of brain diseases vary widely depending on the specific problem. In some cases, damage is permanent. In other cases, treatments such as surgery, medicines, or physical therapy can correct the source of the problem or improve symptoms. 
+
+ICD-10-CM  G93.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 070  Nonspecific cerebrovascular disorders with mcc 
+ 071  Nonspecific cerebrovascular disorders with cc 
+ 072  Nonspecific cerebrovascular disorders without cc/mcc 
+ 974  Hiv with major related condition with mcc 
+ 975  Hiv with major related condition with cc 
+ 976  Hiv with major related condition without cc/mcc 
+

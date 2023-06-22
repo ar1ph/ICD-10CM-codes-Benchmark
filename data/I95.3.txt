@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code I95.3
+
+Hypotension of hemodialysis
+
+Applicable To Intra-dialytic hypotension
+
+Approximate Synonyms
+
+ Hemodialysis-associated hypotension 
+ Hypotension associated with hemodialysis 
+
+ICD-10-CM  I95.3  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 312  Syncope and collapse 
+

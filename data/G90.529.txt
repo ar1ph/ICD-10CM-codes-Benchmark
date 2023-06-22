@@ -1,0 +1,15 @@
+
+
+2023 ICD-10-CM Diagnosis Code G90.529
+
+Complex regional pain syndrome I of unspecified lower limb
+
+Approximate Synonyms
+
+ Complex regional pain syndrome (crps) type 1, leg 
+
+ICD-10-CM  G90.529  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 073  Cranial and peripheral nerve disorders with mcc 
+ 074  Cranial and peripheral nerve disorders without mcc 
+

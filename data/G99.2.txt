@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code G99.2
+
+Myelopathy in diseases classified elsewhere
+
+ICD-10-CM Coding Rules
+
+ G99.2  describes the manifestation of an underlying disease, not the disease itself. 
+
+Code First Code First Help Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. For such conditions, ICD-10-CM has a coding convention that requires the underlying condition be sequenced first followed by the manifestation.  Wherever such a combination exists there is a "use additional code" note at the etiology code, and a  "code first"  note at the manifestation code.  These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, "in diseases classified elsewhere."  Codes with this title are a component of the etiology/manifestation convention. The code title indicates that it is a manifestation code. "In diseases classified elsewhere" codes are never permitted to be used as first listed or principle diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition. underlying disease, such as: neoplasm ( C00-D49   ICD-10-CM Range  C00-D49 Neoplasms C00-C14  Malignant neoplasms of lip, oral cavity ... C15-C26  Malignant neoplasms of digestive organs C30-C39  Malignant neoplasms of respiratory and i... C40-C41  Malignant neoplasms of bone and articula... C43-C44  Melanoma and other malignant neoplasms o... C45-C49  Malignant neoplasms of mesothelial and s... C50-C50  Malignant neoplasms of breast C51-C58  Malignant neoplasms of female genital or... C60-C63  Malignant neoplasms of male genital orga... C64-C68  Malignant neoplasms of urinary tract C69-C72  Malignant neoplasms of eye, brain and ot... C73-C75  Malignant neoplasms of thyroid and other... C76-C80  Malignant neoplasms of ill-defined, othe... C7A-C7A  Malignant neuroendocrine tumors C7B-C7B  Secondary neuroendocrine tumors C81-C96  Malignant neoplasms of lymphoid, hematop... D00-D09  In situ neoplasms D10-D36  Benign neoplasms, except benign neuroend... D37-D48  Neoplasms of uncertain behavior, polycyt... D3A-D3A  Benign neuroendocrine tumors D49-D49  Neoplasms of unspecified behavior )
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  G99.2 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. myelopathy in: intervertebral disease ( ICD-10-CM Diagnosis Code  M50.0 Cervical disc disorder with myelopathy 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   M50.0- ,  ICD-10-CM Diagnosis Code  M51.0 Thoracic, thoracolumbar and lumbosacral intervertebral disc disorders with myelopathy 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   M51.0- ) spondylosis ( ICD-10-CM Diagnosis Code  M47.0 Anterior spinal and vertebral artery compression syndromes 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   M47.0- ,  ICD-10-CM Diagnosis Code  M47.1 Other spondylosis with myelopathy 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Applicable To Spondylogenic compression of spinal cord Type 1 Excludes vertebral subluxation ( M43.3- M43.5X9 ) M47.1- )
+
+Approximate Synonyms
+
+ Myelopathy due to benign neoplastic disease 
+ Myelopathy due to malignant neoplastic disease 
+ Myelopathy due to neoplastic disease 
+ Myelopathy in benign neoplasm 
+ Myelopathy in malignant neoplasm 
+ Myelopathy in neoplasm of unspecified nature 
+
+ICD-10-CM  G99.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 091  Other disorders of nervous system with mcc 
+ 092  Other disorders of nervous system with cc 
+ 093  Other disorders of nervous system without cc/mcc 
+

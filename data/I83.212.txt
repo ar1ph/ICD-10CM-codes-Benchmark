@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code I83.212
+
+Varicose veins of right lower extremity with both ulcer of calf and inflammation
+
+ICD-10-CM Coding Rules
+
+ I83.212  is applicable to adult patients aged 15 - 124 years inclusive. 
+
+Approximate Synonyms
+
+ Varicose ulcer of right calf with inflammation 
+ Varicose ulcer of right calf with inflammation and bone necrosis 
+ Varicose ulcer of right calf with inflammation and fat layer exposure 
+ Varicose ulcer of right calf with inflammation and muscle necrosis 
+ Varicose ulcer of right calf with inflammation limited to skin layer 
+ Varicose ulcer of right calf with inflammation, bone necrosis 
+ Varicose ulcer of right calf with inflammation, fat layer exposed 
+ Varicose ulcer of right calf with inflammation, muscle necrosis 
+ Varicose ulcer of right calf with inflammation, skin layer only 
+
+ICD-10-CM  I83.212  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code J95.811
+
+Postprocedural pneumothorax
+
+Approximate Synonyms
+
+ Iatrogenic pneumothorax 
+
+ICD-10-CM  J95.811  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 199  Pneumothorax with mcc 
+ 200  Pneumothorax with cc 
+ 201  Pneumothorax without cc/mcc 
+

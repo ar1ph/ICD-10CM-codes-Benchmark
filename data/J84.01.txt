@@ -1,0 +1,22 @@
+
+
+2023 ICD-10-CM Diagnosis Code J84.01
+
+Alveolar proteinosis
+
+Approximate Synonyms
+
+ Pulmonary alveolar proteinosis 
+
+Clinical Information
+
+ A pulmonary alveoli-filling disease, characterized by dense phospholipoproteinaceous deposits in the alveoli, cough, and dyspnea. This disease is often related to, congenital or acquired, impaired processing of pulmonary surfactants by alveolar macrophages, a process dependent on granulocyte-macrophage colony-stimulating factor. 
+ A rare lung disorder characterized by the filling of the pulmonary alveoli with proteinaceous material which stains positive with periodic acid-schiff stain. It may be idiopathic or secondary due to hematologic malignancies or the inhalation of mineral dusts. Signs and symptoms include dyspnea, cough and low grade fever. 
+ Unknown etiology marked by chronic filling of alveoli with proteinaceous, lipid-rich, granular material consisting of surfactant and debris of necrotic cells. 
+
+ICD-10-CM  J84.01  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 196  Interstitial lung disease with mcc 
+ 197  Interstitial lung disease with cc 
+ 198  Interstitial lung disease without cc/mcc 
+

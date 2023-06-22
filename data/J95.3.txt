@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code J95.3
+
+Chronic pulmonary insufficiency following surgery
+
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( J95.3 ) and the excluded code together.  Functional disturbances following cardiac surgery ( ICD-10-CM Diagnosis Code  I97.0 Postcardiotomy syndrome 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   I97.0 ,  ICD-10-CM Diagnosis Code  I97.1 Other postprocedural cardiac functional disturbances 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Type 2 Excludes acute pulmonary insufficiency following thoracic surgery ( J95.1 ) intraoperative cardiac functional disturbances ( I97.7- ) I97.1- )
+
+ICD-10-CM  J95.3  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 189  Pulmonary edema and respiratory failure 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+ 928  Full thickness burn with skin graft or inhalation injury with cc/mcc 
+ 929  Full thickness burn with skin graft or inhalation injury without cc/mcc 
+

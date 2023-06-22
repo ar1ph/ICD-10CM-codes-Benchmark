@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code J98.8
+
+Other specified respiratory disorders
+
+Approximate Synonyms
+
+ Aspirin exacerbated respiratory disease 
+ Hypoventilation in sleep, lower airways obstruction 
+ Sleep hypoventilation due to lower airway obstruction 
+ Upper airway obstruction 
+ Upper respiratory tract obstruction 
+ Viral respiratory infection 
+
+ICD-10-CM  J98.8  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 205  Other respiratory system diagnoses with mcc 
+ 206  Other respiratory system diagnoses without mcc 
+

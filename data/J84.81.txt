@@ -1,0 +1,25 @@
+
+
+2023 ICD-10-CM Diagnosis Code J84.81
+
+Lymphangioleiomyomatosis
+
+Applicable To Lymphangiomyomatosis
+
+Approximate Synonyms
+
+ Lymphangiomyomatosis 
+ Pulmonary lymphangioleiomyomatosis 
+
+Clinical Information
+
+ A disease characterized by the progressive invasion of smooth muscle cells into the lymphatic vessels, and the blood vessels. The majority of the cases occur in the lungs of women of child-bearing age, eventually blocking the flow of air, blood, and lymph. The common symptom is shortness of breath (dyspnea). 
+ A multifocal neoplasm with perivascular epithelioid cell differentiation affecting almost exclusively females of child-bearing age. It is characterized by the presence of smooth muscle and epithelioid cells and by the proliferation of lymphatic vessels. Sites of involvement include the lungs, mediastinum, and the retroperitoneum. It usually presents with chylous pleural effusion or ascites. 
+ Rare lung disorder of unknown etiology mostly in women of childbearing age; proliferation of atypical smooth muscle cells in lungs, airways, blood and lymph vessels causing obstruction; symptoms include dyspnea and pneumothorax. 
+
+ICD-10-CM  J84.81  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 196  Interstitial lung disease with mcc 
+ 197  Interstitial lung disease with cc 
+ 198  Interstitial lung disease without cc/mcc 
+

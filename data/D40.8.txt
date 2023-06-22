@@ -1,0 +1,20 @@
+
+
+2023 ICD-10-CM Diagnosis Code D40.8
+
+Neoplasm of uncertain behavior of other specified male genital organs
+
+ICD-10-CM Coding Rules
+
+ D40.8  is applicable to male patients. 
+
+Applicable To Neoplasm of uncertain behavior of skin of male genital organs
+
+ICD-10-CM  D40.8  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 715  Other male reproductive system o.r. Procedures for malignancy with cc/mcc 
+ 716  Other male reproductive system o.r. Procedures for malignancy without cc/mcc 
+ 722  Malignancy, male reproductive system with mcc 
+ 723  Malignancy, male reproductive system with cc 
+ 724  Malignancy, male reproductive system without cc/mcc 
+

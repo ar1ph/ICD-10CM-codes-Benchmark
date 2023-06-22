@@ -1,0 +1,48 @@
+
+
+2023 ICD-10-CM Diagnosis Code I89.0
+
+Lymphedema, not elsewhere classified
+
+Applicable To Elephantiasis (nonfilarial) NOS Lymphangiectasis Obliteration, lymphatic vessel Praecox lymphedema Secondary lymphedema
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  I89.0 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. postmastectomy lymphedema ( ICD-10-CM Diagnosis Code  I97.2 Postmastectomy lymphedema syndrome 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Adult Dx (15-124 years)   Applicable To Elephantiasis due to mastectomy Obliteration of lymphatic vessels I97.2 )
+
+Approximate Synonyms
+
+ Bilateral arm lymphedema 
+ Bilateral leg lymphedema 
+ Chronic acquired lymphedema 
+ Left arm lymphedema (swelling from lymph obstruction) 
+ Left leg lymphedema (swelling from lymph obstruction) 
+ Lymphedema 
+ Lymphedema (swelling from lymph obstruction) 
+ Lymphedema due to radiation 
+ Lymphedema of bilateral lower limbs 
+ Lymphedema of bilateral upper limbs 
+ Lymphedema of left lower limb 
+ Lymphedema of left upper limb 
+ Lymphedema of penis 
+ Lymphedema of penis (swelling from lymph obstruction) 
+ Lymphedema of right lower limb 
+ Lymphedema of right upper limb 
+ Lymphedema of scrotum 
+ Lymphedema of scrotum (swelling from lymph obstruction) 
+ Lymphedema praecox 
+ Lymphedema, after surgery 
+ Nonfilarial elephantiasis 
+ Post radiation lymphedema 
+ Postsurgical lymphedema 
+ Right arm lymphedema (swelling from lymph obstruction) 
+ Right leg lymphedema (swelling from lymph obstruction) 
+
+Clinical Information
+
+ A condition that is caused by trauma to the lymph system, which disrupts the normal flow of lymph fluid. This is most often due to surgery that requires lymph node removal or a large amount of lymph tissue. This disruption is especially apparent if the lymph nodes under the arm and arm and around the breast are compromised due to breast cancer surgery, diagnostic dissection, mastectomy, or radiation. 
+ A transient dilatation of the lymphatic vessels. 
+ Dilatation of the lymphatic vessels. 
+
+ICD-10-CM  I89.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 606  Minor skin disorders with mcc 
+ 607  Minor skin disorders without mcc 
+

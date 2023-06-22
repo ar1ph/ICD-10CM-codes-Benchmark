@@ -1,0 +1,19 @@
+
+
+2023 ICD-10-CM Diagnosis Code J84.170
+
+Interstitial lung disease with progressive fibrotic phenotype in diseases classified elsewhere
+
+ICD-10-CM Coding Rules
+
+ J84.170  describes the manifestation of an underlying disease, not the disease itself. 
+
+Applicable To Progressive fibrotic interstitial lung disease
+Code First Code First Help Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. For such conditions, ICD-10-CM has a coding convention that requires the underlying condition be sequenced first followed by the manifestation.  Wherever such a combination exists there is a "use additional code" note at the etiology code, and a  "code first"  note at the manifestation code.  These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, "in diseases classified elsewhere."  Codes with this title are a component of the etiology/manifestation convention. The code title indicates that it is a manifestation code. "In diseases classified elsewhere" codes are never permitted to be used as first listed or principle diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition. underlying disease, such as: lung diseases due to external agents ( J60-J70   ICD-10-CM Range  J60-J70 Lung diseases due to external agents Type 2 Excludes asthma ( J45.- ) malignant neoplasm of bronchus and lung ( C34.- ) J60  Coalworker's pneumoconiosis J61  Pneumoconiosis due to asbestos and other... J62  Pneumoconiosis due to dust containing si... J63  Pneumoconiosis due to other inorganic du... J64  Unspecified pneumoconiosis J65  Pneumoconiosis associated with tuberculo... J66  Airway disease due to specific organic d... J67  Hypersensitivity pneumonitis due to orga... J68  Respiratory conditions due to inhalation... J69  Pneumonitis due to solids and liquids J70  Respiratory conditions due to other exte... ) rheumatoid arthritis ( ICD-10-CM Diagnosis Code  M05.00 Felty's syndrome, unspecified site 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   M05.00- ICD-10-CM Diagnosis Code  M06.9 Rheumatoid arthritis, unspecified 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   M06.9 ) sarcoidosis ( ICD-10-CM Diagnosis Code  D86 Sarcoidosis 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   D86 ) systemic connective tissue disorders ( M30-M36   ICD-10-CM Range  M30-M36 Systemic connective tissue disorders Includes autoimmune disease NOS collagen (vascular) disease NOS systemic autoimmune disease systemic collagen (vascular) disease Type 1 Excludes autoimmune disease, single organ or single cell-type -code to relevant condition category M30  Polyarteritis nodosa and related conditi... M31  Other necrotizing vasculopathies M32  Systemic lupus erythematosus (SLE) M33  Dermatopolymyositis M34  Systemic sclerosis [scleroderma] M35  Other systemic involvement of connective... M36  Systemic disorders of connective tissue ... )
+
+ICD-10-CM  J84.170  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 196  Interstitial lung disease with mcc 
+ 197  Interstitial lung disease with cc 
+ 198  Interstitial lung disease without cc/mcc 
+

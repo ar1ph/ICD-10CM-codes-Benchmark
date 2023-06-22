@@ -1,0 +1,18 @@
+
+
+2023 ICD-10-CM Diagnosis Code F63.2
+
+Kleptomania
+
+Applicable To Pathological stealing
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  F63.2 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. shoplifting as the reason for observation for suspected mental disorder ( ICD-10-CM Diagnosis Code  Z03.8 Encounter for observation for other suspected diseases and conditions ruled out 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Z03.8 )
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( F63.2 ) and the excluded code together.  depressive disorder with stealing ( ICD-10-CM Diagnosis Code  F31 Bipolar disorder 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Includes bipolar I disorder bipolar type I disorder manic-depressive illness manic-depressive psychosis manic-depressive reaction seasonal bipolar disorder Type 1 Excludes bipolar disorder, single manic episode ( F30.- ) major depressive disorder, single episode ( F32.- ) major depressive disorder, recurrent ( F33.- ) Type 2 Excludes cyclothymia ( F34.0 ) F31 - ICD-10-CM Diagnosis Code  F33 Major depressive disorder, recurrent 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Includes recurrent episodes of depressive reaction recurrent episodes of endogenous depression recurrent episodes of major depression recurrent episodes of psychogenic depression recurrent episodes of reactive depression recurrent episodes of seasonal affective disorder recurrent episodes of seasonal depressive disorder recurrent episodes of vital depression Type 1 Excludes bipolar disorder ( F31.- ) manic episode ( F30.- ) F33 ) stealing due to underlying mental condition-code to mental condition stealing in mental disorders due to known physiological condition ( F01-F09   ICD-10-CM Range  F01-F09 Mental disorders due to known physiological conditions Note This block comprises a range of mental disorders grouped together on the basis of their having in common a demonstrable etiology in cerebral disease, brain injury, or other insult leading to cerebral dysfunction. The dysfunction may be primary, as in diseases, injuries, and insults that affect the brain directly and selectively; or secondary, as in systemic diseases and disorders that attack the brain only as one of the multiple organs or systems of the body that are involved. F01  Vascular dementia F02  Dementia in other diseases classified el... F03  Unspecified dementia F04  Amnestic disorder due to known physiolog... F05  Delirium due to known physiological cond... F06  Other mental disorders due to known phys... F07  Personality and behavioral disorders due... F09  Unspecified mental disorder due to known... )
+
+Clinical Information
+
+ A disorder characterized by the recurrent failure to resist the impulse to steal items of little intrinsic value; the individual experiences a rising subjective sense of tension before the theft and a sense of gratification or relief during the theft. 
+
+ICD-10-CM  F63.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 883  Disorders of personality and impulse control 
+

@@ -1,0 +1,22 @@
+
+
+2023 ICD-10-CM Diagnosis Code G97.41
+
+Accidental puncture or laceration of dura during a procedure
+
+Applicable To Incidental (inadvertent) durotomy
+Code Also Code Also Help A code also note instructs that 2 codes may be required to fully describe a condition but the sequencing of the two codes is discretionary, depending on the severity of the conditions and the reason for the encounter. any associated diagnoses or complications
+
+Approximate Synonyms
+
+ Accidental dural puncture 
+ Accidental puncture/laceration dura during procedure 
+
+ICD-10-CM  G97.41  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+ 919  Complications of treatment with mcc 
+ 920  Complications of treatment with cc 
+ 921  Complications of treatment without cc/mcc 
+

@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.9
+
+Disorder of vein, unspecified
+
+Approximate Synonyms
+
+ Disorder of vein 
+ Unspecified vein disorder 
+
+ICD-10-CM  I87.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 302  Atherosclerosis with mcc 
+ 303  Atherosclerosis without mcc 
+

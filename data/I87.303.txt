@@ -1,0 +1,19 @@
+
+
+2023 ICD-10-CM Diagnosis Code I87.303
+
+Chronic venous hypertension (idiopathic) without complications of bilateral lower extremity
+
+Approximate Synonyms
+
+ Chronic peripheral venous hypertension without complication of bilateral lower extremities 
+ Peripheral venous htn, chronic, bilateral 
+ Venous stasis edema of bilateral lower limbs 
+ Venous stasis edema of both legs 
+
+ICD-10-CM  I87.303  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 299  Peripheral vascular disorders with mcc 
+ 300  Peripheral vascular disorders with cc 
+ 301  Peripheral vascular disorders without cc/mcc 
+

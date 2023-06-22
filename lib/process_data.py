@@ -98,9 +98,7 @@ def get_new_subset_of_codes(store=False, full_row=False):
         pass
     return code_map
 
-# def get_all_diseases(file=)  
-
-
+    
 def main():
 
     file_names_with_format = get_all_file_names(with_format=True)

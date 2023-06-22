@@ -1,0 +1,23 @@
+
+
+2023 ICD-10-CM Diagnosis Code D40.9
+
+Neoplasm of uncertain behavior of male genital organ, unspecified
+
+ICD-10-CM Coding Rules
+
+ D40.9  is applicable to male patients. 
+
+Approximate Synonyms
+
+ Neoplasm of uncertain behavior of male genital org 
+ Neoplasm of uncertain behavior of male genital organ 
+
+ICD-10-CM  D40.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 715  Other male reproductive system o.r. Procedures for malignancy with cc/mcc 
+ 716  Other male reproductive system o.r. Procedures for malignancy without cc/mcc 
+ 722  Malignancy, male reproductive system with mcc 
+ 723  Malignancy, male reproductive system with cc 
+ 724  Malignancy, male reproductive system without cc/mcc 
+

@@ -1,0 +1,24 @@
+
+
+2023 ICD-10-CM Diagnosis Code J98.6
+
+Disorders of diaphragm
+
+Applicable To Diaphragmatitis Paralysis of diaphragm Relaxation of diaphragm
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  J98.6 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. congenital malformation of diaphragm NEC ( ICD-10-CM Diagnosis Code  Q79.1 Other congenital malformations of diaphragm 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   POA Exempt   Applicable To Absence of diaphragm Congenital malformation of diaphragm NOS Eventration of diaphragm Q79.1 ) congenital diaphragmatic hernia ( ICD-10-CM Diagnosis Code  Q79.0 Congenital diaphragmatic hernia 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   POA Exempt   Type 1 Excludes congenital hiatus hernia ( Q40.1 ) Q79.0 )
+Type 2 Excludes Type 2 Excludes Help A  type 2 excludes  note represents "not included here". A type 2 excludes note indicates that the condition excluded is not part of the condition it is excluded from but a patient may have both conditions at the same time. When a type 2 excludes note appears under a code it is acceptable to use both the code ( J98.6 ) and the excluded code together.  diaphragmatic hernia ( ICD-10-CM Diagnosis Code  K44   K44  Diaphragmatic hernia   K44.0  Diaphragmatic hernia with obstruction, withou...   K44.1  Diaphragmatic hernia with gangrene   K44.9  Diaphragmatic hernia without obstruction or g... K44.- )
+
+Approximate Synonyms
+
+ Disorder of diaphragm 
+ Paralysis of diaphragm 
+
+Clinical Information
+
+ Complete or severe weakness of the muscles of respiration. This condition may be associated with motor neuron diseases; peripheral nerve diseases; neuromuscular junction diseases; spinal cord diseases; injury to the phrenic nerve; and other disorders. 
+
+ICD-10-CM  J98.6  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 205  Other respiratory system diagnoses with mcc 
+ 206  Other respiratory system diagnoses without mcc 
+

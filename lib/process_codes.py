@@ -27,6 +27,8 @@ def get_full_code_from_row(row):
         print("Error occured while retrieving the full code: " + str(e))
         return None
     
+# Gets an ICD-10 CM code description row 
+# Returns the medical condition (description + disease)
 def get_medical_condition_from_row(row):
     try:
         return row[-2:]
@@ -34,6 +36,8 @@ def get_medical_condition_from_row(row):
         print("Error occured while retrieving the medical condition: " + str(e))
         return None
     
+# Gets an ICD-10 CM code description row 
+# Returns the medical description
 def get_medical_desc_from_row(row):
     try:
         return row[-2]

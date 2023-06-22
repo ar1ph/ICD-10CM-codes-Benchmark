@@ -1,0 +1,25 @@
+
+
+2023 ICD-10-CM Diagnosis Code G93.41
+
+Metabolic encephalopathy
+
+Applicable To Septic encephalopathy
+
+Approximate Synonyms
+
+ Encephalopathy, metabolic 
+
+Clinical Information
+
+ Acquired or inborn metabolic diseases that produce brain dysfunction or damage. These include primary (i.e., disorders intrinsic to the brain) and secondary (i.e., extracranial) metabolic conditions that adversely affect cerebral function. 
+
+ICD-10-CM  G93.41  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 070  Nonspecific cerebrovascular disorders with mcc 
+ 071  Nonspecific cerebrovascular disorders with cc 
+ 072  Nonspecific cerebrovascular disorders without cc/mcc 
+ 974  Hiv with major related condition with mcc 
+ 975  Hiv with major related condition with cc 
+ 976  Hiv with major related condition without cc/mcc 
+

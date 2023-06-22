@@ -1,0 +1,23 @@
+
+
+2023 ICD-10-CM Diagnosis Code B69.0
+
+Cysticercosis of central nervous system
+
+Approximate Synonyms
+
+ Cerebral cysticercosis 
+ Cysticercosis, cerebral 
+ Neurocysticercosis 
+
+Clinical Information
+
+ A parasitic infection with tapeworms of the genus taenia affecting the brain. It is manifested with seizures and headaches. 
+ Infection of the brain, spinal cord, or perimeningeal structures with the larval forms of the genus taenia (primarily t. Solium in humans). Lesions formed by the organism are referred to as cysticerci. The infection may be subacute or chronic, and the severity of symptoms depends on the severity of the host immune response and the location and number of lesions. Seizures represent the most common clinical manifestation although focal neurologic deficits may occur. (from Joynt, Clinical Neurology, 1998, ch27, pp46-50) 
+
+ICD-10-CM  B69.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 371  Major gastrointestinal disorders and peritoneal infections with mcc 
+ 372  Major gastrointestinal disorders and peritoneal infections with cc 
+ 373  Major gastrointestinal disorders and peritoneal infections without cc/mcc 
+

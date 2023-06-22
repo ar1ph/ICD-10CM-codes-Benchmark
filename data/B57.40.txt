@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code B57.40
+
+Chagas' disease with nervous system involvement, unspecified
+
+Approximate Synonyms
+
+ Chagas' disease with nervous system involvement 
+ Neurological disorder due to chagas disease 
+
+ICD-10-CM  B57.40  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

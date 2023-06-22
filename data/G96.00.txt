@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code G96.00
+
+Cerebrospinal fluid leak, unspecified
+
+Code Also Code Also Help A code also note instructs that 2 codes may be required to fully describe a condition but the sequencing of the two codes is discretionary, depending on the severity of the conditions and the reason for the encounter. if applicable: head injury ( S00-S09   ICD-10-CM Range  S00-S09 Injuries to the head Code Also for any associated infection Includes injuries of ear injuries of eye injuries of face [any part] injuries of gum injuries of jaw injuries of oral cavity injuries of palate injuries of periocular area injuries of scalp injuries of temporomandibular joint area injuries of tongue injuries of tooth Type 2 Excludes burns and corrosions ( T20 - T32 ) effects of foreign body in ear ( T16 ) effects of foreign body in larynx ( T17.3 ) effects of foreign body in mouth NOS ( T18.0 ) effects of foreign body in nose ( T17.0- T17.1 ) effects of foreign body in pharynx ( T17.2 ) effects of foreign body on external eye ( T15.- ) frostbite ( T33-T34 ) insect bite or sting, venomous ( T63.4 ) S00  Superficial injury of head S01  Open wound of head S02  Fracture of skull and facial bones S03  Dislocation and sprain of joints and lig... S04  Injury of cranial nerve S05  Injury of eye and orbit S06  Intracranial injury S07  Crushing injury of head S08  Avulsion and traumatic amputation of par... S09  Other and unspecified injuries of head )
+
+ICD-10-CM  G96.00  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 091  Other disorders of nervous system with mcc 
+ 092  Other disorders of nervous system with cc 
+ 093  Other disorders of nervous system without cc/mcc 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+

@@ -1,0 +1,22 @@
+
+
+2023 ICD-10-CM Diagnosis Code A01.4
+
+Paratyphoid fever, unspecified
+
+Applicable To Infection due to Salmonella paratyphi NOS
+
+Approximate Synonyms
+
+ Paratyphoid fever 
+
+Clinical Information
+
+ A prolonged febrile illness commonly caused by several paratyphi serotypes of salmonella enterica. It is similar to typhoid fever but less severe. 
+
+ICD-10-CM  A01.4  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

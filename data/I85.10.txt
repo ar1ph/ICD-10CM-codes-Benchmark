@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code I85.10
+
+Secondary esophageal varices without bleeding
+
+Approximate Synonyms
+
+ Esophageal varices associated with another disorder 
+ Secondary varices of esophagus 
+
+ICD-10-CM  I85.10  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 393  Other digestive system diagnoses with mcc 
+ 394  Other digestive system diagnoses with cc 
+ 395  Other digestive system diagnoses without cc/mcc 
+

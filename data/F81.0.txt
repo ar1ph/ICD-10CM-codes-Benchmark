@@ -1,0 +1,29 @@
+
+
+2023 ICD-10-CM Diagnosis Code F81.0
+
+Specific reading disorder
+
+Applicable To 'Backward reading' Developmental dyslexia Specific learning disorder, with impairment in reading Specific reading retardation
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  F81.0 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. alexia NOS ( ICD-10-CM Diagnosis Code  R48.0 Dyslexia and alexia 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   R48.0 ) dyslexia NOS ( ICD-10-CM Diagnosis Code  R48.0 Dyslexia and alexia 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   R48.0 )
+
+Approximate Synonyms
+
+ Developmental disorder in reading 
+ Developmental dyslexia 
+ Developmental reading disorder 
+ Specific learning disorder w impairment in reading 
+
+Clinical Information
+
+ A cognitive disorder characterized by an impaired ability to comprehend written and printed words or phrases despite intact vision. This condition may be developmental or acquired. Developmental dyslexia is marked by reading achievement that falls substantially below that expected given the individual's chronological age, measured intelligence, and age-appropriate education. The disturbance in reading significantly interferes with academic achievement or with activities of daily living that require reading skills. (from dsm-iv) 
+ A learning disorder characterized by an impairment in processing written words. Reading difficulties can include distortions, omissions or substitutions of characters. Oral and silent reading difficulties can include faulty and slow comprehension. 
+ A learning disorder marked by impairment of the ability to recognize and comprehend written words. 
+ Condition characterized by deficiencies of comprehension or expression of written forms of language. 
+ Inability or difficulty reading, spelling, or writing words despite the ability to see and recognize letters; a familial disorder with autosomal dominant inheritance that occurs more frequently in males. 
+ Reading disorder involving an inability to understand what is read. Less severe than alexia. 
+
+ICD-10-CM  F81.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 886  Behavioral and developmental disorders 
+

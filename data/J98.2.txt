@@ -1,0 +1,29 @@
+
+
+2023 ICD-10-CM Diagnosis Code J98.2
+
+Interstitial emphysema
+
+Applicable To Mediastinal emphysema
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  J98.2 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. emphysema NOS ( ICD-10-CM Diagnosis Code  J43.9 Emphysema, unspecified 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Applicable To Bullous emphysema (lung)(pulmonary) Emphysema (lung)(pulmonary) NOS Emphysematous bleb Vesicular emphysema (lung)(pulmonary) J43.9 ) emphysema in newborn ( ICD-10-CM Diagnosis Code  P25.0 Interstitial emphysema originating in the perinatal period 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   Code on Newborn Record   P25.0 ) surgical emphysema (subcutaneous) ( ICD-10-CM Diagnosis Code  T81.82 Emphysema (subcutaneous) resulting from a procedure 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   T81.82 ) traumatic subcutaneous emphysema ( ICD-10-CM Diagnosis Code  T79.7 Traumatic subcutaneous emphysema 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   Type 2 Excludes emphysema NOS ( J43 ) emphysema (subcutaneous) resulting from a procedure ( T81.82 ) T79.7 )
+
+Approximate Synonyms
+
+ Interstitial emphysema of lung 
+ Mediastinal emphysema 
+ Pneumomediastinum 
+
+Clinical Information
+
+ Pathologic accumulation of air in the interstitium of the lungs. It is caused by the rupture of alveoli and terminal bronchioles. It is most often seen in premature infants that need mechanical ventilation for respiratory distress syndrome. 
+ Presence of air in the mediastinal tissues due to leakage of air from the tracheobronchial tree, usually as a result of trauma. 
+ The presence of air in the mediastinum. It is caused by injury, most often esophageal or intestinal perforation. 
+
+ICD-10-CM  J98.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 199  Pneumothorax with mcc 
+ 200  Pneumothorax with cc 
+ 201  Pneumothorax without cc/mcc 
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+

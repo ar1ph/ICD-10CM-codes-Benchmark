@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code F80.4
+
+Speech and language development delay due to hearing loss
+
+Code Also Code Also Help A code also note instructs that 2 codes may be required to fully describe a condition but the sequencing of the two codes is discretionary, depending on the severity of the conditions and the reason for the encounter. type of hearing loss ( ICD-10-CM Diagnosis Code  H90   H90  Conductive and sensorineural hearing loss   H90.0  Conductive hearing loss, bilateral   H90.1  Conductive hearing loss, unilateral with unre...   H90.11  Conductive hearing loss, unilateral, right ea...   H90.12  Conductive hearing loss, unilateral, left ear...   H90.2  Conductive hearing loss, unspecified   H90.3  Sensorineural hearing loss, bilateral   H90.4  Sensorineural hearing loss, unilateral with u...   H90.41  Sensorineural hearing loss, unilateral, right...   H90.42  Sensorineural hearing loss, unilateral, left ...   H90.5  Unspecified sensorineural hearing loss   H90.6  Mixed conductive and sensorineural hearing lo...   H90.7  Mixed conductive and sensorineural hearing lo...   H90.71  Mixed conductive and sensorineural hearing lo...   H90.72  Mixed conductive and sensorineural hearing lo...   H90.8  Mixed conductive and sensorineural hearing lo...   H90.A  Conductive and sensorineural hearing loss wit...   H90.A1  Conductive hearing loss, unilateral, with res...   H90.A11  Conductive hearing loss, unilateral, right ea...   H90.A12  Conductive hearing loss, unilateral, left ear...   H90.A2  Sensorineural hearing loss, unilateral, with ...   H90.A21  Sensorineural hearing loss, unilateral, right...   H90.A22  Sensorineural hearing loss, unilateral, left ...   H90.A3  Mixed conductive and sensorineural hearing lo...   H90.A31  Mixed conductive and sensorineural hearing lo...   H90.A32  Mixed conductive and sensorineural hearing lo... H90.- ,  ICD-10-CM Diagnosis Code  H91   H91  Other and unspecified hearing loss   H91.0  Ototoxic hearing loss   H91.01  …… right ear   H91.02  …… left ear   H91.03  …… bilateral   H91.09  …… unspecified ear   H91.1  Presbycusis   H91.10  …… unspecified ear   H91.11  …… right ear   H91.12  …… left ear   H91.13  …… bilateral   H91.2  Sudden idiopathic hearing loss   H91.20  Sudden idiopathic hearing loss, unspecified e...   H91.21  …… right ear   H91.22  …… left ear   H91.23  …… bilateral   H91.3  Deaf nonspeaking, not elsewhere classified   H91.8  Other specified hearing loss   H91.8X  Other specified hearing loss   H91.8X1  …… right ear   H91.8X2  …… left ear   H91.8X3  …… bilateral   H91.8X9  Other specified hearing loss, unspecified ear...   H91.9  Unspecified hearing loss   H91.90  …… unspecified ear   H91.91  …… right ear   H91.92  …… left ear   H91.93  …… bilateral H91.- )
+
+Approximate Synonyms
+
+ Speech and language developmental delay due to hearing loss 
+ Speech, language developmental delay from hearing loss 
+
+ICD-10-CM  F80.4  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 886  Behavioral and developmental disorders 
+

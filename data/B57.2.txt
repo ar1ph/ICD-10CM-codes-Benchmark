@@ -1,0 +1,28 @@
+
+
+2023 ICD-10-CM Diagnosis Code B57.2
+
+Chagas' disease (chronic) with heart involvement
+
+Applicable To American trypanosomiasis NOS Chagas' disease (chronic) NOS Chagas' disease (chronic) with myocarditis Trypanosomiasis NOS
+
+Approximate Synonyms
+
+ Chagas disease with heart involvement 
+ Chagas' disease with heart involvement 
+
+Clinical Information
+
+ A parasitic infection caused by trypanosoma cruzi. It is transmitted by insect bites. It is characterized by an acute and chronic phase; in the acute phase patients may have fever, malaise, and swelling at the site of the insect bite. In the chronic phase patients develop hepatosplenomegaly, lymphadenopathy, cardiomyopathy and arrhythmias. 
+ Chagas disease is caused by a parasite. It is common in latin america but not in the United States. Infected blood-sucking bugs, sometimes called kissing bugs, spread it. When an infected bug bites you, usually on your face, it leaves behind infected waste. You can get the infection if you rub it in your eyes or nose, the bite wound or a cut. The disease can also spread through contaminated food, a blood transfusion, a donated organ or from mother to baby during pregnancy.if you notice symptoms, they might include  fever  flu-like symptoms  a rash  a swollen eyelid these early symptoms usually go away. However, if you don't treat the infection, it remains. Later, it can cause serious intestinal and heart problems. Medicines can kill the parasite, especially early on. You can also treat related problems. For example, a pacemaker helps with certain heart complications. Centers for Disease Control and Prevention. 
+ Infection with protozoa of the genus trypanosoma causes diseases including african sleeping sickness and chaga's disease in humans, and nagana and surra in animals. 
+ Infection with protozoa of the genus trypanosoma. 
+ Infection with the protozoan parasite trypanosoma cruzi, a form of trypanosomiasis endemic in central and south america. It is named after the brazilian physician carlos chagas, who discovered the parasite. Infection by the parasite (positive serologic result only) is distinguished from the clinical manifestations that develop years later, such as destruction of parasympathetic ganglia; chagas cardiomyopathy; and dysfunction of the esophagus or colon. 
+ Infekce prvokem rodu trypanosoma. 
+
+ICD-10-CM  B57.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 314  Other circulatory system diagnoses with mcc 
+ 315  Other circulatory system diagnoses with cc 
+ 316  Other circulatory system diagnoses without cc/mcc 
+

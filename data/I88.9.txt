@@ -1,0 +1,27 @@
+
+
+2023 ICD-10-CM Diagnosis Code I88.9
+
+Nonspecific lymphadenitis, unspecified
+
+Applicable To Lymphadenitis NOS
+
+Approximate Synonyms
+
+ Granulomatous lymphadenitis 
+ Histiocytic necrotizing lymphadenitis 
+ Lymphadenitis 
+ Periodic fever aphthous-stomatitis pharyngitis adenitis syndrome 
+
+Clinical Information
+
+ A disorder characterized by an infectious process involving the lymph nodes. 
+ An acute or chronic infectious process affecting the lymph nodes. 
+ Inflammation of the lymph nodes. 
+
+ICD-10-CM  I88.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 814  Reticuloendothelial and immunity disorders with mcc 
+ 815  Reticuloendothelial and immunity disorders with cc 
+ 816  Reticuloendothelial and immunity disorders without cc/mcc 
+

@@ -1,0 +1,21 @@
+
+
+2023 ICD-10-CM Diagnosis Code F68.10
+
+Factitious disorder imposed on self, unspecified
+
+Approximate Synonyms
+
+ Factitious disorder 
+ Munchausen syndrome 
+ Munchausen's syndrome 
+
+Clinical Information
+
+ A category of psychiatric disorders which are characterized by physical or psychological symptoms that are intentionally produced in order to assume the sick role; there is no external incentive for the behavior, such as economic gain or avoiding legal responsibility, and the person is unaware of any self-motivating factors. 
+ Disorders characterized by physical or psychological symptoms that are not real, genuine, or natural. 
+
+ICD-10-CM  F68.10  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 883  Disorders of personality and impulse control 
+

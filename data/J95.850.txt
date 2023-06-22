@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code J95.850
+
+Mechanical complication of respirator
+
+Type 1 Excludes Type 1 Excludes Help A  type 1 excludes  note is a pure excludes.  It means "not coded here". A type 1 excludes note indicates that the code excluded should never be used at the same time as  J95.850 . A type 1 excludes note is for used for when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. encounter for respirator [ventilator] dependence during power failure ( ICD-10-CM Diagnosis Code  Z99.12 Encounter for respirator [ventilator] dependence during power failure 2016   2017   2018   2019   2020   2021   2022   2023   Billable/Specific Code   POA Exempt   Type 1 Excludes mechanical complication of respirator [ventilator] ( J95.850 ) Z99.12 )
+
+Approximate Synonyms
+
+ Mechanical complication of respirator (ventilator) 
+ Mechanical complication of ventilator 
+
+ICD-10-CM  J95.850  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 951  Other factors influencing health status 
+

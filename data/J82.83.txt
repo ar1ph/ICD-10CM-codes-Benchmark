@@ -1,0 +1,14 @@
+
+
+2023 ICD-10-CM Diagnosis Code J82.83
+
+Eosinophilic asthma
+
+Code First Code First Help Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. For such conditions, ICD-10-CM has a coding convention that requires the underlying condition be sequenced first followed by the manifestation.  Wherever such a combination exists there is a "use additional code" note at the etiology code, and a  "code first"  note at the manifestation code.  These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, "in diseases classified elsewhere."  Codes with this title are a component of the etiology/manifestation convention. The code title indicates that it is a manifestation code. "In diseases classified elsewhere" codes are never permitted to be used as first listed or principle diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition. asthma, by type, such as: mild intermittent asthma ( ICD-10-CM Diagnosis Code  J45.2 Mild intermittent asthma 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   J45.2- ) mild persistent asthma ( ICD-10-CM Diagnosis Code  J45.3 Mild persistent asthma 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   J45.3- ) moderate persistent asthma ( ICD-10-CM Diagnosis Code  J45.4 Moderate persistent asthma 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   J45.4- ) severe persistent asthma ( ICD-10-CM Diagnosis Code  J45.5 Severe persistent asthma 2016   2017   2018   2019   2020   2021   2022   2023   Non-Billable/Non-Specific Code   J45.5- )
+
+ICD-10-CM  J82.83  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 196  Interstitial lung disease with mcc 
+ 197  Interstitial lung disease with cc 
+ 198  Interstitial lung disease without cc/mcc 
+

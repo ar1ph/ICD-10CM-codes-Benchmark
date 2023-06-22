@@ -1,0 +1,19 @@
+
+
+2023 ICD-10-CM Diagnosis Code B74.4
+
+Mansonelliasis
+
+Applicable To Infection due to Mansonella ozzardi Infection due to Mansonella perstans Infection due to Mansonella streptocerca
+
+Clinical Information
+
+ A parasitic infection caused by the nematode mansonella. Signs and symptoms include pruritus, headache, fever, arthralgias, and eosinophilia. 
+ Infection with nematodes of the genus mansonella. Symptoms include pruritus, headache, and articular swelling. 
+
+ICD-10-CM  B74.4  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

@@ -1,0 +1,17 @@
+
+
+2023 ICD-10-CM Diagnosis Code B58.89
+
+Toxoplasmosis with other organ involvement
+
+ICD-10-CM  B58.89  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 791  Prematurity with major problems 
+ 793  Full term neonate with major problems 
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+ 974  Hiv with major related condition with mcc 
+ 975  Hiv with major related condition with cc 
+ 976  Hiv with major related condition without cc/mcc 
+

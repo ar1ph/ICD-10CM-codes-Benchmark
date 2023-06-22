@@ -1,0 +1,19 @@
+
+
+2023 ICD-10-CM Diagnosis Code B55.0
+
+Visceral leishmaniasis
+
+Applicable To Kala-azar Post-kala-azar dermal leishmaniasis
+
+Clinical Information
+
+ A chronic disease caused by leishmania donovani and transmitted by the bite of several sandflies of the genera phlebotomus and lutzomyia. It is commonly characterized by fever, chills, vomiting, anemia, hepatosplenomegaly, leukopenia, hypergammaglobulinemia, emaciation, and an earth-gray color of the skin. The disease is classified into three main types according to geographic distribution: indian, mediterranean (or infantile), and african. 
+ A chronic parasitic infection affecting the viscera and caused by leishmania donovani. Signs and symptoms include fever, anorexia, fatigue, lymphadenopathy, anemia, and hepatosplenomegaly. If left untreated it may lead to death. 
+
+ICD-10-CM  B55.0  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+

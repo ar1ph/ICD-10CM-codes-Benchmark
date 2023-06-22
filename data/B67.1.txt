@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code B67.1
+
+Echinococcus granulosus infection of lung
+
+Approximate Synonyms
+
+ Echinococcus granulosus lung infection 
+
+ICD-10-CM  B67.1  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 177  Respiratory infections and inflammations with mcc 
+ 178  Respiratory infections and inflammations with cc 
+ 179  Respiratory infections and inflammations without cc/mcc 
+

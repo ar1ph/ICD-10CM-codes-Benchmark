@@ -1,0 +1,23 @@
+
+
+2023 ICD-10-CM Diagnosis Code B55.9
+
+Leishmaniasis, unspecified
+
+Approximate Synonyms
+
+ Leishmaniasis 
+ Leishmaniasis infection 
+
+Clinical Information
+
+ A disease caused by any of a number of species of protozoa in the genus leishmania. There are four major clinical types of this infection: cutaneous (old and new world) (leishmaniasis, cutaneous), diffuse cutaneous (leishmaniasis, diffuse cutaneous), mucocutaneous (leishmaniasis, mucocutaneous), and visceral (leishmaniasis, visceral). 
+ A parasitic infection caused by protozoa of the genus leishmania. It is transmitted to humans via the bite of sandflies. There are three main forms of the disease: cutaneous, mucocutaneous, and visceral leishmaniasis. Cutaneous leishmaniasis causes skin ulcers; mucocutaneous leishmaniasis causes destructive lesions of the mucous membranes of the nose, mouth, and throat; visceral leishmaniasis is the most severe form of the disease and is manifested with anemia, weight loss, hepatomegaly and splenomegaly. 
+ Disease caused by any of a number of species of protozoa in the genus leishmania; there are four major clinical types of this infection: cutaneous (old and new world), diffuse cutaneous, mucocutaneous, and visceral; visceral is characterized by fever, chills, vomiting, anemia, hepatosplenomegaly, leukopenia, hypergammaglobulinemia, emaciation, and an earth-gray color of the skin; cutaneous is characterized by development of single or multiple localized lesions on exposed areas of skin that typically ulcerate. 
+
+ICD-10-CM  B55.9  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+
