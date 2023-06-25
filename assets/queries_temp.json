@@ -1,0 +1,18 @@
+[
+    {
+        "query": "Describe the ICD-10 CM code {code}",
+        "variables": 
+            {
+                "code": ["A01.2", "B08.010", "X39.0"]
+            },
+        "sources": [["A01.2.txt"], ["B08.010.txt"], ["X39.0.txt"]]
+    },
+    {
+        "query": "What are the ICD-10 CM code that describe the codition {condition}",
+        "variables": 
+            {
+                "condition": ["Paratyphoid fever B", "Cowpox","Exposure to radon, initial encounter"]
+            },
+        "sources": [["A01.2.txt"], ["B08.010.txt"], ["X39.0.txt"]]
+    }
+]
