@@ -129,11 +129,11 @@ def main():
     db_model = Milvus(embedding=emb_model,
                       strategy="ip")
     data_directory = os.path.join(os.path.abspath(os.pardir),
-                                  'data')
+                                  'data_temp')
     db_model.add_data(data_directory=data_directory)
     assets_directory = os.path.join(os.path.abspath(os.pardir),
                                     "assets")
-    queries_path = os.path.join(assets_directory, 'queries.json')
+    queries_path = os.path.join(assets_directory, 'queries_temp.json')
     combination = Combination(db_model=db_model,
                               queries_path=queries_path)
     # qa = combination.get_query_source_map()
