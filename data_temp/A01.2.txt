@@ -1,0 +1,16 @@
+
+
+2023 ICD-10-CM Diagnosis Code A01.2
+
+Paratyphoid fever B
+
+Approximate Synonyms
+
+ Paratyphoid b fever 
+
+ICD-10-CM  A01.2  is grouped within Diagnostic Related Group(s) (MS-DRG  v 40.0):
+
+ 867  Other infectious and parasitic diseases diagnoses with mcc 
+ 868  Other infectious and parasitic diseases diagnoses with cc 
+ 869  Other infectious and parasitic diseases diagnoses without cc/mcc 
+
