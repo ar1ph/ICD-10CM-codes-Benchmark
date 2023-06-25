@@ -35,7 +35,7 @@ class BaseEmbedding(ABC):
 
 
 
-class HuggingFaceEmbedding(BaseEmbedding):
+class TestEmbedding(BaseEmbedding):
 
     def __init__(self,
                  model_name: str) -> None:
@@ -66,7 +66,7 @@ class HuggingFaceEmbedding(BaseEmbedding):
 def main():
 
 
-    test = HuggingFaceEmbedding("all-MiniLM-L6-v2")
+    test = TestEmbedding("all-MiniLM-L6-v2")
 
     # print(test.get_function())
     # print(test.from_text("Hello world"))
