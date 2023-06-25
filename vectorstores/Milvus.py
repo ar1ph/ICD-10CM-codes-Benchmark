@@ -1,6 +1,7 @@
 
 import sys, os
 from typing import Any
+# from base import BaseVectorstore
 from .base import BaseVectorstore
 from tqdm import tqdm
 from uuid import uuid1
