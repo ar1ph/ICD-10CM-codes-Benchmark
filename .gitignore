@@ -2,6 +2,8 @@
 lib/*.json
 lib/__pycache__/
 data/
+data_temp/
 *yml
 __pycache__/
 volumes/
+database/
