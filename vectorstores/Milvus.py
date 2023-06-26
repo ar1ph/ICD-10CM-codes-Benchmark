@@ -134,10 +134,10 @@ class Milvus(BaseVectorstore):
         # print(self._collection.num_entities)
         # Creating indexes for the embeddings field
         field_params = {
-            "index_type": "IVF_FLAT",
-            "metric_type": "L2",
-            "nlist": 4096,
-            "m": 100
+            "index_type": "FLAT",
+            "metric_type": "IP",
+            # "nlist": 4096,
+            # "m": 100
         }
         self._collection.create_index("embeddings", field_params)
         self._collection.load()
@@ -170,7 +170,7 @@ class Milvus(BaseVectorstore):
         query_vector = self.embedding.from_text(query_text)
         limit = self._collection.num_entities if n_results == -1 else n_results
         param = {
-            "metric_type": "L2",
+            "metric_type": "IP",
             "limit": limit,
             # "nlist": 4096,
             # "m":100

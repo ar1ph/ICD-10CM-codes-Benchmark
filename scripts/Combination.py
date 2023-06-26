@@ -55,7 +55,7 @@ class Combination(object):
         sources = []
         for metadata in metadatas:
             sources.append(os.path.basename(metadata['source']))
-        print(sources)
+        # print(sources)
         return sources
     
     def get_k(self, 
@@ -123,17 +123,17 @@ class Combination(object):
 
 
 def main():
-    emb_model = HuggingFaceEmbedding('emilyalsentzer/Bio_ClinicalBERT')
+    emb_model = HuggingFaceEmbedding("allenai/scibert_scivocab_uncased")
     # db_model = Chroma(embedding=emb_model,
     #                   strategy="ip")
     db_model = Milvus(embedding=emb_model,
                       strategy="ip")
     data_directory = os.path.join(os.path.abspath(os.pardir),
-                                  'data_temp')
+                                  'data')
     db_model.add_data(data_directory=data_directory)
     assets_directory = os.path.join(os.path.abspath(os.pardir),
                                     "assets")
-    queries_path = os.path.join(assets_directory, 'queries_temp.json')
+    queries_path = os.path.join(assets_directory, 'queries.json')
     combination = Combination(db_model=db_model,
                               queries_path=queries_path)
     # qa = combination.get_query_source_map()

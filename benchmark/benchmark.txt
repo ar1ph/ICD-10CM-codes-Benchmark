@@ -12,7 +12,7 @@
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | ip                |       20    |   15.93 |                    24 |
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | cosine            |       15    |   14.9  |                    24 |
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | l2                |       14    |   13.99 |                    24 |
-| all-MiniLM-L6-v2                    | Chroma    | ip                |      295    |  350.45 |                   905 |
+| all-MiniLM-L6-v2                    | Chroma    | ip                |      296    |  350.37 |                   905 |
 | all-MiniLM-L6-v2                    | Chroma    | cosine            |      295    |  350.45 |                   905 |
 | all-MiniLM-L6-v2                    | Chroma    | l2                |      295    |  350.45 |                   905 |
 | emilyalsentzer/Bio_ClinicalBERT     | Chroma    | ip                |      689.98 |  505.99 |                   905 |
@@ -25,4 +25,7 @@
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | cosine            |      521    |  418.5  |                   905 |
 | google/bert_uncased_L-12_H-768_A-12 | Chroma    | l2                |      512    |  457.66 |                   905 |
 | text-embedding-ada-002              | Chroma    | ip                |      160.83 |  248.50 |                   905 |
-| text-embedding-ada-002              | Chroma    | cosine            |      160.84 |  248.54 |                   905 |
+| text-embedding-ada-002              | Chroma    | cosine            |      160.85 |  248.54 |                   905 |
+| text-embedding-ada-002              | Chroma    | l2                |      160.83 |  248.52 |                   905 |
+{'Embedding Model': 'emilyalsentzer/Bio_ClinicalBERT', 'DB Type': 'Milvus', 'Strategy': 'ip', 'Average k': 689, 'Sigma': 505.33}
+{'Embedding Model': 'allenai/scibert_scivocab_uncased', 'DB Type': 'Milvus', 'Strategy': 'ip', 'Average k': 681, 'Sigma': 437.8}

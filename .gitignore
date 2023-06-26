@@ -1,2 +1,7 @@
 *.ipynb
 lib/*.json
+lib/__pycache__/
+data/
+*yml
+__pycache__/
+volumes/

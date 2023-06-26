@@ -1,6 +1,7 @@
 import os
 
 from abc import ABC, abstractmethod
+from typing import Any
 from tqdm import tqdm
 from langchain.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -12,7 +13,11 @@ class BaseVectorstore(ABC):
                            TextLoader(file_path=file_path,
                                       autodetect_encoding=True).load()}
 
-    def __init__(self) -> None:
+    def __init__(self,
+                 embedding,
+                 strategy) -> None:
+        self.embedding = embedding
+        self.strategy = strategy
         super().__init__()
 
     @classmethod
@@ -22,6 +27,7 @@ class BaseVectorstore(ABC):
         file_paths = []
 
         for root, _, files in os.walk(data_directory):
+            # print("Files: ", files)
             with tqdm(total=len(files), 
                       desc="Retrieving file paths", 
                       ncols=80) as pbar:
@@ -61,6 +67,7 @@ class BaseVectorstore(ABC):
         
         
         file_paths = cls.retrieve_file_paths(data_directory=data_directory)
+        print("Data directory: ", data_directory)
         loaded_docs = cls.load_documents(file_paths=file_paths)
         splitter = RecursiveCharacterTextSplitter(chunk_size=750,
                                                   chunk_overlap=100)
@@ -88,11 +95,24 @@ class BaseVectorstore(ABC):
     def get_max_n(self) -> int:
         pass
 
+    @abstractmethod
+    def __call__(self, 
+                 embedding,
+                 strategy,
+                 data_directory : str
+                 ) -> None:
+        pass
+
+
+
 
 class Test(BaseVectorstore):
 
-    def __init__(self) -> None:
-        super().__init__()
+    def __init__(self,
+                 embedding,
+                 strategy) -> None:
+        super().__init__(embedding=embedding,
+                         strategy=strategy)
 
     def add_data(self, data_directory: str):
         return super().add_data(data_directory)
@@ -105,17 +125,20 @@ class Test(BaseVectorstore):
     
     def get_max_n(self):
         return super().get_max_n()
+    
+    def __call__(self, data_directory: str) -> None:
+        return super().__call__(data_directory)
 
 
 def main():
 
     data_directory = os.path.join(os.path.abspath(os.pardir),
-                                  'data')
-    test = Test()
+                                  'data_temp')
+    test = Test(None, None)
     # print(dir(Test))
     file_paths = test.retrieve_file_paths(data_directory=data_directory)
     # print(file_paths[0])
-    print(test.load_documents(file_paths=file_paths[:3]))
+    print(test.load_documents(file_paths=file_paths))
 
 
 
