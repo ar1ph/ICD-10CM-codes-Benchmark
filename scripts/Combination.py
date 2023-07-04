@@ -223,9 +223,9 @@ class Combination(object):
 
 
 def main():
-    # Initialize embedding model
+    # Initialize embedding model using models in embeddings directory
     emb_model = HuggingFaceEmbedding("all-MiniLM-L6-v2")
-    # Initialize database
+    # Initialize database model using the database in vectorstores directory
     db_model = Chroma(embedding=emb_model,
                       strategy="ip")
     # Add embeddings to the database
