@@ -191,7 +191,7 @@ class Combination(object):
             all_reports (list): A list of dictionaries containing the reports.
             file_path (str): The path to the file where the reports will be saved.
         """
-        row = ['Embedding Model', 'DB Type', 'Strategy', 'Average k', 'Sigma']
+        row = ['Embedding Model', 'DB Type', 'Strategy', 'Average k', 'Sigma', 'Frequency']
         
         # Check if the file already exists
         if not os.path.exists(file_path):
@@ -240,7 +240,8 @@ def main():
                               queries_path=queries_path)
     # Get the report (statistics) based on the provided datas and queries
     reports = [combination.get_report(matches=1)]
-    # TODO: Need to add the number of documents in the report
+    # TODO: Need to add the number of documents in the report properly
+    reports[0]['Frequency'] = 3
     combination.save_reports(all_reports=reports,
                              file_path=os.path.join(os.path.abspath(os.pardir),
                                                     os.path.join("benchmark", "benchmark.txt")))
