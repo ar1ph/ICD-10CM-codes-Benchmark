@@ -27,5 +27,5 @@
 | text-embedding-ada-002              | Chroma    | ip                |      160.83 |  248.50 |                   905 |
 | text-embedding-ada-002              | Chroma    | cosine            |      160.85 |  248.54 |                   905 |
 | text-embedding-ada-002              | Chroma    | l2                |      160.83 |  248.52 |                   905 |
-{'Embedding Model': 'emilyalsentzer/Bio_ClinicalBERT', 'DB Type': 'Milvus', 'Strategy': 'ip', 'Average k': 689, 'Sigma': 505.33}
-{'Embedding Model': 'allenai/scibert_scivocab_uncased', 'DB Type': 'Milvus', 'Strategy': 'ip', 'Average k': 681, 'Sigma': 437.8}
+| emilyalsentzer/Bio_ClinicalBERT     | Milvus    | ip                |      689    |  505.33 |                   905 |
+| allenai/scibert_scivocab_uncased    | Milvus    | ip                |      681    |  437.80 |                   905 |

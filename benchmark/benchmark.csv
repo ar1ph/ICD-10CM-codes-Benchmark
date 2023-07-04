@@ -1,8 +1,0 @@
-Embedding Model, DB Type, Strategy, Average k, Sigma
-
-all-MiniLM-L6-v2, Chroma, Cosine similarity, 8, 9.98 -- Codes and Disease
-all-MiniLM-L6-v2, Chroma, Cosine similarity, 5, 8.67 -- Codes, Disease and Description
-all-MiniLM-L6-v2, Chroma, Cosine similarity, 1, 1.02 -- Only Description
-all-MiniLM-L6-v2, Chroma, Cosine similarity, 14, 10.95 -- Only Codes
-all-MiniLM-L6-v2, Chroma, Cosine similarity, 1, 1.02
-emilyalsentzer/Bio_ClinicalBERT, Chroma, Cosine similarity, 13, 13.26 -- Codes and Description
