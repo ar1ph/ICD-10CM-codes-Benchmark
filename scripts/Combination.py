@@ -8,7 +8,7 @@ sys.path.append('..')
 # From the embeddings and vectorstores directory
 from embeddings.HuggingFaceEmbedding import HuggingFaceEmbedding
 from vectorstores.Chroma import Chroma
-from vectorstores.Milvus import Milvus
+#from vectorstores.Milvus import Milvus
 
 class Combination(object):
 
@@ -59,7 +59,7 @@ class Combination(object):
                 
                 # Map the question to its corresponding source
                 qa[question] = sources[idx]
-        
+        print(qa)
         return qa
 
 
@@ -229,11 +229,11 @@ def main():
     db_model = Chroma(embedding=emb_model,
                       strategy="ip")
     # Add embeddings to the database
-    data_directory = os.path.join(os.path.abspath(os.pardir),
+    data_directory = os.path.join(os.path.abspath(os.curdir),
                                   'data_temp')
     db_model.add_data(data_directory=data_directory)
     # Initialize the combination model using the database and queries file
-    assets_directory = os.path.join(os.path.abspath(os.pardir),
+    assets_directory = os.path.join(os.path.abspath(os.curdir),
                                     "assets")
     queries_path = os.path.join(assets_directory, 'queries_temp.json')
     combination = Combination(db_model=db_model,
@@ -243,7 +243,7 @@ def main():
     # TODO: Need to add the number of documents in the report properly
     reports[0]['Frequency'] = 3
     combination.save_reports(all_reports=reports,
-                             file_path=os.path.join(os.path.abspath(os.pardir),
+                             file_path=os.path.join(os.path.abspath(os.curdir),
                                                     os.path.join("benchmark", "benchmark.txt")))
     
         

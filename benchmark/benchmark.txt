@@ -30,3 +30,4 @@
 | emilyalsentzer/Bio_ClinicalBERT     | Milvus    | ip         |      689    |  505.33 |         905 |
 | allenai/scibert_scivocab_uncased    | Milvus    | ip         |      681    |  437.8  |         905 |
 | all-MiniLM-L6-v2                    | Chroma    | ip         |        2    |    1.21 |           3 |
+| all-MiniLM-L6-v2                    | Chroma    | ip         |        2    |    1.21 |           3 |
