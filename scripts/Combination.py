@@ -235,21 +235,22 @@ def main():
     db_model = Chroma(embedding=emb_model,
                       strategy="ip")
     # Add embeddings to the database
-    data_directory = os.path.join(os.path.abspath(os.curdir),
+    data_directory = os.path.join(os.path.abspath(os.pardir),
                                   'data_temp')
     db_model.add_data(data_directory=data_directory)
     # Initialize the combination model using the database and queries file
-    assets_directory = os.path.join(os.path.abspath(os.curdir),
+    assets_directory = os.path.join(os.path.abspath(os.pardir),
                                     "assets")
     queries_path = os.path.join(assets_directory, 'queries_temp.json')
     combination = Combination(db_model=db_model,
-                              queries_path=queries_path)
+                              queries_path=queries_path,
+                              queries_map={})
     # Get the report (statistics) based on the provided datas and queries
     reports = [combination.get_report(matches=1)]
     # TODO: Need to add the number of documents in the report properly
     reports[0]['Frequency'] = 3
     combination.save_reports(all_reports=reports,
-                             file_path=os.path.join(os.path.abspath(os.curdir),
+                             file_path=os.path.join(os.path.abspath(os.pardir),
                                                     os.path.join("benchmark", "benchmark.txt")))
     
         
