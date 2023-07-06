@@ -14,11 +14,14 @@ class Combination(object):
 
     def __init__(self,
                  db_model,
-                 queries_path : str
+                 queries_path : str,
+                 queries_map: dict
                  ) -> None:
         
         self.db_model = db_model
         self.queries_path = queries_path
+        self.queries_map = queries_map
+
 
 
     def get_query_source_map(self) -> dict[str, list[str]]:
@@ -59,7 +62,7 @@ class Combination(object):
                 
                 # Map the question to its corresponding source
                 qa[question] = sources[idx]
-        print(qa)
+        print(f"{'-QA-'*24}",qa)
         return qa
 
 
@@ -153,8 +156,11 @@ class Combination(object):
         """
         all_k = []
         
-        # Retrieve the mapping of queries to sources
-        query_srcs_map = self.get_query_source_map()
+        # Retrieve the mapping of queries to sources 
+        #query_srcs_map = self.get_query_source_map()
+
+        #If query source map is directly passed through frontend
+        query_srcs_map = self.queries_map
         
         # Initialize a progress bar to track the values of 'k'
         with tqdm(total=len(query_srcs_map.items()),
