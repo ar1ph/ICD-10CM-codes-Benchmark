@@ -160,7 +160,7 @@ class Combination(object):
         #query_srcs_map = self.get_query_source_map()
 
         #If query source map is directly passed through frontend
-        query_srcs_map = self.queries_map
+        query_srcs_map = self.get_query_source_map()
         
         # Initialize a progress bar to track the values of 'k'
         with tqdm(total=len(query_srcs_map.items()),
@@ -230,7 +230,7 @@ class Combination(object):
 
 def main():
     # Initialize embedding model using models in embeddings directory
-    emb_model = HuggingFaceEmbedding("all-MiniLM-L6-v2")
+    emb_model = HuggingFaceEmbedding("text-embedding-ada-002")
     # Initialize database model using the database in vectorstores directory
     db_model = Chroma(embedding=emb_model,
                       strategy="ip")

@@ -32,3 +32,4 @@
 | all-MiniLM-L6-v2                    | Chroma    | ip         |        2    |    1.21 |           3 |
 | all-MiniLM-L6-v2                    | Chroma    | ip         |        2    |    1.21 |           3 |
 | all-MiniLM-L6-v2                    | Chroma    | ip         |        2    |    1.21 |           3 |
+| google/bert_uncased_L-12_H-768_A-12 | Chroma    | ip         |        2    |    1.17 |           3 |
